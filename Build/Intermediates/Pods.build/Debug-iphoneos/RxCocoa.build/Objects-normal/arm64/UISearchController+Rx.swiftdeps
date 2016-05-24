@@ -1,0 +1,277 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo18UISearchController", ""]
+- ["CSo18UISearchController", "rx_delegate"]
+- ["CSo18UISearchController", "rx_didDismiss"]
+- ["CSo18UISearchController", "rx_didPresent"]
+- ["CSo18UISearchController", "rx_present"]
+- ["CSo18UISearchController", "rx_willDismiss"]
+- ["CSo18UISearchController", "rx_willPresent"]
+provides-dynamic-lookup:
+- "rx_delegate"
+depends-top-level:
+- !private "RxSearchControllerDelegateProxy"
+- "DelegateProxy"
+- "UISearchController"
+- "Void"
+- !private "UISearchControllerDelegate"
+- "Observable"
+depends-member:
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "RxSearchControllerDelegateProxy"]
+- !private ["Ps9AnyObject", "UISearchControllerDelegate"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "observe"]
+- !private ["Ps9AnyObject", "proxyForObject"]
+- ["Ps9AnyObject", "rx_delegate"]
+- ["Ps9AnyObject", "rx_didDismiss"]
+- ["Ps9AnyObject", "rx_didPresent"]
+- ["Ps9AnyObject", "rx_present"]
+- ["Ps9AnyObject", "rx_willDismiss"]
+- ["Ps9AnyObject", "rx_willPresent"]
+- !private ["Ps11CVarArgType", "RxSearchControllerDelegateProxy"]
+- !private ["Ps11CVarArgType", "UISearchControllerDelegate"]
+- !private ["Ps11CVarArgType", "observe"]
+- !private ["Ps11CVarArgType", "proxyForObject"]
+- ["Ps11CVarArgType", "rx_delegate"]
+- ["Ps11CVarArgType", "rx_didDismiss"]
+- ["Ps11CVarArgType", "rx_didPresent"]
+- ["Ps11CVarArgType", "rx_present"]
+- ["Ps11CVarArgType", "rx_willDismiss"]
+- ["Ps11CVarArgType", "rx_willPresent"]
+- !private ["Ps28CustomDebugStringConvertible", "RxSearchControllerDelegateProxy"]
+- !private ["Ps28CustomDebugStringConvertible", "UISearchControllerDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "observe"]
+- !private ["Ps28CustomDebugStringConvertible", "proxyForObject"]
+- ["Ps28CustomDebugStringConvertible", "rx_delegate"]
+- ["Ps28CustomDebugStringConvertible", "rx_didDismiss"]
+- ["Ps28CustomDebugStringConvertible", "rx_didPresent"]
+- ["Ps28CustomDebugStringConvertible", "rx_present"]
+- ["Ps28CustomDebugStringConvertible", "rx_willDismiss"]
+- ["Ps28CustomDebugStringConvertible", "rx_willPresent"]
+- !private ["Ps23CustomStringConvertible", "RxSearchControllerDelegateProxy"]
+- !private ["Ps23CustomStringConvertible", "UISearchControllerDelegate"]
+- !private ["Ps23CustomStringConvertible", "observe"]
+- !private ["Ps23CustomStringConvertible", "proxyForObject"]
+- ["Ps23CustomStringConvertible", "rx_delegate"]
+- ["Ps23CustomStringConvertible", "rx_didDismiss"]
+- ["Ps23CustomStringConvertible", "rx_didPresent"]
+- ["Ps23CustomStringConvertible", "rx_present"]
+- ["Ps23CustomStringConvertible", "rx_willDismiss"]
+- ["Ps23CustomStringConvertible", "rx_willPresent"]
+- !private ["C7RxCocoa13DelegateProxy", "observe"]
+- !private ["C7RxCocoa13DelegateProxy", "proxyForObject"]
+- !private ["P7RxCocoa17DelegateProxyType", "proxyForObject"]
+- !private ["Ps9Equatable", "RxSearchControllerDelegateProxy"]
+- !private ["Ps9Equatable", "UISearchControllerDelegate"]
+- !private ["Ps9Equatable", "observe"]
+- !private ["Ps9Equatable", "proxyForObject"]
+- ["Ps9Equatable", "rx_delegate"]
+- ["Ps9Equatable", "rx_didDismiss"]
+- ["Ps9Equatable", "rx_didPresent"]
+- ["Ps9Equatable", "rx_present"]
+- ["Ps9Equatable", "rx_willDismiss"]
+- ["Ps9Equatable", "rx_willPresent"]
+- !private ["Ps8Hashable", "RxSearchControllerDelegateProxy"]
+- !private ["Ps8Hashable", "UISearchControllerDelegate"]
+- !private ["Ps8Hashable", "observe"]
+- !private ["Ps8Hashable", "proxyForObject"]
+- ["Ps8Hashable", "rx_delegate"]
+- ["Ps8Hashable", "rx_didDismiss"]
+- ["Ps8Hashable", "rx_didPresent"]
+- ["Ps8Hashable", "rx_present"]
+- ["Ps8Hashable", "rx_willDismiss"]
+- ["Ps8Hashable", "rx_willPresent"]
+- !private ["PSo8NSCoding", "RxSearchControllerDelegateProxy"]
+- !private ["PSo8NSCoding", "UISearchControllerDelegate"]
+- ["PSo8NSCoding", "rx_delegate"]
+- ["PSo8NSCoding", "rx_didDismiss"]
+- ["PSo8NSCoding", "rx_didPresent"]
+- ["PSo8NSCoding", "rx_present"]
+- ["PSo8NSCoding", "rx_willDismiss"]
+- ["PSo8NSCoding", "rx_willPresent"]
+- !private ["PSo26NSExtensionRequestHandling", "RxSearchControllerDelegateProxy"]
+- !private ["PSo26NSExtensionRequestHandling", "UISearchControllerDelegate"]
+- ["PSo26NSExtensionRequestHandling", "rx_delegate"]
+- ["PSo26NSExtensionRequestHandling", "rx_didDismiss"]
+- ["PSo26NSExtensionRequestHandling", "rx_didPresent"]
+- ["PSo26NSExtensionRequestHandling", "rx_present"]
+- ["PSo26NSExtensionRequestHandling", "rx_willDismiss"]
+- ["PSo26NSExtensionRequestHandling", "rx_willPresent"]
+- ["CSo8NSObject", "DelegateProxy"]
+- ["CSo8NSObject", "Observable"]
+- !private ["CSo8NSObject", "RxSearchControllerDelegateProxy"]
+- !private ["CSo8NSObject", "UISearchControllerDelegate"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "observe"]
+- !private ["CSo8NSObject", "proxyForObject"]
+- ["CSo8NSObject", "rx_delegate"]
+- ["CSo8NSObject", "rx_didDismiss"]
+- ["CSo8NSObject", "rx_didPresent"]
+- ["CSo8NSObject", "rx_present"]
+- ["CSo8NSObject", "rx_willDismiss"]
+- ["CSo8NSObject", "rx_willPresent"]
+- !private ["PSo16NSObjectProtocol", "RxSearchControllerDelegateProxy"]
+- !private ["PSo16NSObjectProtocol", "UISearchControllerDelegate"]
+- !private ["PSo16NSObjectProtocol", "didDismissSearchController"]
+- !private ["PSo16NSObjectProtocol", "didPresentSearchController"]
+- !private ["PSo16NSObjectProtocol", "observe"]
+- !private ["PSo16NSObjectProtocol", "presentSearchController"]
+- !private ["PSo16NSObjectProtocol", "proxyForObject"]
+- ["PSo16NSObjectProtocol", "rx_delegate"]
+- ["PSo16NSObjectProtocol", "rx_didDismiss"]
+- ["PSo16NSObjectProtocol", "rx_didPresent"]
+- ["PSo16NSObjectProtocol", "rx_present"]
+- ["PSo16NSObjectProtocol", "rx_willDismiss"]
+- ["PSo16NSObjectProtocol", "rx_willPresent"]
+- !private ["PSo16NSObjectProtocol", "willDismissSearchController"]
+- !private ["PSo16NSObjectProtocol", "willPresentSearchController"]
+- !private ["C7RxSwift10Observable", "E"]
+- !private ["C7RxSwift10Observable", "map"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "map"]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "map"]
+- !private ["C7RxCocoa31RxSearchControllerDelegateProxy", "deinit"]
+- !private ["C7RxCocoa31RxSearchControllerDelegateProxy", "proxyForObject"]
+- !private ["PSo21UIAppearanceContainer", "RxSearchControllerDelegateProxy"]
+- !private ["PSo21UIAppearanceContainer", "UISearchControllerDelegate"]
+- ["PSo21UIAppearanceContainer", "rx_delegate"]
+- ["PSo21UIAppearanceContainer", "rx_didDismiss"]
+- ["PSo21UIAppearanceContainer", "rx_didPresent"]
+- ["PSo21UIAppearanceContainer", "rx_present"]
+- ["PSo21UIAppearanceContainer", "rx_willDismiss"]
+- ["PSo21UIAppearanceContainer", "rx_willPresent"]
+- !private ["PSo18UIContentContainer", "RxSearchControllerDelegateProxy"]
+- !private ["PSo18UIContentContainer", "UISearchControllerDelegate"]
+- ["PSo18UIContentContainer", "rx_delegate"]
+- ["PSo18UIContentContainer", "rx_didDismiss"]
+- ["PSo18UIContentContainer", "rx_didPresent"]
+- ["PSo18UIContentContainer", "rx_present"]
+- ["PSo18UIContentContainer", "rx_willDismiss"]
+- ["PSo18UIContentContainer", "rx_willPresent"]
+- !private ["PSo18UIFocusEnvironment", "RxSearchControllerDelegateProxy"]
+- !private ["PSo18UIFocusEnvironment", "UISearchControllerDelegate"]
+- ["PSo18UIFocusEnvironment", "rx_delegate"]
+- ["PSo18UIFocusEnvironment", "rx_didDismiss"]
+- ["PSo18UIFocusEnvironment", "rx_didPresent"]
+- ["PSo18UIFocusEnvironment", "rx_present"]
+- ["PSo18UIFocusEnvironment", "rx_willDismiss"]
+- ["PSo18UIFocusEnvironment", "rx_willPresent"]
+- ["CSo11UIResponder", "DelegateProxy"]
+- ["CSo11UIResponder", "Observable"]
+- !private ["CSo11UIResponder", "RxSearchControllerDelegateProxy"]
+- !private ["CSo11UIResponder", "UISearchControllerDelegate"]
+- ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "rx_delegate"]
+- ["CSo11UIResponder", "rx_didDismiss"]
+- ["CSo11UIResponder", "rx_didPresent"]
+- ["CSo11UIResponder", "rx_present"]
+- ["CSo11UIResponder", "rx_willDismiss"]
+- ["CSo11UIResponder", "rx_willPresent"]
+- ["CSo18UISearchController", "DelegateProxy"]
+- ["CSo18UISearchController", "Observable"]
+- !private ["CSo18UISearchController", "RxSearchControllerDelegateProxy"]
+- !private ["CSo18UISearchController", "UISearchControllerDelegate"]
+- ["CSo18UISearchController", "Void"]
+- ["CSo18UISearchController", "rx_delegate"]
+- ["CSo18UISearchController", "rx_didDismiss"]
+- ["CSo18UISearchController", "rx_didPresent"]
+- ["CSo18UISearchController", "rx_present"]
+- ["CSo18UISearchController", "rx_willDismiss"]
+- ["CSo18UISearchController", "rx_willPresent"]
+- !private ["PSo26UISearchControllerDelegate", "didDismissSearchController"]
+- !private ["PSo26UISearchControllerDelegate", "didPresentSearchController"]
+- !private ["PSo26UISearchControllerDelegate", "presentSearchController"]
+- !private ["PSo26UISearchControllerDelegate", "proxyForObject"]
+- !private ["PSo26UISearchControllerDelegate", "willDismissSearchController"]
+- !private ["PSo26UISearchControllerDelegate", "willPresentSearchController"]
+- !private ["PSo16UIStateRestoring", "RxSearchControllerDelegateProxy"]
+- !private ["PSo16UIStateRestoring", "UISearchControllerDelegate"]
+- ["PSo16UIStateRestoring", "rx_delegate"]
+- ["PSo16UIStateRestoring", "rx_didDismiss"]
+- ["PSo16UIStateRestoring", "rx_didPresent"]
+- ["PSo16UIStateRestoring", "rx_present"]
+- ["PSo16UIStateRestoring", "rx_willDismiss"]
+- ["PSo16UIStateRestoring", "rx_willPresent"]
+- !private ["PSo18UITraitEnvironment", "RxSearchControllerDelegateProxy"]
+- !private ["PSo18UITraitEnvironment", "UISearchControllerDelegate"]
+- ["PSo18UITraitEnvironment", "rx_delegate"]
+- ["PSo18UITraitEnvironment", "rx_didDismiss"]
+- ["PSo18UITraitEnvironment", "rx_didPresent"]
+- ["PSo18UITraitEnvironment", "rx_present"]
+- ["PSo18UITraitEnvironment", "rx_willDismiss"]
+- ["PSo18UITraitEnvironment", "rx_willPresent"]
+- ["CSo16UIViewController", "DelegateProxy"]
+- ["CSo16UIViewController", "Observable"]
+- !private ["CSo16UIViewController", "RxSearchControllerDelegateProxy"]
+- !private ["CSo16UIViewController", "UISearchControllerDelegate"]
+- ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "rx_delegate"]
+- ["CSo16UIViewController", "rx_didDismiss"]
+- ["CSo16UIViewController", "rx_didPresent"]
+- ["CSo16UIViewController", "rx_present"]
+- ["CSo16UIViewController", "rx_willDismiss"]
+- ["CSo16UIViewController", "rx_willPresent"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "RxSearchControllerDelegateProxy"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "UISearchControllerDelegate"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "rx_delegate"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "RxSearchControllerDelegateProxy"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "UISearchControllerDelegate"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "rx_delegate"]
+- !private ["CSo16_RXDelegateProxy", "observe"]
+- !private ["CSo16_RXDelegateProxy", "proxyForObject"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "C7RxCocoa13DelegateProxy"
+- !private "P7RxCocoa17DelegateProxyType"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "C7RxCocoa31RxSearchControllerDelegateProxy"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "CSo18UISearchController"
+- !private "PSo26UISearchControllerDelegate"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "PSo37UIViewControllerAnimatedTransitioning"
+- !private "PSo37UIViewControllerTransitioningDelegate"
+- !private "CSo16_RXDelegateProxy"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "cd751462800ac64ddc0ab99df6536c97"

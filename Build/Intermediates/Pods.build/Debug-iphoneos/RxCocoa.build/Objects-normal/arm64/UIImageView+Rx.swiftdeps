@@ -1,0 +1,375 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo11UIImageView", ""]
+- ["CSo11UIImageView", "rx_image"]
+- ["CSo11UIImageView", "rx_imageAnimated"]
+provides-dynamic-lookup:
+depends-top-level:
+- "UIImage"
+- !private "kCAMediaTimingFunctionEaseInEaseOut"
+- !private "!="
+- !private "kCATransition"
+- !private "UIBindingObserver"
+- !private "CATransition"
+- !private "CAMediaTimingFunction"
+- "String"
+- "AnyObserver"
+- "UIImageView"
+depends-member:
+- !private ["Ps9AnyObject", "CAMediaTimingFunction"]
+- !private ["Ps9AnyObject", "CATransition"]
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "UIBindingObserver"]
+- !private ["Ps9AnyObject", "addAnimation"]
+- !private ["Ps9AnyObject", "asObserver"]
+- !private ["Ps9AnyObject", "duration"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["Ps9AnyObject", "kCATransition"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "removeAllAnimations"]
+- ["Ps9AnyObject", "rx_image"]
+- ["Ps9AnyObject", "rx_imageAnimated"]
+- !private ["Ps9AnyObject", "timingFunction"]
+- !private ["Ps9AnyObject", "type"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSo8CAAction", "duration"]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "timingFunction"]
+- !private ["PSo8CAAction", "type"]
+- !private ["CSo11CAAnimation", "duration"]
+- !private ["CSo11CAAnimation", "init"]
+- !private ["CSo11CAAnimation", "timingFunction"]
+- !private ["CSo11CAAnimation", "type"]
+- !private ["CSo7CALayer", "addAnimation"]
+- !private ["CSo7CALayer", "removeAllAnimations"]
+- !private ["PSo13CAMediaTiming", "addAnimation"]
+- !private ["PSo13CAMediaTiming", "duration"]
+- !private ["PSo13CAMediaTiming", "init"]
+- !private ["PSo13CAMediaTiming", "removeAllAnimations"]
+- !private ["PSo13CAMediaTiming", "timingFunction"]
+- !private ["PSo13CAMediaTiming", "type"]
+- !private ["CSo21CAMediaTimingFunction", "init"]
+- !private ["CSo12CATransition", "duration"]
+- !private ["CSo12CATransition", "init"]
+- !private ["CSo12CATransition", "timingFunction"]
+- !private ["CSo12CATransition", "type"]
+- !private ["Ps11CVarArgType", "CAMediaTimingFunction"]
+- !private ["Ps11CVarArgType", "CATransition"]
+- !private ["Ps11CVarArgType", "UIBindingObserver"]
+- !private ["Ps11CVarArgType", "addAnimation"]
+- !private ["Ps11CVarArgType", "duration"]
+- !private ["Ps11CVarArgType", "image"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["Ps11CVarArgType", "kCATransition"]
+- !private ["Ps11CVarArgType", "layer"]
+- !private ["Ps11CVarArgType", "removeAllAnimations"]
+- ["Ps11CVarArgType", "rx_image"]
+- ["Ps11CVarArgType", "rx_imageAnimated"]
+- !private ["Ps11CVarArgType", "timingFunction"]
+- !private ["Ps11CVarArgType", "type"]
+- !private ["Ps28CustomDebugStringConvertible", "CAMediaTimingFunction"]
+- !private ["Ps28CustomDebugStringConvertible", "CATransition"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBindingObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "addAnimation"]
+- !private ["Ps28CustomDebugStringConvertible", "duration"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["Ps28CustomDebugStringConvertible", "kCATransition"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAllAnimations"]
+- ["Ps28CustomDebugStringConvertible", "rx_image"]
+- ["Ps28CustomDebugStringConvertible", "rx_imageAnimated"]
+- !private ["Ps28CustomDebugStringConvertible", "timingFunction"]
+- !private ["Ps28CustomDebugStringConvertible", "type"]
+- !private ["Ps23CustomStringConvertible", "CAMediaTimingFunction"]
+- !private ["Ps23CustomStringConvertible", "CATransition"]
+- !private ["Ps23CustomStringConvertible", "UIBindingObserver"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addAnimation"]
+- !private ["Ps23CustomStringConvertible", "duration"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["Ps23CustomStringConvertible", "kCATransition"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "removeAllAnimations"]
+- ["Ps23CustomStringConvertible", "rx_image"]
+- ["Ps23CustomStringConvertible", "rx_imageAnimated"]
+- !private ["Ps23CustomStringConvertible", "timingFunction"]
+- !private ["Ps23CustomStringConvertible", "type"]
+- !private ["Ps9Equatable", "CAMediaTimingFunction"]
+- !private ["Ps9Equatable", "CATransition"]
+- !private ["Ps9Equatable", "UIBindingObserver"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addAnimation"]
+- !private ["Ps9Equatable", "duration"]
+- !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["Ps9Equatable", "kCATransition"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "removeAllAnimations"]
+- ["Ps9Equatable", "rx_image"]
+- ["Ps9Equatable", "rx_imageAnimated"]
+- !private ["Ps9Equatable", "timingFunction"]
+- !private ["Ps9Equatable", "type"]
+- !private ["Ps8Hashable", "CAMediaTimingFunction"]
+- !private ["Ps8Hashable", "CATransition"]
+- !private ["Ps8Hashable", "UIBindingObserver"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addAnimation"]
+- !private ["Ps8Hashable", "duration"]
+- !private ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["Ps8Hashable", "kCATransition"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "removeAllAnimations"]
+- ["Ps8Hashable", "rx_image"]
+- ["Ps8Hashable", "rx_imageAnimated"]
+- !private ["Ps8Hashable", "timingFunction"]
+- !private ["Ps8Hashable", "type"]
+- !private ["PSo8NSCoding", "CAMediaTimingFunction"]
+- !private ["PSo8NSCoding", "CATransition"]
+- !private ["PSo8NSCoding", "UIBindingObserver"]
+- !private ["PSo8NSCoding", "addAnimation"]
+- !private ["PSo8NSCoding", "duration"]
+- !private ["PSo8NSCoding", "image"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSo8NSCoding", "kCATransition"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "removeAllAnimations"]
+- ["PSo8NSCoding", "rx_image"]
+- ["PSo8NSCoding", "rx_imageAnimated"]
+- !private ["PSo8NSCoding", "timingFunction"]
+- !private ["PSo8NSCoding", "type"]
+- !private ["PSo9NSCopying", "duration"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "timingFunction"]
+- !private ["PSo9NSCopying", "type"]
+- ["CSo8NSObject", "AnyObserver"]
+- !private ["CSo8NSObject", "CAMediaTimingFunction"]
+- !private ["CSo8NSObject", "CATransition"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIBindingObserver"]
+- ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "addAnimation"]
+- !private ["CSo8NSObject", "duration"]
+- !private ["CSo8NSObject", "image"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["CSo8NSObject", "kCATransition"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "removeAllAnimations"]
+- ["CSo8NSObject", "rx_image"]
+- ["CSo8NSObject", "rx_imageAnimated"]
+- !private ["CSo8NSObject", "timingFunction"]
+- !private ["CSo8NSObject", "type"]
+- !private ["PSo16NSObjectProtocol", "CAMediaTimingFunction"]
+- !private ["PSo16NSObjectProtocol", "CATransition"]
+- !private ["PSo16NSObjectProtocol", "UIBindingObserver"]
+- !private ["PSo16NSObjectProtocol", "addAnimation"]
+- !private ["PSo16NSObjectProtocol", "duration"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSo16NSObjectProtocol", "kCATransition"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "removeAllAnimations"]
+- ["PSo16NSObjectProtocol", "rx_image"]
+- ["PSo16NSObjectProtocol", "rx_imageAnimated"]
+- !private ["PSo16NSObjectProtocol", "timingFunction"]
+- !private ["PSo16NSObjectProtocol", "type"]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "asObserver"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "CAMediaTimingFunction"]
+- !private ["PSo29UIAccessibilityIdentification", "CATransition"]
+- !private ["PSo29UIAccessibilityIdentification", "UIBindingObserver"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSo29UIAccessibilityIdentification", "kCATransition"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- ["PSo29UIAccessibilityIdentification", "rx_image"]
+- ["PSo29UIAccessibilityIdentification", "rx_imageAnimated"]
+- !private ["PSo12UIAppearance", "CAMediaTimingFunction"]
+- !private ["PSo12UIAppearance", "CATransition"]
+- !private ["PSo12UIAppearance", "UIBindingObserver"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSo12UIAppearance", "kCATransition"]
+- !private ["PSo12UIAppearance", "layer"]
+- ["PSo12UIAppearance", "rx_image"]
+- ["PSo12UIAppearance", "rx_imageAnimated"]
+- !private ["PSo21UIAppearanceContainer", "CAMediaTimingFunction"]
+- !private ["PSo21UIAppearanceContainer", "CATransition"]
+- !private ["PSo21UIAppearanceContainer", "UIBindingObserver"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo21UIAppearanceContainer", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSo21UIAppearanceContainer", "kCATransition"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", "rx_image"]
+- ["PSo21UIAppearanceContainer", "rx_imageAnimated"]
+- !private ["C7RxCocoa17UIBindingObserver", "E"]
+- !private ["C7RxCocoa17UIBindingObserver", "asObserver"]
+- !private ["C7RxCocoa17UIBindingObserver", "init"]
+- !private ["PSo17UICoordinateSpace", "CAMediaTimingFunction"]
+- !private ["PSo17UICoordinateSpace", "CATransition"]
+- !private ["PSo17UICoordinateSpace", "UIBindingObserver"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSo17UICoordinateSpace", "kCATransition"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- ["PSo17UICoordinateSpace", "rx_image"]
+- ["PSo17UICoordinateSpace", "rx_imageAnimated"]
+- !private ["PSo13UIDynamicItem", "CAMediaTimingFunction"]
+- !private ["PSo13UIDynamicItem", "CATransition"]
+- !private ["PSo13UIDynamicItem", "UIBindingObserver"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSo13UIDynamicItem", "kCATransition"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- ["PSo13UIDynamicItem", "rx_image"]
+- ["PSo13UIDynamicItem", "rx_imageAnimated"]
+- !private ["PSo18UIFocusEnvironment", "CAMediaTimingFunction"]
+- !private ["PSo18UIFocusEnvironment", "CATransition"]
+- !private ["PSo18UIFocusEnvironment", "UIBindingObserver"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo18UIFocusEnvironment", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSo18UIFocusEnvironment", "kCATransition"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", "rx_image"]
+- ["PSo18UIFocusEnvironment", "rx_imageAnimated"]
+- ["CSo11UIImageView", "AnyObserver"]
+- !private ["CSo11UIImageView", "CAMediaTimingFunction"]
+- !private ["CSo11UIImageView", "CATransition"]
+- ["CSo11UIImageView", "String"]
+- !private ["CSo11UIImageView", "UIBindingObserver"]
+- ["CSo11UIImageView", "UIImage"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIImageView", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["CSo11UIImageView", "kCATransition"]
+- !private ["CSo11UIImageView", "layer"]
+- ["CSo11UIImageView", "rx_image"]
+- ["CSo11UIImageView", "rx_imageAnimated"]
+- ["CSo11UIResponder", "AnyObserver"]
+- !private ["CSo11UIResponder", "CAMediaTimingFunction"]
+- !private ["CSo11UIResponder", "CATransition"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIBindingObserver"]
+- ["CSo11UIResponder", "UIImage"]
+- !private ["CSo11UIResponder", "image"]
+- !private ["CSo11UIResponder", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["CSo11UIResponder", "kCATransition"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "rx_image"]
+- ["CSo11UIResponder", "rx_imageAnimated"]
+- !private ["PSo18UITraitEnvironment", "CAMediaTimingFunction"]
+- !private ["PSo18UITraitEnvironment", "CATransition"]
+- !private ["PSo18UITraitEnvironment", "UIBindingObserver"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- !private ["PSo18UITraitEnvironment", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["PSo18UITraitEnvironment", "kCATransition"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["PSo18UITraitEnvironment", "rx_image"]
+- ["PSo18UITraitEnvironment", "rx_imageAnimated"]
+- ["CSo6UIView", "AnyObserver"]
+- !private ["CSo6UIView", "CAMediaTimingFunction"]
+- !private ["CSo6UIView", "CATransition"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "UIBindingObserver"]
+- ["CSo6UIView", "UIImage"]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["CSo6UIView", "kCATransition"]
+- !private ["CSo6UIView", "layer"]
+- ["CSo6UIView", "rx_image"]
+- ["CSo6UIView", "rx_imageAnimated"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "CAMediaTimingFunction"]
+- !private ["Ps12_Reflectable", "CATransition"]
+- !private ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "UIBindingObserver"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "image"]
+- !private ["Ps12_Reflectable", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["Ps12_Reflectable", "kCATransition"]
+- !private ["Ps12_Reflectable", "layer"]
+- ["Ps12_Reflectable", "rx_image"]
+- ["Ps12_Reflectable", "rx_imageAnimated"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "PSo8CAAction"
+- !private "CSo11CAAnimation"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "CSo21CAMediaTimingFunction"
+- !private "CSo12CATransition"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps21NilLiteralConvertible"
+- !private "P7RxSwift12ObserverType"
+- !private "Sq"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "C7RxCocoa17UIBindingObserver"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "e07f269801afbb2038e554f325cbac6f"

@@ -1,0 +1,108 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo8NSObject", ""]
+- ["CSo8NSObject", "rx_observe"]
+- ["CSo8NSObject", "rx_observeWeakly"]
+provides-dynamic-lookup:
+depends-top-level:
+- "KVORepresentable"
+- "NSObject"
+- "Bool"
+- "Array"
+- "NSKeyValueObservingOptions"
+- "Observable"
+- "BooleanLiteralType"
+- "String"
+depends-member:
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "rx_observe"]
+- !private ["Ps9AnyObject", "rx_observeWeakly"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Initial"]
+- !private ["Ps23ArrayLiteralConvertible", "New"]
+- !private ["Ps11CVarArgType", "rx_observe"]
+- !private ["Ps11CVarArgType", "rx_observeWeakly"]
+- !private ["Ps28CustomDebugStringConvertible", "rx_observe"]
+- !private ["Ps28CustomDebugStringConvertible", "rx_observeWeakly"]
+- !private ["Ps23CustomStringConvertible", "rx_observe"]
+- !private ["Ps23CustomStringConvertible", "rx_observeWeakly"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "Initial"]
+- !private ["Ps9Equatable", "New"]
+- !private ["Ps9Equatable", "rx_observe"]
+- !private ["Ps9Equatable", "rx_observeWeakly"]
+- !private ["Ps8Hashable", "rx_observe"]
+- !private ["Ps8Hashable", "rx_observeWeakly"]
+- !private ["P7RxCocoa16KVORepresentable", "KVOType"]
+- !private ["P7RxCocoa16KVORepresentable", "init"]
+- !private ["VSC26NSKeyValueObservingOptions", "Element"]
+- !private ["VSC26NSKeyValueObservingOptions", "Initial"]
+- !private ["VSC26NSKeyValueObservingOptions", "New"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "KVORepresentable"]
+- ["CSo8NSObject", "NSKeyValueObservingOptions"]
+- ["CSo8NSObject", "Observable"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "rx_observe"]
+- ["CSo8NSObject", "rx_observeWeakly"]
+- !private ["PSo16NSObjectProtocol", "rx_observe"]
+- !private ["PSo16NSObjectProtocol", "rx_observeWeakly"]
+- !private ["C7RxSwift10Observable", "E"]
+- !private ["C7RxSwift10Observable", "map"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "map"]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "map"]
+- !private ["Ps13OptionSetType", "Element"]
+- !private ["Ps13OptionSetType", "Initial"]
+- !private ["Ps13OptionSetType", "New"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "Initial"]
+- !private ["Ps16RawRepresentable", "New"]
+- !private ["Ps14SetAlgebraType", "Element"]
+- !private ["Ps14SetAlgebraType", "Initial"]
+- !private ["Ps14SetAlgebraType", "New"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Ps11CVarArgType"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "P7RxCocoa16KVORepresentable"
+- !private "VSC26NSKeyValueObservingOptions"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "Ps13OptionSetType"
+- !private "Ps16RawRepresentable"
+- !private "Ps14SetAlgebraType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "9620f0c9e44712db6b6515aa7cca6a5e"

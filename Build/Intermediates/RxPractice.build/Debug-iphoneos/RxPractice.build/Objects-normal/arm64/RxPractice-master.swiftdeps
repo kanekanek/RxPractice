@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "ba6b743e8e99b7898c53bd621a662709"
+build_time: [517370733, 412373000]
+inputs:
+  "/Users/shotakaneko/RxPractice/RxPractice/ViewController.swift": [517370449, 0]
+  "/Users/shotakaneko/RxPractice/RxPractice/AppDelegate.swift": [517370449, 0]

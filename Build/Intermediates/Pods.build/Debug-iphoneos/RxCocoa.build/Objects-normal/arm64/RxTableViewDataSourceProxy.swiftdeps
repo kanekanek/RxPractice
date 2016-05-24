@@ -1,0 +1,456 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "tableViewDataSourceNotSet"
+- "TableViewDataSourceNotSet"
+- "RxTableViewDataSourceProxy"
+provides-nominal:
+- "C7RxCocoa25TableViewDataSourceNotSet"
+- "C7RxCocoa26RxTableViewDataSourceProxy"
+provides-member:
+- ["C7RxCocoa25TableViewDataSourceNotSet", ""]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", ""]
+provides-dynamic-lookup:
+- "numberOfSectionsInTableView"
+- "numberOfSectionsInTableView"
+- "setCurrentDelegate"
+- "createProxyForObject"
+- "delegateAssociatedObjectTag"
+- "setForwardToDelegate"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "currentDelegateFor"
+depends-top-level:
+- "NSObject"
+- "DelegateProxy"
+- "UITableView"
+- "Bool"
+- !private "castOptionalOrFatalError"
+- "UITableViewDataSource"
+- "RxTableViewDataSourceProxy"
+- "UnsafePointer"
+- !private "rxAbstractMethodWithMessage"
+- "NSIndexPath"
+- !private "dataSourceAssociatedTag"
+- "UITableViewCell"
+- "Int"
+- "Void"
+- !private "dataSourceNotSet"
+- "DelegateProxyType"
+- "TableViewDataSourceNotSet"
+- "AnyObject"
+- !private "castOrFatalError"
+- !private "??"
+- "tableViewDataSourceNotSet"
+depends-member:
+- !private ["Ps9AnyObject", "_pointer"]
+- ["Ps9AnyObject", "_requiredMethodsDataSource"]
+- ["Ps9AnyObject", "assignProxy"]
+- ["Ps9AnyObject", "assignedProxyFor"]
+- !private ["Ps9AnyObject", "castOptionalOrFatalError"]
+- !private ["Ps9AnyObject", "castOrFatalError"]
+- ["Ps9AnyObject", "createProxyForObject"]
+- ["Ps9AnyObject", "currentDelegateFor"]
+- !private ["Ps9AnyObject", "dataSource"]
+- !private ["Ps9AnyObject", "dataSourceAssociatedTag"]
+- !private ["Ps9AnyObject", "dataSourceNotSet"]
+- ["Ps9AnyObject", "delegateAssociatedObjectTag"]
+- ["Ps9AnyObject", "forwardToDelegate"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "numberOfSectionsInTableView"]
+- !private ["Ps9AnyObject", "rxAbstractMethodWithMessage"]
+- !private ["Ps9AnyObject", "rx_createDataSourceProxy"]
+- ["Ps9AnyObject", "sectionIndexTitlesForTableView"]
+- ["Ps9AnyObject", "setCurrentDelegate"]
+- ["Ps9AnyObject", "setForwardToDelegate"]
+- ["Ps9AnyObject", "tableView"]
+- ["Ps9AnyObject", "tableViewDataSourceNotSet"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "_pointer"]
+- ["Ps11CVarArgType", "_requiredMethodsDataSource"]
+- ["Ps11CVarArgType", "assignProxy"]
+- ["Ps11CVarArgType", "assignedProxyFor"]
+- !private ["Ps11CVarArgType", "castOptionalOrFatalError"]
+- !private ["Ps11CVarArgType", "castOrFatalError"]
+- ["Ps11CVarArgType", "createProxyForObject"]
+- ["Ps11CVarArgType", "currentDelegateFor"]
+- !private ["Ps11CVarArgType", "dataSource"]
+- !private ["Ps11CVarArgType", "dataSourceAssociatedTag"]
+- !private ["Ps11CVarArgType", "dataSourceNotSet"]
+- ["Ps11CVarArgType", "delegateAssociatedObjectTag"]
+- ["Ps11CVarArgType", "forwardToDelegate"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "numberOfSectionsInTableView"]
+- !private ["Ps11CVarArgType", "rxAbstractMethodWithMessage"]
+- !private ["Ps11CVarArgType", "rx_createDataSourceProxy"]
+- ["Ps11CVarArgType", "sectionIndexTitlesForTableView"]
+- ["Ps11CVarArgType", "setCurrentDelegate"]
+- ["Ps11CVarArgType", "setForwardToDelegate"]
+- ["Ps11CVarArgType", "tableView"]
+- ["Ps11CVarArgType", "tableViewDataSourceNotSet"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "_pointer"]
+- ["Ps28CustomDebugStringConvertible", "_requiredMethodsDataSource"]
+- ["Ps28CustomDebugStringConvertible", "assignProxy"]
+- ["Ps28CustomDebugStringConvertible", "assignedProxyFor"]
+- !private ["Ps28CustomDebugStringConvertible", "castOptionalOrFatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "castOrFatalError"]
+- ["Ps28CustomDebugStringConvertible", "createProxyForObject"]
+- ["Ps28CustomDebugStringConvertible", "currentDelegateFor"]
+- !private ["Ps28CustomDebugStringConvertible", "dataSource"]
+- !private ["Ps28CustomDebugStringConvertible", "dataSourceAssociatedTag"]
+- !private ["Ps28CustomDebugStringConvertible", "dataSourceNotSet"]
+- ["Ps28CustomDebugStringConvertible", "delegateAssociatedObjectTag"]
+- ["Ps28CustomDebugStringConvertible", "forwardToDelegate"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps28CustomDebugStringConvertible", "rxAbstractMethodWithMessage"]
+- !private ["Ps28CustomDebugStringConvertible", "rx_createDataSourceProxy"]
+- ["Ps28CustomDebugStringConvertible", "sectionIndexTitlesForTableView"]
+- ["Ps28CustomDebugStringConvertible", "setCurrentDelegate"]
+- ["Ps28CustomDebugStringConvertible", "setForwardToDelegate"]
+- ["Ps28CustomDebugStringConvertible", "tableView"]
+- ["Ps28CustomDebugStringConvertible", "tableViewDataSourceNotSet"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "_pointer"]
+- ["Ps23CustomStringConvertible", "_requiredMethodsDataSource"]
+- ["Ps23CustomStringConvertible", "assignProxy"]
+- ["Ps23CustomStringConvertible", "assignedProxyFor"]
+- !private ["Ps23CustomStringConvertible", "castOptionalOrFatalError"]
+- !private ["Ps23CustomStringConvertible", "castOrFatalError"]
+- ["Ps23CustomStringConvertible", "createProxyForObject"]
+- ["Ps23CustomStringConvertible", "currentDelegateFor"]
+- !private ["Ps23CustomStringConvertible", "dataSource"]
+- !private ["Ps23CustomStringConvertible", "dataSourceAssociatedTag"]
+- !private ["Ps23CustomStringConvertible", "dataSourceNotSet"]
+- ["Ps23CustomStringConvertible", "delegateAssociatedObjectTag"]
+- ["Ps23CustomStringConvertible", "forwardToDelegate"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps23CustomStringConvertible", "rxAbstractMethodWithMessage"]
+- !private ["Ps23CustomStringConvertible", "rx_createDataSourceProxy"]
+- ["Ps23CustomStringConvertible", "sectionIndexTitlesForTableView"]
+- ["Ps23CustomStringConvertible", "setCurrentDelegate"]
+- ["Ps23CustomStringConvertible", "setForwardToDelegate"]
+- ["Ps23CustomStringConvertible", "tableView"]
+- ["Ps23CustomStringConvertible", "tableViewDataSourceNotSet"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C7RxCocoa13DelegateProxy", "AnyObject"]
+- ["C7RxCocoa13DelegateProxy", "Bool"]
+- ["C7RxCocoa13DelegateProxy", "Int"]
+- ["C7RxCocoa13DelegateProxy", "NSIndexPath"]
+- ["C7RxCocoa13DelegateProxy", "UITableView"]
+- ["C7RxCocoa13DelegateProxy", "UITableViewCell"]
+- ["C7RxCocoa13DelegateProxy", "UITableViewDataSource"]
+- ["C7RxCocoa13DelegateProxy", "UnsafePointer"]
+- ["C7RxCocoa13DelegateProxy", "Void"]
+- !private ["C7RxCocoa13DelegateProxy", "_pointer"]
+- ["C7RxCocoa13DelegateProxy", "_requiredMethodsDataSource"]
+- ["C7RxCocoa13DelegateProxy", "assignProxy"]
+- ["C7RxCocoa13DelegateProxy", "assignedProxyFor"]
+- !private ["C7RxCocoa13DelegateProxy", "castOptionalOrFatalError"]
+- !private ["C7RxCocoa13DelegateProxy", "castOrFatalError"]
+- ["C7RxCocoa13DelegateProxy", "createProxyForObject"]
+- ["C7RxCocoa13DelegateProxy", "currentDelegateFor"]
+- !private ["C7RxCocoa13DelegateProxy", "dataSourceAssociatedTag"]
+- ["C7RxCocoa13DelegateProxy", "delegateAssociatedObjectTag"]
+- ["C7RxCocoa13DelegateProxy", "forwardToDelegate"]
+- ["C7RxCocoa13DelegateProxy", "init"]
+- ["C7RxCocoa13DelegateProxy", "numberOfSectionsInTableView"]
+- ["C7RxCocoa13DelegateProxy", "sectionIndexTitlesForTableView"]
+- ["C7RxCocoa13DelegateProxy", "setCurrentDelegate"]
+- ["C7RxCocoa13DelegateProxy", "setForwardToDelegate"]
+- ["C7RxCocoa13DelegateProxy", "tableView"]
+- ["C7RxCocoa13DelegateProxy", "tableViewDataSourceNotSet"]
+- ["C7RxCocoa13DelegateProxy", ""]
+- !private ["P7RxCocoa17DelegateProxyType", "_pointer"]
+- !private ["P7RxCocoa17DelegateProxyType", "_requiredMethodsDataSource"]
+- ["P7RxCocoa17DelegateProxyType", "assignProxy"]
+- ["P7RxCocoa17DelegateProxyType", "assignedProxyFor"]
+- !private ["P7RxCocoa17DelegateProxyType", "castOptionalOrFatalError"]
+- !private ["P7RxCocoa17DelegateProxyType", "castOrFatalError"]
+- ["P7RxCocoa17DelegateProxyType", "createProxyForObject"]
+- ["P7RxCocoa17DelegateProxyType", "currentDelegateFor"]
+- !private ["P7RxCocoa17DelegateProxyType", "dataSourceAssociatedTag"]
+- ["P7RxCocoa17DelegateProxyType", "forwardToDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "numberOfSectionsInTableView"]
+- ["P7RxCocoa17DelegateProxyType", "sectionIndexTitlesForTableView"]
+- ["P7RxCocoa17DelegateProxyType", "setCurrentDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "setForwardToDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "tableView"]
+- ["P7RxCocoa17DelegateProxyType", "tableViewDataSourceNotSet"]
+- ["P7RxCocoa17DelegateProxyType", ""]
+- !private ["Ps9Equatable", "_pointer"]
+- ["Ps9Equatable", "_requiredMethodsDataSource"]
+- ["Ps9Equatable", "assignProxy"]
+- ["Ps9Equatable", "assignedProxyFor"]
+- !private ["Ps9Equatable", "castOptionalOrFatalError"]
+- !private ["Ps9Equatable", "castOrFatalError"]
+- ["Ps9Equatable", "createProxyForObject"]
+- ["Ps9Equatable", "currentDelegateFor"]
+- !private ["Ps9Equatable", "dataSource"]
+- !private ["Ps9Equatable", "dataSourceAssociatedTag"]
+- !private ["Ps9Equatable", "dataSourceNotSet"]
+- ["Ps9Equatable", "delegateAssociatedObjectTag"]
+- ["Ps9Equatable", "forwardToDelegate"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "numberOfSectionsInTableView"]
+- !private ["Ps9Equatable", "rxAbstractMethodWithMessage"]
+- !private ["Ps9Equatable", "rx_createDataSourceProxy"]
+- ["Ps9Equatable", "sectionIndexTitlesForTableView"]
+- ["Ps9Equatable", "setCurrentDelegate"]
+- ["Ps9Equatable", "setForwardToDelegate"]
+- ["Ps9Equatable", "tableView"]
+- ["Ps9Equatable", "tableViewDataSourceNotSet"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "_pointer"]
+- ["Ps8Hashable", "_requiredMethodsDataSource"]
+- ["Ps8Hashable", "assignProxy"]
+- ["Ps8Hashable", "assignedProxyFor"]
+- !private ["Ps8Hashable", "castOptionalOrFatalError"]
+- !private ["Ps8Hashable", "castOrFatalError"]
+- ["Ps8Hashable", "createProxyForObject"]
+- ["Ps8Hashable", "currentDelegateFor"]
+- !private ["Ps8Hashable", "dataSource"]
+- !private ["Ps8Hashable", "dataSourceAssociatedTag"]
+- !private ["Ps8Hashable", "dataSourceNotSet"]
+- ["Ps8Hashable", "delegateAssociatedObjectTag"]
+- ["Ps8Hashable", "forwardToDelegate"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "numberOfSectionsInTableView"]
+- !private ["Ps8Hashable", "rxAbstractMethodWithMessage"]
+- !private ["Ps8Hashable", "rx_createDataSourceProxy"]
+- ["Ps8Hashable", "sectionIndexTitlesForTableView"]
+- ["Ps8Hashable", "setCurrentDelegate"]
+- ["Ps8Hashable", "setForwardToDelegate"]
+- ["Ps8Hashable", "tableView"]
+- ["Ps8Hashable", "tableViewDataSourceNotSet"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "dataSource"]
+- !private ["PSo8NSCoding", "rx_createDataSourceProxy"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSIndexPath"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "UITableViewCell"]
+- ["CSo8NSObject", "UITableViewDataSource"]
+- ["CSo8NSObject", "UnsafePointer"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "_pointer"]
+- ["CSo8NSObject", "_requiredMethodsDataSource"]
+- ["CSo8NSObject", "assignProxy"]
+- ["CSo8NSObject", "assignedProxyFor"]
+- !private ["CSo8NSObject", "castOptionalOrFatalError"]
+- !private ["CSo8NSObject", "castOrFatalError"]
+- ["CSo8NSObject", "createProxyForObject"]
+- ["CSo8NSObject", "currentDelegateFor"]
+- !private ["CSo8NSObject", "dataSource"]
+- !private ["CSo8NSObject", "dataSourceAssociatedTag"]
+- !private ["CSo8NSObject", "dataSourceNotSet"]
+- ["CSo8NSObject", "delegateAssociatedObjectTag"]
+- ["CSo8NSObject", "forwardToDelegate"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "numberOfSectionsInTableView"]
+- !private ["CSo8NSObject", "rxAbstractMethodWithMessage"]
+- !private ["CSo8NSObject", "rx_createDataSourceProxy"]
+- ["CSo8NSObject", "sectionIndexTitlesForTableView"]
+- ["CSo8NSObject", "setCurrentDelegate"]
+- ["CSo8NSObject", "setForwardToDelegate"]
+- ["CSo8NSObject", "tableView"]
+- ["CSo8NSObject", "tableViewDataSourceNotSet"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "_pointer"]
+- ["PSo16NSObjectProtocol", "_requiredMethodsDataSource"]
+- ["PSo16NSObjectProtocol", "assignProxy"]
+- ["PSo16NSObjectProtocol", "assignedProxyFor"]
+- !private ["PSo16NSObjectProtocol", "castOptionalOrFatalError"]
+- !private ["PSo16NSObjectProtocol", "castOrFatalError"]
+- ["PSo16NSObjectProtocol", "createProxyForObject"]
+- ["PSo16NSObjectProtocol", "currentDelegateFor"]
+- !private ["PSo16NSObjectProtocol", "dataSource"]
+- !private ["PSo16NSObjectProtocol", "dataSourceAssociatedTag"]
+- !private ["PSo16NSObjectProtocol", "dataSourceNotSet"]
+- ["PSo16NSObjectProtocol", "delegateAssociatedObjectTag"]
+- ["PSo16NSObjectProtocol", "forwardToDelegate"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- !private ["PSo16NSObjectProtocol", "rxAbstractMethodWithMessage"]
+- !private ["PSo16NSObjectProtocol", "rx_createDataSourceProxy"]
+- ["PSo16NSObjectProtocol", "sectionIndexTitlesForTableView"]
+- ["PSo16NSObjectProtocol", "setCurrentDelegate"]
+- ["PSo16NSObjectProtocol", "setForwardToDelegate"]
+- ["PSo16NSObjectProtocol", "tableView"]
+- ["PSo16NSObjectProtocol", "tableViewDataSourceNotSet"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps21NilLiteralConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps21NilLiteralConvertible", "tableView"]
+- !private ["Sq", "deinit"]
+- !private ["Sq", "numberOfSectionsInTableView"]
+- !private ["Sq", "tableView"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "AnyObject"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "Bool"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "Int"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "NSIndexPath"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "UITableView"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "UITableViewCell"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "UITableViewDataSource"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "UnsafePointer"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "Void"]
+- !private ["C7RxCocoa26RxTableViewDataSourceProxy", "_pointer"]
+- !private ["C7RxCocoa26RxTableViewDataSourceProxy", "_requiredMethodsDataSource"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "assignProxy"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "assignedProxyFor"]
+- !private ["C7RxCocoa26RxTableViewDataSourceProxy", "castOptionalOrFatalError"]
+- !private ["C7RxCocoa26RxTableViewDataSourceProxy", "castOrFatalError"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "createProxyForObject"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "currentDelegateFor"]
+- !private ["C7RxCocoa26RxTableViewDataSourceProxy", "dataSourceAssociatedTag"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "deinit"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "delegateAssociatedObjectTag"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "forwardToDelegate"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "init"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "numberOfSectionsInTableView"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "sectionIndexTitlesForTableView"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "setCurrentDelegate"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "setForwardToDelegate"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "tableView"]
+- ["C7RxCocoa26RxTableViewDataSourceProxy", "tableViewDataSourceNotSet"]
+- ["C7RxCocoa25TableViewDataSourceNotSet", "Int"]
+- ["C7RxCocoa25TableViewDataSourceNotSet", "NSIndexPath"]
+- ["C7RxCocoa25TableViewDataSourceNotSet", "UITableView"]
+- ["C7RxCocoa25TableViewDataSourceNotSet", "UITableViewCell"]
+- !private ["C7RxCocoa25TableViewDataSourceNotSet", "dataSourceNotSet"]
+- ["C7RxCocoa25TableViewDataSourceNotSet", "deinit"]
+- ["C7RxCocoa25TableViewDataSourceNotSet", "init"]
+- ["C7RxCocoa25TableViewDataSourceNotSet", "numberOfSectionsInTableView"]
+- !private ["C7RxCocoa25TableViewDataSourceNotSet", "rxAbstractMethodWithMessage"]
+- ["C7RxCocoa25TableViewDataSourceNotSet", "sectionIndexTitlesForTableView"]
+- ["C7RxCocoa25TableViewDataSourceNotSet", "tableView"]
+- !private ["PSo29UIAccessibilityIdentification", "dataSource"]
+- !private ["PSo29UIAccessibilityIdentification", "rx_createDataSourceProxy"]
+- !private ["PSo12UIAppearance", "dataSource"]
+- !private ["PSo12UIAppearance", "rx_createDataSourceProxy"]
+- !private ["PSo21UIAppearanceContainer", "dataSource"]
+- !private ["PSo21UIAppearanceContainer", "rx_createDataSourceProxy"]
+- !private ["PSo17UICoordinateSpace", "dataSource"]
+- !private ["PSo17UICoordinateSpace", "rx_createDataSourceProxy"]
+- !private ["PSo13UIDynamicItem", "dataSource"]
+- !private ["PSo13UIDynamicItem", "rx_createDataSourceProxy"]
+- !private ["PSo18UIFocusEnvironment", "dataSource"]
+- !private ["PSo18UIFocusEnvironment", "rx_createDataSourceProxy"]
+- !private ["CSo11UIResponder", "dataSource"]
+- !private ["CSo11UIResponder", "rx_createDataSourceProxy"]
+- !private ["CSo12UIScrollView", "dataSource"]
+- !private ["CSo12UIScrollView", "rx_createDataSourceProxy"]
+- !private ["CSo11UITableView", "dataSource"]
+- !private ["CSo11UITableView", "rx_createDataSourceProxy"]
+- !private ["PSo21UITableViewDataSource", "_pointer"]
+- !private ["PSo21UITableViewDataSource", "_requiredMethodsDataSource"]
+- ["PSo21UITableViewDataSource", "assignProxy"]
+- ["PSo21UITableViewDataSource", "assignedProxyFor"]
+- !private ["PSo21UITableViewDataSource", "castOptionalOrFatalError"]
+- !private ["PSo21UITableViewDataSource", "castOrFatalError"]
+- ["PSo21UITableViewDataSource", "createProxyForObject"]
+- ["PSo21UITableViewDataSource", "currentDelegateFor"]
+- !private ["PSo21UITableViewDataSource", "dataSourceAssociatedTag"]
+- !private ["PSo21UITableViewDataSource", "dataSourceNotSet"]
+- ["PSo21UITableViewDataSource", "forwardToDelegate"]
+- ["PSo21UITableViewDataSource", "init"]
+- ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
+- !private ["PSo21UITableViewDataSource", "rxAbstractMethodWithMessage"]
+- ["PSo21UITableViewDataSource", "sectionIndexTitlesForTableView"]
+- ["PSo21UITableViewDataSource", "setCurrentDelegate"]
+- ["PSo21UITableViewDataSource", "setForwardToDelegate"]
+- ["PSo21UITableViewDataSource", "tableView"]
+- ["PSo21UITableViewDataSource", "tableViewDataSourceNotSet"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo18UITraitEnvironment", "dataSource"]
+- !private ["PSo18UITraitEnvironment", "rx_createDataSourceProxy"]
+- !private ["CSo6UIView", "dataSource"]
+- !private ["CSo6UIView", "rx_createDataSourceProxy"]
+- ["CSo16_RXDelegateProxy", "AnyObject"]
+- ["CSo16_RXDelegateProxy", "Bool"]
+- ["CSo16_RXDelegateProxy", "Int"]
+- ["CSo16_RXDelegateProxy", "NSIndexPath"]
+- ["CSo16_RXDelegateProxy", "UITableView"]
+- ["CSo16_RXDelegateProxy", "UITableViewCell"]
+- ["CSo16_RXDelegateProxy", "UITableViewDataSource"]
+- ["CSo16_RXDelegateProxy", "UnsafePointer"]
+- ["CSo16_RXDelegateProxy", "Void"]
+- !private ["CSo16_RXDelegateProxy", "_pointer"]
+- ["CSo16_RXDelegateProxy", "_requiredMethodsDataSource"]
+- ["CSo16_RXDelegateProxy", "assignProxy"]
+- ["CSo16_RXDelegateProxy", "assignedProxyFor"]
+- !private ["CSo16_RXDelegateProxy", "castOptionalOrFatalError"]
+- !private ["CSo16_RXDelegateProxy", "castOrFatalError"]
+- ["CSo16_RXDelegateProxy", "createProxyForObject"]
+- ["CSo16_RXDelegateProxy", "currentDelegateFor"]
+- !private ["CSo16_RXDelegateProxy", "dataSourceAssociatedTag"]
+- ["CSo16_RXDelegateProxy", "delegateAssociatedObjectTag"]
+- ["CSo16_RXDelegateProxy", "forwardToDelegate"]
+- ["CSo16_RXDelegateProxy", "numberOfSectionsInTableView"]
+- ["CSo16_RXDelegateProxy", "sectionIndexTitlesForTableView"]
+- ["CSo16_RXDelegateProxy", "setCurrentDelegate"]
+- ["CSo16_RXDelegateProxy", "setForwardToDelegate"]
+- ["CSo16_RXDelegateProxy", "tableView"]
+- ["CSo16_RXDelegateProxy", "tableViewDataSourceNotSet"]
+- !private ["Ps12_Reflectable", "dataSource"]
+- !private ["Ps12_Reflectable", "numberOfSectionsInTableView"]
+- !private ["Ps12_Reflectable", "rx_createDataSourceProxy"]
+- !private ["Ps12_Reflectable", "tableView"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "C7RxCocoa13DelegateProxy"
+- "P7RxCocoa17DelegateProxyType"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps21NilLiteralConvertible"
+- !private "Sq"
+- "C7RxCocoa26RxTableViewDataSourceProxy"
+- "C7RxCocoa25TableViewDataSourceNotSet"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- !private "CSo11UITableView"
+- "PSo21UITableViewDataSource"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16_RXDelegateProxy"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "f2c1b0545aa04d800fa49555e6cb9f85"

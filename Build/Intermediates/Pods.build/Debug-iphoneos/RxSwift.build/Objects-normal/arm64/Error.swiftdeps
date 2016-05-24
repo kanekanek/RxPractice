@@ -1,0 +1,88 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Error"
+provides-nominal:
+- "C7RxSwift5Error"
+provides-member:
+- ["C7RxSwift5Error", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Disposable"
+- !private "NopDisposable"
+- "Error"
+- "Producer"
+- "ErrorType"
+- "ObserverType"
+depends-member:
+- !private ["Ps9AnyObject", "NopDisposable"]
+- ["Ps9AnyObject", "_error"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "subscribe"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps28CustomDebugStringConvertible", "Error"]
+- !private ["P7RxSwift10Disposable", "instance"]
+- ["C7RxSwift5Error", "Disposable"]
+- ["C7RxSwift5Error", "Element"]
+- ["C7RxSwift5Error", "ErrorType"]
+- !private ["C7RxSwift5Error", "NopDisposable"]
+- ["C7RxSwift5Error", "ObserverType"]
+- !private ["C7RxSwift5Error", "_error"]
+- ["C7RxSwift5Error", "deinit"]
+- ["C7RxSwift5Error", "init"]
+- ["C7RxSwift5Error", "subscribe"]
+- !private ["O7RxSwift5Event", "Error"]
+- !private ["V7RxSwift13NopDisposable", "instance"]
+- ["C7RxSwift10Observable", "Disposable"]
+- ["C7RxSwift10Observable", "Element"]
+- ["C7RxSwift10Observable", "ErrorType"]
+- !private ["C7RxSwift10Observable", "NopDisposable"]
+- ["C7RxSwift10Observable", "ObserverType"]
+- ["C7RxSwift10Observable", "_error"]
+- ["C7RxSwift10Observable", "init"]
+- ["C7RxSwift10Observable", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "NopDisposable"]
+- ["P7RxSwift25ObservableConvertibleType", "_error"]
+- ["P7RxSwift25ObservableConvertibleType", "init"]
+- ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- ["P7RxSwift25ObservableConvertibleType", ""]
+- !private ["P7RxSwift14ObservableType", "NopDisposable"]
+- ["P7RxSwift14ObservableType", "_error"]
+- ["P7RxSwift14ObservableType", "init"]
+- ["P7RxSwift14ObservableType", "subscribe"]
+- ["P7RxSwift14ObservableType", ""]
+- !private ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "on"]
+- ["C7RxSwift8Producer", "Disposable"]
+- ["C7RxSwift8Producer", "Element"]
+- ["C7RxSwift8Producer", "ErrorType"]
+- !private ["C7RxSwift8Producer", "NopDisposable"]
+- ["C7RxSwift8Producer", "ObserverType"]
+- ["C7RxSwift8Producer", "_error"]
+- ["C7RxSwift8Producer", "init"]
+- ["C7RxSwift8Producer", "subscribe"]
+- ["C7RxSwift8Producer", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "P7RxSwift10Disposable"
+- "C7RxSwift5Error"
+- !private "O7RxSwift5Event"
+- !private "V7RxSwift13NopDisposable"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- "C7RxSwift8Producer"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "d3eacef1fe5f895c6caf23cbff03dc44"

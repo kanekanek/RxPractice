@@ -1,0 +1,59 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BooleanDisposable"
+provides-nominal:
+- "C7RxSwift17BooleanDisposable"
+provides-member:
+- ["C7RxSwift17BooleanDisposable", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Cancelable"
+- "BooleanDisposable"
+- "BooleanLiteralType"
+- "Bool"
+- "Disposable"
+depends-member:
+- ["Ps9AnyObject", "BooleanDisposable"]
+- !private ["Ps9AnyObject", "_disposed"]
+- ["Ps9AnyObject", "dispose"]
+- ["Ps9AnyObject", "disposed"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["C7RxSwift17BooleanDisposable", "Bool"]
+- ["C7RxSwift17BooleanDisposable", "BooleanDisposable"]
+- ["C7RxSwift17BooleanDisposable", "BooleanDisposableTrue"]
+- !private ["C7RxSwift17BooleanDisposable", "_disposed"]
+- ["C7RxSwift17BooleanDisposable", "deinit"]
+- ["C7RxSwift17BooleanDisposable", "dispose"]
+- ["C7RxSwift17BooleanDisposable", "disposed"]
+- ["C7RxSwift17BooleanDisposable", "init"]
+- ["P7RxSwift10Cancelable", "BooleanDisposable"]
+- !private ["P7RxSwift10Cancelable", "_disposed"]
+- ["P7RxSwift10Cancelable", "dispose"]
+- ["P7RxSwift10Cancelable", "disposed"]
+- ["P7RxSwift10Cancelable", "init"]
+- ["P7RxSwift10Cancelable", ""]
+- ["P7RxSwift10Disposable", "BooleanDisposable"]
+- !private ["P7RxSwift10Disposable", "_disposed"]
+- ["P7RxSwift10Disposable", "dispose"]
+- ["P7RxSwift10Disposable", "disposed"]
+- ["P7RxSwift10Disposable", "init"]
+- ["P7RxSwift10Disposable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C7RxSwift17BooleanDisposable"
+- "P7RxSwift10Cancelable"
+- "P7RxSwift10Disposable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "019366ae0fdbf1fc54ab2504f404d854"

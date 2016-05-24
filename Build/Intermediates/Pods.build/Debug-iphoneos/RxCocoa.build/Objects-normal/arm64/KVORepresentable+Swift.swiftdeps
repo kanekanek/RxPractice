@@ -1,0 +1,286 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "Si"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Su"
+- "Vs6UInt32"
+- "Vs6UInt64"
+provides-member:
+- ["Si", ""]
+- ["Vs5Int32", ""]
+- ["Vs5Int64", ""]
+- ["Su", ""]
+- ["Vs6UInt32", ""]
+- ["Vs6UInt64", ""]
+- ["Ps16RawRepresentable", ""]
+- ["Ps16RawRepresentable", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Int"
+- "Int32"
+- "KVORepresentable"
+- "UInt64"
+- "NSNumber"
+- "UInt32"
+- "RawRepresentable"
+- "UInt"
+- "Int64"
+depends-member:
+- !private ["Ps9AnyObject", "intValue"]
+- !private ["Ps9AnyObject", "integerValue"]
+- !private ["Ps9AnyObject", "longLongValue"]
+- !private ["Ps9AnyObject", "unsignedIntValue"]
+- !private ["Ps9AnyObject", "unsignedLongLongValue"]
+- !private ["Ps9AnyObject", "unsignedLongValue"]
+- ["Ps22BidirectionalIndexType", "KVOType"]
+- ["Ps22BidirectionalIndexType", "init"]
+- ["Ps21BitwiseOperationsType", "KVOType"]
+- ["Ps21BitwiseOperationsType", "init"]
+- !private ["Ps25BooleanLiteralConvertible", "intValue"]
+- !private ["Ps25BooleanLiteralConvertible", "integerValue"]
+- !private ["Ps25BooleanLiteralConvertible", "longLongValue"]
+- !private ["Ps25BooleanLiteralConvertible", "unsignedIntValue"]
+- !private ["Ps25BooleanLiteralConvertible", "unsignedLongLongValue"]
+- !private ["Ps25BooleanLiteralConvertible", "unsignedLongValue"]
+- ["Ps11CVarArgType", "KVOType"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "intValue"]
+- !private ["Ps11CVarArgType", "integerValue"]
+- !private ["Ps11CVarArgType", "longLongValue"]
+- !private ["Ps11CVarArgType", "unsignedIntValue"]
+- !private ["Ps11CVarArgType", "unsignedLongLongValue"]
+- !private ["Ps11CVarArgType", "unsignedLongValue"]
+- ["Ps10Comparable", "KVOType"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "intValue"]
+- !private ["Ps28CustomDebugStringConvertible", "integerValue"]
+- !private ["Ps28CustomDebugStringConvertible", "longLongValue"]
+- !private ["Ps28CustomDebugStringConvertible", "unsignedIntValue"]
+- !private ["Ps28CustomDebugStringConvertible", "unsignedLongLongValue"]
+- !private ["Ps28CustomDebugStringConvertible", "unsignedLongValue"]
+- ["Ps23CustomStringConvertible", "KVOType"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "intValue"]
+- !private ["Ps23CustomStringConvertible", "integerValue"]
+- !private ["Ps23CustomStringConvertible", "longLongValue"]
+- !private ["Ps23CustomStringConvertible", "unsignedIntValue"]
+- !private ["Ps23CustomStringConvertible", "unsignedLongLongValue"]
+- !private ["Ps23CustomStringConvertible", "unsignedLongValue"]
+- ["Ps9Equatable", "KVOType"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "intValue"]
+- !private ["Ps9Equatable", "integerValue"]
+- !private ["Ps9Equatable", "longLongValue"]
+- !private ["Ps9Equatable", "unsignedIntValue"]
+- !private ["Ps9Equatable", "unsignedLongLongValue"]
+- !private ["Ps9Equatable", "unsignedLongValue"]
+- !private ["Ps23FloatLiteralConvertible", "intValue"]
+- !private ["Ps23FloatLiteralConvertible", "integerValue"]
+- !private ["Ps23FloatLiteralConvertible", "longLongValue"]
+- !private ["Ps23FloatLiteralConvertible", "unsignedIntValue"]
+- !private ["Ps23FloatLiteralConvertible", "unsignedLongLongValue"]
+- !private ["Ps23FloatLiteralConvertible", "unsignedLongValue"]
+- ["Ps16ForwardIndexType", "KVOType"]
+- ["Ps16ForwardIndexType", "init"]
+- ["Ps8Hashable", "KVOType"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "intValue"]
+- !private ["Ps8Hashable", "integerValue"]
+- !private ["Ps8Hashable", "longLongValue"]
+- !private ["Ps8Hashable", "unsignedIntValue"]
+- !private ["Ps8Hashable", "unsignedLongLongValue"]
+- !private ["Ps8Hashable", "unsignedLongValue"]
+- ["Si", "KVOType"]
+- ["Si", "NSNumber"]
+- ["Si", "deinit"]
+- ["Si", "init"]
+- ["Vs5Int32", "KVOType"]
+- ["Vs5Int32", "NSNumber"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int32", "init"]
+- ["Vs5Int64", "KVOType"]
+- ["Vs5Int64", "NSNumber"]
+- ["Vs5Int64", "deinit"]
+- ["Vs5Int64", "init"]
+- ["Ps21IntegerArithmeticType", "KVOType"]
+- ["Ps21IntegerArithmeticType", "init"]
+- ["Ps25IntegerLiteralConvertible", "KVOType"]
+- ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "intValue"]
+- !private ["Ps25IntegerLiteralConvertible", "integerValue"]
+- !private ["Ps25IntegerLiteralConvertible", "longLongValue"]
+- !private ["Ps25IntegerLiteralConvertible", "unsignedIntValue"]
+- !private ["Ps25IntegerLiteralConvertible", "unsignedLongLongValue"]
+- !private ["Ps25IntegerLiteralConvertible", "unsignedLongValue"]
+- ["Ps11IntegerType", "KVOType"]
+- ["Ps11IntegerType", "init"]
+- ["P7RxCocoa16KVORepresentable", "KVOType"]
+- ["P7RxCocoa16KVORepresentable", "init"]
+- ["P7RxCocoa16KVORepresentable", ""]
+- ["Ps14MirrorPathType", "KVOType"]
+- ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "intValue"]
+- !private ["PSo8NSCoding", "integerValue"]
+- !private ["PSo8NSCoding", "longLongValue"]
+- !private ["PSo8NSCoding", "unsignedIntValue"]
+- !private ["PSo8NSCoding", "unsignedLongLongValue"]
+- !private ["PSo8NSCoding", "unsignedLongValue"]
+- !private ["PSo9NSCopying", "intValue"]
+- !private ["PSo9NSCopying", "integerValue"]
+- !private ["PSo9NSCopying", "longLongValue"]
+- !private ["PSo9NSCopying", "unsignedIntValue"]
+- !private ["PSo9NSCopying", "unsignedLongLongValue"]
+- !private ["PSo9NSCopying", "unsignedLongValue"]
+- !private ["CSo8NSNumber", "intValue"]
+- !private ["CSo8NSNumber", "integerValue"]
+- !private ["CSo8NSNumber", "longLongValue"]
+- !private ["CSo8NSNumber", "unsignedIntValue"]
+- !private ["CSo8NSNumber", "unsignedLongLongValue"]
+- !private ["CSo8NSNumber", "unsignedLongValue"]
+- !private ["CSo8NSObject", "intValue"]
+- !private ["CSo8NSObject", "integerValue"]
+- !private ["CSo8NSObject", "longLongValue"]
+- !private ["CSo8NSObject", "unsignedIntValue"]
+- !private ["CSo8NSObject", "unsignedLongLongValue"]
+- !private ["CSo8NSObject", "unsignedLongValue"]
+- !private ["PSo16NSObjectProtocol", "intValue"]
+- !private ["PSo16NSObjectProtocol", "integerValue"]
+- !private ["PSo16NSObjectProtocol", "longLongValue"]
+- !private ["PSo16NSObjectProtocol", "unsignedIntValue"]
+- !private ["PSo16NSObjectProtocol", "unsignedLongLongValue"]
+- !private ["PSo16NSObjectProtocol", "unsignedLongValue"]
+- !private ["PSo14NSSecureCoding", "intValue"]
+- !private ["PSo14NSSecureCoding", "integerValue"]
+- !private ["PSo14NSSecureCoding", "longLongValue"]
+- !private ["PSo14NSSecureCoding", "unsignedIntValue"]
+- !private ["PSo14NSSecureCoding", "unsignedLongLongValue"]
+- !private ["PSo14NSSecureCoding", "unsignedLongValue"]
+- !private ["CSo7NSValue", "intValue"]
+- !private ["CSo7NSValue", "integerValue"]
+- !private ["CSo7NSValue", "longLongValue"]
+- !private ["CSo7NSValue", "unsignedIntValue"]
+- !private ["CSo7NSValue", "unsignedLongLongValue"]
+- !private ["CSo7NSValue", "unsignedLongValue"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- ["Ps21RandomAccessIndexType", "KVOType"]
+- ["Ps21RandomAccessIndexType", "init"]
+- ["Ps16RawRepresentable", "KVORepresentable"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps17SignedIntegerType", "KVOType"]
+- ["Ps17SignedIntegerType", "init"]
+- ["Ps16SignedNumberType", "KVOType"]
+- ["Ps16SignedNumberType", "init"]
+- ["Ps10Strideable", "KVOType"]
+- ["Ps10Strideable", "init"]
+- ["Su", "KVOType"]
+- ["Su", "NSNumber"]
+- ["Su", "deinit"]
+- ["Su", "init"]
+- ["Vs6UInt32", "KVOType"]
+- ["Vs6UInt32", "NSNumber"]
+- ["Vs6UInt32", "deinit"]
+- ["Vs6UInt32", "init"]
+- ["Vs6UInt64", "KVOType"]
+- ["Vs6UInt64", "NSNumber"]
+- ["Vs6UInt64", "deinit"]
+- ["Vs6UInt64", "init"]
+- ["Ps19UnsignedIntegerType", "KVOType"]
+- ["Ps19UnsignedIntegerType", "init"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "KVOType"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- ["Ps19_CVarArgAlignedType", "KVOType"]
+- ["Ps19_CVarArgAlignedType", "init"]
+- ["Ps28_DisallowMixedSignArithmetic", "KVOType"]
+- ["Ps28_DisallowMixedSignArithmetic", "init"]
+- ["Ps14_Incrementable", "KVOType"]
+- ["Ps14_Incrementable", "init"]
+- ["Ps22_IntegerArithmeticType", "KVOType"]
+- ["Ps22_IntegerArithmeticType", "init"]
+- ["Ps12_IntegerType", "KVOType"]
+- ["Ps12_IntegerType", "init"]
+- ["Ps21_ObjectiveCBridgeable", "KVOType"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps22_RandomAccessAmbiguity", "KVOType"]
+- ["Ps22_RandomAccessAmbiguity", "init"]
+- ["Ps12_Reflectable", "KVOType"]
+- ["Ps12_Reflectable", "Some"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps18_SignedIntegerType", "KVOType"]
+- ["Ps18_SignedIntegerType", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Ps22BidirectionalIndexType"
+- "Ps21BitwiseOperationsType"
+- !private "Ps25BooleanLiteralConvertible"
+- "Ps11CVarArgType"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- "Si"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Ps21IntegerArithmeticType"
+- "Ps25IntegerLiteralConvertible"
+- "Ps11IntegerType"
+- "P7RxCocoa16KVORepresentable"
+- "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSNumber"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "Ps21RandomAccessIndexType"
+- "Ps16RawRepresentable"
+- "Ps17SignedIntegerType"
+- "Ps16SignedNumberType"
+- "Ps10Strideable"
+- "Su"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Ps19UnsignedIntegerType"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps19_CVarArgAlignedType"
+- "Ps28_DisallowMixedSignArithmetic"
+- "Ps14_Incrementable"
+- "Ps22_IntegerArithmeticType"
+- "Ps12_IntegerType"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "0e2f3cb9ad3315005e86c0b657f29c74"

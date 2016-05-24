@@ -1,0 +1,319 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo12UIScrollView", ""]
+- ["CSo12UIScrollView", "rx_createDelegateProxy"]
+- ["CSo12UIScrollView", "rx_delegate"]
+- ["CSo12UIScrollView", "rx_contentOffset"]
+- ["CSo12UIScrollView", "rx_setDelegate"]
+provides-dynamic-lookup:
+- "rx_createDelegateProxy"
+- "rx_delegate"
+depends-top-level:
+- "DelegateProxy"
+- "RxScrollViewDelegateProxy"
+- "ControlProperty"
+- "Disposable"
+- !private "UIBindingObserver"
+- "CGPoint"
+- !private "BooleanLiteralType"
+- "UIScrollViewDelegate"
+- "UIScrollView"
+depends-member:
+- !private ["Ps9AnyObject", "ControlProperty"]
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "RxScrollViewDelegateProxy"]
+- !private ["Ps9AnyObject", "UIBindingObserver"]
+- !private ["Ps9AnyObject", "contentOffset"]
+- !private ["Ps9AnyObject", "contentOffsetSubject"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "installForwardDelegate"]
+- !private ["Ps9AnyObject", "proxyForObject"]
+- ["Ps9AnyObject", "rx_contentOffset"]
+- ["Ps9AnyObject", "rx_createDelegateProxy"]
+- ["Ps9AnyObject", "rx_delegate"]
+- ["Ps9AnyObject", "rx_setDelegate"]
+- !private ["Ps11CVarArgType", "ControlProperty"]
+- !private ["Ps11CVarArgType", "RxScrollViewDelegateProxy"]
+- !private ["Ps11CVarArgType", "UIBindingObserver"]
+- !private ["Ps11CVarArgType", "contentOffset"]
+- !private ["Ps11CVarArgType", "contentOffsetSubject"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "installForwardDelegate"]
+- !private ["Ps11CVarArgType", "proxyForObject"]
+- ["Ps11CVarArgType", "rx_contentOffset"]
+- ["Ps11CVarArgType", "rx_createDelegateProxy"]
+- ["Ps11CVarArgType", "rx_delegate"]
+- ["Ps11CVarArgType", "rx_setDelegate"]
+- !private ["V7RxCocoa15ControlProperty", "init"]
+- !private ["P7RxCocoa19ControlPropertyType", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "ControlProperty"]
+- !private ["Ps28CustomDebugStringConvertible", "RxScrollViewDelegateProxy"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBindingObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "contentOffset"]
+- !private ["Ps28CustomDebugStringConvertible", "contentOffsetSubject"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "installForwardDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "proxyForObject"]
+- ["Ps28CustomDebugStringConvertible", "rx_contentOffset"]
+- ["Ps28CustomDebugStringConvertible", "rx_createDelegateProxy"]
+- ["Ps28CustomDebugStringConvertible", "rx_delegate"]
+- ["Ps28CustomDebugStringConvertible", "rx_setDelegate"]
+- !private ["Ps23CustomStringConvertible", "ControlProperty"]
+- !private ["Ps23CustomStringConvertible", "RxScrollViewDelegateProxy"]
+- !private ["Ps23CustomStringConvertible", "UIBindingObserver"]
+- !private ["Ps23CustomStringConvertible", "contentOffset"]
+- !private ["Ps23CustomStringConvertible", "contentOffsetSubject"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "installForwardDelegate"]
+- !private ["Ps23CustomStringConvertible", "proxyForObject"]
+- ["Ps23CustomStringConvertible", "rx_contentOffset"]
+- ["Ps23CustomStringConvertible", "rx_createDelegateProxy"]
+- ["Ps23CustomStringConvertible", "rx_delegate"]
+- ["Ps23CustomStringConvertible", "rx_setDelegate"]
+- !private ["C7RxCocoa13DelegateProxy", "contentOffsetSubject"]
+- !private ["C7RxCocoa13DelegateProxy", "init"]
+- !private ["C7RxCocoa13DelegateProxy", "installForwardDelegate"]
+- !private ["C7RxCocoa13DelegateProxy", "proxyForObject"]
+- !private ["P7RxCocoa17DelegateProxyType", "contentOffsetSubject"]
+- !private ["P7RxCocoa17DelegateProxyType", "init"]
+- !private ["P7RxCocoa17DelegateProxyType", "installForwardDelegate"]
+- !private ["P7RxCocoa17DelegateProxyType", "proxyForObject"]
+- !private ["Ps9Equatable", "ControlProperty"]
+- !private ["Ps9Equatable", "RxScrollViewDelegateProxy"]
+- !private ["Ps9Equatable", "UIBindingObserver"]
+- !private ["Ps9Equatable", "contentOffset"]
+- !private ["Ps9Equatable", "contentOffsetSubject"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "installForwardDelegate"]
+- !private ["Ps9Equatable", "proxyForObject"]
+- ["Ps9Equatable", "rx_contentOffset"]
+- ["Ps9Equatable", "rx_createDelegateProxy"]
+- ["Ps9Equatable", "rx_delegate"]
+- ["Ps9Equatable", "rx_setDelegate"]
+- !private ["Ps8Hashable", "ControlProperty"]
+- !private ["Ps8Hashable", "RxScrollViewDelegateProxy"]
+- !private ["Ps8Hashable", "UIBindingObserver"]
+- !private ["Ps8Hashable", "contentOffset"]
+- !private ["Ps8Hashable", "contentOffsetSubject"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "installForwardDelegate"]
+- !private ["Ps8Hashable", "proxyForObject"]
+- ["Ps8Hashable", "rx_contentOffset"]
+- ["Ps8Hashable", "rx_createDelegateProxy"]
+- ["Ps8Hashable", "rx_delegate"]
+- ["Ps8Hashable", "rx_setDelegate"]
+- !private ["PSo8NSCoding", "ControlProperty"]
+- !private ["PSo8NSCoding", "RxScrollViewDelegateProxy"]
+- !private ["PSo8NSCoding", "UIBindingObserver"]
+- !private ["PSo8NSCoding", "contentOffset"]
+- ["PSo8NSCoding", "rx_contentOffset"]
+- ["PSo8NSCoding", "rx_createDelegateProxy"]
+- ["PSo8NSCoding", "rx_delegate"]
+- ["PSo8NSCoding", "rx_setDelegate"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "ControlProperty"]
+- ["CSo8NSObject", "DelegateProxy"]
+- ["CSo8NSObject", "Disposable"]
+- ["CSo8NSObject", "RxScrollViewDelegateProxy"]
+- !private ["CSo8NSObject", "UIBindingObserver"]
+- ["CSo8NSObject", "UIScrollViewDelegate"]
+- !private ["CSo8NSObject", "contentOffset"]
+- !private ["CSo8NSObject", "contentOffsetSubject"]
+- !private ["CSo8NSObject", "installForwardDelegate"]
+- !private ["CSo8NSObject", "proxyForObject"]
+- ["CSo8NSObject", "rx_contentOffset"]
+- ["CSo8NSObject", "rx_createDelegateProxy"]
+- ["CSo8NSObject", "rx_delegate"]
+- ["CSo8NSObject", "rx_setDelegate"]
+- !private ["PSo16NSObjectProtocol", "ControlProperty"]
+- !private ["PSo16NSObjectProtocol", "RxScrollViewDelegateProxy"]
+- !private ["PSo16NSObjectProtocol", "UIBindingObserver"]
+- !private ["PSo16NSObjectProtocol", "contentOffset"]
+- !private ["PSo16NSObjectProtocol", "contentOffsetSubject"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "installForwardDelegate"]
+- !private ["PSo16NSObjectProtocol", "proxyForObject"]
+- ["PSo16NSObjectProtocol", "rx_contentOffset"]
+- ["PSo16NSObjectProtocol", "rx_createDelegateProxy"]
+- ["PSo16NSObjectProtocol", "rx_delegate"]
+- ["PSo16NSObjectProtocol", "rx_setDelegate"]
+- !private ["C7RxSwift10Observable", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "init"]
+- !private ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- !private ["C7RxCocoa25RxScrollViewDelegateProxy", "contentOffsetSubject"]
+- !private ["C7RxCocoa25RxScrollViewDelegateProxy", "deinit"]
+- !private ["C7RxCocoa25RxScrollViewDelegateProxy", "init"]
+- !private ["C7RxCocoa25RxScrollViewDelegateProxy", "installForwardDelegate"]
+- !private ["C7RxCocoa25RxScrollViewDelegateProxy", "proxyForObject"]
+- !private ["PSo29UIAccessibilityIdentification", "ControlProperty"]
+- !private ["PSo29UIAccessibilityIdentification", "RxScrollViewDelegateProxy"]
+- !private ["PSo29UIAccessibilityIdentification", "UIBindingObserver"]
+- !private ["PSo29UIAccessibilityIdentification", "contentOffset"]
+- ["PSo29UIAccessibilityIdentification", "rx_contentOffset"]
+- ["PSo29UIAccessibilityIdentification", "rx_createDelegateProxy"]
+- ["PSo29UIAccessibilityIdentification", "rx_delegate"]
+- ["PSo29UIAccessibilityIdentification", "rx_setDelegate"]
+- !private ["PSo12UIAppearance", "ControlProperty"]
+- !private ["PSo12UIAppearance", "RxScrollViewDelegateProxy"]
+- !private ["PSo12UIAppearance", "UIBindingObserver"]
+- !private ["PSo12UIAppearance", "contentOffset"]
+- ["PSo12UIAppearance", "rx_contentOffset"]
+- ["PSo12UIAppearance", "rx_createDelegateProxy"]
+- ["PSo12UIAppearance", "rx_delegate"]
+- ["PSo12UIAppearance", "rx_setDelegate"]
+- !private ["PSo21UIAppearanceContainer", "ControlProperty"]
+- !private ["PSo21UIAppearanceContainer", "RxScrollViewDelegateProxy"]
+- !private ["PSo21UIAppearanceContainer", "UIBindingObserver"]
+- !private ["PSo21UIAppearanceContainer", "contentOffset"]
+- ["PSo21UIAppearanceContainer", "rx_contentOffset"]
+- ["PSo21UIAppearanceContainer", "rx_createDelegateProxy"]
+- ["PSo21UIAppearanceContainer", "rx_delegate"]
+- ["PSo21UIAppearanceContainer", "rx_setDelegate"]
+- !private ["C7RxCocoa17UIBindingObserver", "E"]
+- !private ["C7RxCocoa17UIBindingObserver", "deinit"]
+- !private ["C7RxCocoa17UIBindingObserver", "init"]
+- !private ["PSo17UICoordinateSpace", "ControlProperty"]
+- !private ["PSo17UICoordinateSpace", "RxScrollViewDelegateProxy"]
+- !private ["PSo17UICoordinateSpace", "UIBindingObserver"]
+- !private ["PSo17UICoordinateSpace", "contentOffset"]
+- ["PSo17UICoordinateSpace", "rx_contentOffset"]
+- ["PSo17UICoordinateSpace", "rx_createDelegateProxy"]
+- ["PSo17UICoordinateSpace", "rx_delegate"]
+- ["PSo17UICoordinateSpace", "rx_setDelegate"]
+- !private ["PSo13UIDynamicItem", "ControlProperty"]
+- !private ["PSo13UIDynamicItem", "RxScrollViewDelegateProxy"]
+- !private ["PSo13UIDynamicItem", "UIBindingObserver"]
+- !private ["PSo13UIDynamicItem", "contentOffset"]
+- ["PSo13UIDynamicItem", "rx_contentOffset"]
+- ["PSo13UIDynamicItem", "rx_createDelegateProxy"]
+- ["PSo13UIDynamicItem", "rx_delegate"]
+- ["PSo13UIDynamicItem", "rx_setDelegate"]
+- !private ["PSo18UIFocusEnvironment", "ControlProperty"]
+- !private ["PSo18UIFocusEnvironment", "RxScrollViewDelegateProxy"]
+- !private ["PSo18UIFocusEnvironment", "UIBindingObserver"]
+- !private ["PSo18UIFocusEnvironment", "contentOffset"]
+- ["PSo18UIFocusEnvironment", "rx_contentOffset"]
+- ["PSo18UIFocusEnvironment", "rx_createDelegateProxy"]
+- ["PSo18UIFocusEnvironment", "rx_delegate"]
+- ["PSo18UIFocusEnvironment", "rx_setDelegate"]
+- ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "ControlProperty"]
+- ["CSo11UIResponder", "DelegateProxy"]
+- ["CSo11UIResponder", "Disposable"]
+- ["CSo11UIResponder", "RxScrollViewDelegateProxy"]
+- !private ["CSo11UIResponder", "UIBindingObserver"]
+- ["CSo11UIResponder", "UIScrollViewDelegate"]
+- !private ["CSo11UIResponder", "contentOffset"]
+- ["CSo11UIResponder", "rx_contentOffset"]
+- ["CSo11UIResponder", "rx_createDelegateProxy"]
+- ["CSo11UIResponder", "rx_delegate"]
+- ["CSo11UIResponder", "rx_setDelegate"]
+- ["CSo12UIScrollView", "CGPoint"]
+- ["CSo12UIScrollView", "ControlProperty"]
+- ["CSo12UIScrollView", "DelegateProxy"]
+- ["CSo12UIScrollView", "Disposable"]
+- ["CSo12UIScrollView", "RxScrollViewDelegateProxy"]
+- !private ["CSo12UIScrollView", "UIBindingObserver"]
+- ["CSo12UIScrollView", "UIScrollViewDelegate"]
+- !private ["CSo12UIScrollView", "contentOffset"]
+- ["CSo12UIScrollView", "rx_contentOffset"]
+- ["CSo12UIScrollView", "rx_createDelegateProxy"]
+- ["CSo12UIScrollView", "rx_delegate"]
+- ["CSo12UIScrollView", "rx_setDelegate"]
+- !private ["PSo20UIScrollViewDelegate", "contentOffsetSubject"]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo20UIScrollViewDelegate", "installForwardDelegate"]
+- !private ["PSo20UIScrollViewDelegate", "proxyForObject"]
+- !private ["PSo18UITraitEnvironment", "ControlProperty"]
+- !private ["PSo18UITraitEnvironment", "RxScrollViewDelegateProxy"]
+- !private ["PSo18UITraitEnvironment", "UIBindingObserver"]
+- !private ["PSo18UITraitEnvironment", "contentOffset"]
+- ["PSo18UITraitEnvironment", "rx_contentOffset"]
+- ["PSo18UITraitEnvironment", "rx_createDelegateProxy"]
+- ["PSo18UITraitEnvironment", "rx_delegate"]
+- ["PSo18UITraitEnvironment", "rx_setDelegate"]
+- ["CSo6UIView", "CGPoint"]
+- ["CSo6UIView", "ControlProperty"]
+- ["CSo6UIView", "DelegateProxy"]
+- ["CSo6UIView", "Disposable"]
+- ["CSo6UIView", "RxScrollViewDelegateProxy"]
+- !private ["CSo6UIView", "UIBindingObserver"]
+- ["CSo6UIView", "UIScrollViewDelegate"]
+- !private ["CSo6UIView", "contentOffset"]
+- ["CSo6UIView", "rx_contentOffset"]
+- ["CSo6UIView", "rx_createDelegateProxy"]
+- ["CSo6UIView", "rx_delegate"]
+- ["CSo6UIView", "rx_setDelegate"]
+- !private ["CSo16_RXDelegateProxy", "contentOffsetSubject"]
+- !private ["CSo16_RXDelegateProxy", "installForwardDelegate"]
+- !private ["CSo16_RXDelegateProxy", "proxyForObject"]
+- !private ["Ps12_Reflectable", "ControlProperty"]
+- !private ["Ps12_Reflectable", "RxScrollViewDelegateProxy"]
+- !private ["Ps12_Reflectable", "UIBindingObserver"]
+- !private ["Ps12_Reflectable", "contentOffset"]
+- ["Ps12_Reflectable", "rx_contentOffset"]
+- ["Ps12_Reflectable", "rx_createDelegateProxy"]
+- ["Ps12_Reflectable", "rx_delegate"]
+- ["Ps12_Reflectable", "rx_setDelegate"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- !private "V7RxCocoa15ControlProperty"
+- !private "P7RxCocoa19ControlPropertyType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "C7RxCocoa13DelegateProxy"
+- !private "P7RxCocoa17DelegateProxyType"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- !private "C7RxCocoa25RxScrollViewDelegateProxy"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "C7RxCocoa17UIBindingObserver"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "CSo12UIScrollView"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "CSo16_RXDelegateProxy"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "43f0fd68cc5a782fee72084015939248"

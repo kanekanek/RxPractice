@@ -1,0 +1,151 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo12UIDatePicker", ""]
+- ["CSo12UIDatePicker", "rx_date"]
+provides-dynamic-lookup:
+depends-top-level:
+- "ControlProperty"
+- "NSDate"
+- "UIDatePicker"
+- !private "UIControl"
+depends-member:
+- !private ["Ps9AnyObject", "UIControl"]
+- !private ["Ps9AnyObject", "date"]
+- ["Ps9AnyObject", "rx_date"]
+- !private ["Ps9AnyObject", "rx_value"]
+- !private ["Ps11CVarArgType", "UIControl"]
+- !private ["Ps11CVarArgType", "date"]
+- ["Ps11CVarArgType", "rx_date"]
+- !private ["Ps11CVarArgType", "rx_value"]
+- !private ["Ps28CustomDebugStringConvertible", "UIControl"]
+- !private ["Ps28CustomDebugStringConvertible", "date"]
+- ["Ps28CustomDebugStringConvertible", "rx_date"]
+- !private ["Ps28CustomDebugStringConvertible", "rx_value"]
+- !private ["Ps23CustomStringConvertible", "UIControl"]
+- !private ["Ps23CustomStringConvertible", "date"]
+- ["Ps23CustomStringConvertible", "rx_date"]
+- !private ["Ps23CustomStringConvertible", "rx_value"]
+- !private ["Ps9Equatable", "UIControl"]
+- !private ["Ps9Equatable", "date"]
+- ["Ps9Equatable", "rx_date"]
+- !private ["Ps9Equatable", "rx_value"]
+- !private ["Ps8Hashable", "UIControl"]
+- !private ["Ps8Hashable", "date"]
+- ["Ps8Hashable", "rx_date"]
+- !private ["Ps8Hashable", "rx_value"]
+- !private ["PSo8NSCoding", "UIControl"]
+- !private ["PSo8NSCoding", "date"]
+- ["PSo8NSCoding", "rx_date"]
+- !private ["PSo8NSCoding", "rx_value"]
+- ["CSo8NSObject", "ControlProperty"]
+- ["CSo8NSObject", "NSDate"]
+- !private ["CSo8NSObject", "UIControl"]
+- !private ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "rx_date"]
+- !private ["CSo8NSObject", "rx_value"]
+- !private ["PSo16NSObjectProtocol", "UIControl"]
+- !private ["PSo16NSObjectProtocol", "date"]
+- ["PSo16NSObjectProtocol", "rx_date"]
+- !private ["PSo16NSObjectProtocol", "rx_value"]
+- !private ["PSo29UIAccessibilityIdentification", "UIControl"]
+- !private ["PSo29UIAccessibilityIdentification", "date"]
+- ["PSo29UIAccessibilityIdentification", "rx_date"]
+- !private ["PSo29UIAccessibilityIdentification", "rx_value"]
+- !private ["PSo12UIAppearance", "UIControl"]
+- !private ["PSo12UIAppearance", "date"]
+- ["PSo12UIAppearance", "rx_date"]
+- !private ["PSo12UIAppearance", "rx_value"]
+- !private ["PSo21UIAppearanceContainer", "UIControl"]
+- !private ["PSo21UIAppearanceContainer", "date"]
+- ["PSo21UIAppearanceContainer", "rx_date"]
+- !private ["PSo21UIAppearanceContainer", "rx_value"]
+- ["CSo9UIControl", "ControlProperty"]
+- ["CSo9UIControl", "NSDate"]
+- !private ["CSo9UIControl", "UIControl"]
+- !private ["CSo9UIControl", "date"]
+- ["CSo9UIControl", "rx_date"]
+- !private ["CSo9UIControl", "rx_value"]
+- !private ["PSo17UICoordinateSpace", "UIControl"]
+- !private ["PSo17UICoordinateSpace", "date"]
+- ["PSo17UICoordinateSpace", "rx_date"]
+- !private ["PSo17UICoordinateSpace", "rx_value"]
+- ["CSo12UIDatePicker", "ControlProperty"]
+- ["CSo12UIDatePicker", "NSDate"]
+- !private ["CSo12UIDatePicker", "UIControl"]
+- !private ["CSo12UIDatePicker", "date"]
+- ["CSo12UIDatePicker", "rx_date"]
+- !private ["PSo13UIDynamicItem", "UIControl"]
+- !private ["PSo13UIDynamicItem", "date"]
+- ["PSo13UIDynamicItem", "rx_date"]
+- !private ["PSo13UIDynamicItem", "rx_value"]
+- !private ["PSo18UIFocusEnvironment", "UIControl"]
+- !private ["PSo18UIFocusEnvironment", "date"]
+- ["PSo18UIFocusEnvironment", "rx_date"]
+- !private ["PSo18UIFocusEnvironment", "rx_value"]
+- ["CSo11UIResponder", "ControlProperty"]
+- ["CSo11UIResponder", "NSDate"]
+- !private ["CSo11UIResponder", "UIControl"]
+- !private ["CSo11UIResponder", "date"]
+- ["CSo11UIResponder", "rx_date"]
+- !private ["CSo11UIResponder", "rx_value"]
+- !private ["PSo18UITraitEnvironment", "UIControl"]
+- !private ["PSo18UITraitEnvironment", "date"]
+- ["PSo18UITraitEnvironment", "rx_date"]
+- !private ["PSo18UITraitEnvironment", "rx_value"]
+- ["CSo6UIView", "ControlProperty"]
+- ["CSo6UIView", "NSDate"]
+- !private ["CSo6UIView", "UIControl"]
+- !private ["CSo6UIView", "date"]
+- ["CSo6UIView", "rx_date"]
+- !private ["CSo6UIView", "rx_value"]
+- !private ["Ps12_Reflectable", "UIControl"]
+- !private ["Ps12_Reflectable", "date"]
+- ["Ps12_Reflectable", "rx_date"]
+- !private ["Ps12_Reflectable", "rx_value"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "CSo12UIDatePicker"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "7e5d3f84ee613b3613a84026bbee0292"

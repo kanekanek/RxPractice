@@ -1,0 +1,10 @@
+framework module RxTests {
+  umbrella header "RxTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module RxTests.__Swift {
+    exclude header "RxTests-Swift.h"
+}

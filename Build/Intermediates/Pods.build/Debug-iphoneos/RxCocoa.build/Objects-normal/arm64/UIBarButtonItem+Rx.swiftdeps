@@ -1,0 +1,376 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "rx_tap_key"
+- "BarButtonItemTarget"
+provides-nominal:
+- "C7RxCocoa19BarButtonItemTarget"
+provides-member:
+- ["CSo15UIBarButtonItem", ""]
+- ["C7RxCocoa19BarButtonItemTarget", ""]
+- ["CSo15UIBarButtonItem", "rx_enabled"]
+- ["CSo15UIBarButtonItem", "rx_tap"]
+provides-dynamic-lookup:
+- "action"
+- "callback"
+- "barButtonItem"
+- "dispose"
+depends-top-level:
+- "BarButtonItemTarget"
+- "AnyObject"
+- "Bool"
+- "UInt8"
+- "AnyObserver"
+- "RxTarget"
+- "UIBarButtonItem"
+- !private "StringLiteralType"
+- !private "UIBindingObserver"
+- !private "Observable"
+- "rx_tap_key"
+- "ControlEvent"
+- !private "NopDisposable"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "BarButtonItemTarget"]
+- !private ["Ps9AnyObject", "ControlEvent"]
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "NopDisposable"]
+- !private ["Ps9AnyObject", "Observable"]
+- !private ["Ps9AnyObject", "UIBindingObserver"]
+- ["Ps9AnyObject", "action"]
+- !private ["Ps9AnyObject", "asObserver"]
+- ["Ps9AnyObject", "barButtonItem"]
+- ["Ps9AnyObject", "callback"]
+- !private ["Ps9AnyObject", "create"]
+- ["Ps9AnyObject", "dispose"]
+- !private ["Ps9AnyObject", "enabled"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "rx_deallocated"]
+- ["Ps9AnyObject", "rx_enabled"]
+- !private ["Ps9AnyObject", "rx_lazyInstanceObservable"]
+- ["Ps9AnyObject", "rx_tap"]
+- !private ["Ps9AnyObject", "rx_tap_key"]
+- !private ["Ps9AnyObject", "share"]
+- !private ["Ps9AnyObject", "takeUntil"]
+- !private ["Ps9AnyObject", "target"]
+- ["Ps9AnyObject", ""]
+- !private ["V7RxSwift11AnyObserver", "on"]
+- ["C7RxCocoa19BarButtonItemTarget", "AnyObject"]
+- !private ["C7RxCocoa19BarButtonItemTarget", "BarButtonItemTarget"]
+- ["C7RxCocoa19BarButtonItemTarget", "Callback"]
+- ["C7RxCocoa19BarButtonItemTarget", "UIBarButtonItem"]
+- ["C7RxCocoa19BarButtonItemTarget", "Void"]
+- ["C7RxCocoa19BarButtonItemTarget", "action"]
+- ["C7RxCocoa19BarButtonItemTarget", "barButtonItem"]
+- ["C7RxCocoa19BarButtonItemTarget", "callback"]
+- ["C7RxCocoa19BarButtonItemTarget", "deinit"]
+- ["C7RxCocoa19BarButtonItemTarget", "dispose"]
+- ["C7RxCocoa19BarButtonItemTarget", "init"]
+- !private ["Ps11CVarArgType", "BarButtonItemTarget"]
+- !private ["Ps11CVarArgType", "ControlEvent"]
+- !private ["Ps11CVarArgType", "NopDisposable"]
+- !private ["Ps11CVarArgType", "Observable"]
+- !private ["Ps11CVarArgType", "UIBindingObserver"]
+- ["Ps11CVarArgType", "action"]
+- ["Ps11CVarArgType", "barButtonItem"]
+- ["Ps11CVarArgType", "callback"]
+- ["Ps11CVarArgType", "dispose"]
+- !private ["Ps11CVarArgType", "enabled"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "rx_deallocated"]
+- ["Ps11CVarArgType", "rx_enabled"]
+- !private ["Ps11CVarArgType", "rx_lazyInstanceObservable"]
+- ["Ps11CVarArgType", "rx_tap"]
+- !private ["Ps11CVarArgType", "rx_tap_key"]
+- !private ["Ps11CVarArgType", "target"]
+- ["Ps11CVarArgType", ""]
+- !private ["V7RxCocoa12ControlEvent", "init"]
+- !private ["P7RxCocoa16ControlEventType", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "BarButtonItemTarget"]
+- !private ["Ps28CustomDebugStringConvertible", "Completed"]
+- !private ["Ps28CustomDebugStringConvertible", "ControlEvent"]
+- !private ["Ps28CustomDebugStringConvertible", "Next"]
+- !private ["Ps28CustomDebugStringConvertible", "NopDisposable"]
+- !private ["Ps28CustomDebugStringConvertible", "Observable"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBindingObserver"]
+- ["Ps28CustomDebugStringConvertible", "action"]
+- ["Ps28CustomDebugStringConvertible", "barButtonItem"]
+- ["Ps28CustomDebugStringConvertible", "callback"]
+- ["Ps28CustomDebugStringConvertible", "dispose"]
+- !private ["Ps28CustomDebugStringConvertible", "enabled"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "rx_deallocated"]
+- ["Ps28CustomDebugStringConvertible", "rx_enabled"]
+- !private ["Ps28CustomDebugStringConvertible", "rx_lazyInstanceObservable"]
+- ["Ps28CustomDebugStringConvertible", "rx_tap"]
+- !private ["Ps28CustomDebugStringConvertible", "rx_tap_key"]
+- !private ["Ps28CustomDebugStringConvertible", "target"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "BarButtonItemTarget"]
+- !private ["Ps23CustomStringConvertible", "ControlEvent"]
+- !private ["Ps23CustomStringConvertible", "NopDisposable"]
+- !private ["Ps23CustomStringConvertible", "Observable"]
+- !private ["Ps23CustomStringConvertible", "UIBindingObserver"]
+- ["Ps23CustomStringConvertible", "action"]
+- ["Ps23CustomStringConvertible", "barButtonItem"]
+- ["Ps23CustomStringConvertible", "callback"]
+- ["Ps23CustomStringConvertible", "dispose"]
+- !private ["Ps23CustomStringConvertible", "enabled"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "rx_deallocated"]
+- ["Ps23CustomStringConvertible", "rx_enabled"]
+- !private ["Ps23CustomStringConvertible", "rx_lazyInstanceObservable"]
+- ["Ps23CustomStringConvertible", "rx_tap"]
+- !private ["Ps23CustomStringConvertible", "rx_tap_key"]
+- !private ["Ps23CustomStringConvertible", "target"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["P7RxSwift10Disposable", "BarButtonItemTarget"]
+- ["P7RxSwift10Disposable", "action"]
+- ["P7RxSwift10Disposable", "barButtonItem"]
+- ["P7RxSwift10Disposable", "callback"]
+- ["P7RxSwift10Disposable", "dispose"]
+- ["P7RxSwift10Disposable", "init"]
+- !private ["P7RxSwift10Disposable", "instance"]
+- ["P7RxSwift10Disposable", ""]
+- !private ["Ps9Equatable", "BarButtonItemTarget"]
+- !private ["Ps9Equatable", "ControlEvent"]
+- !private ["Ps9Equatable", "NopDisposable"]
+- !private ["Ps9Equatable", "Observable"]
+- !private ["Ps9Equatable", "UIBindingObserver"]
+- ["Ps9Equatable", "action"]
+- ["Ps9Equatable", "barButtonItem"]
+- ["Ps9Equatable", "callback"]
+- ["Ps9Equatable", "dispose"]
+- !private ["Ps9Equatable", "enabled"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "rx_deallocated"]
+- ["Ps9Equatable", "rx_enabled"]
+- !private ["Ps9Equatable", "rx_lazyInstanceObservable"]
+- ["Ps9Equatable", "rx_tap"]
+- !private ["Ps9Equatable", "rx_tap_key"]
+- !private ["Ps9Equatable", "target"]
+- ["Ps9Equatable", ""]
+- !private ["O7RxSwift5Event", "Completed"]
+- !private ["O7RxSwift5Event", "Next"]
+- !private ["Ps8Hashable", "BarButtonItemTarget"]
+- !private ["Ps8Hashable", "ControlEvent"]
+- !private ["Ps8Hashable", "NopDisposable"]
+- !private ["Ps8Hashable", "Observable"]
+- !private ["Ps8Hashable", "UIBindingObserver"]
+- ["Ps8Hashable", "action"]
+- ["Ps8Hashable", "barButtonItem"]
+- ["Ps8Hashable", "callback"]
+- ["Ps8Hashable", "dispose"]
+- !private ["Ps8Hashable", "enabled"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "rx_deallocated"]
+- ["Ps8Hashable", "rx_enabled"]
+- !private ["Ps8Hashable", "rx_lazyInstanceObservable"]
+- ["Ps8Hashable", "rx_tap"]
+- !private ["Ps8Hashable", "rx_tap_key"]
+- !private ["Ps8Hashable", "target"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "BarButtonItemTarget"]
+- !private ["PSo8NSCoding", "ControlEvent"]
+- !private ["PSo8NSCoding", "NopDisposable"]
+- !private ["PSo8NSCoding", "Observable"]
+- !private ["PSo8NSCoding", "UIBindingObserver"]
+- !private ["PSo8NSCoding", "action"]
+- !private ["PSo8NSCoding", "enabled"]
+- !private ["PSo8NSCoding", "rx_deallocated"]
+- ["PSo8NSCoding", "rx_enabled"]
+- !private ["PSo8NSCoding", "rx_lazyInstanceObservable"]
+- ["PSo8NSCoding", "rx_tap"]
+- !private ["PSo8NSCoding", "rx_tap_key"]
+- !private ["PSo8NSCoding", "target"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "AnyObserver"]
+- !private ["CSo8NSObject", "BarButtonItemTarget"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Callback"]
+- ["CSo8NSObject", "ControlEvent"]
+- !private ["CSo8NSObject", "NopDisposable"]
+- !private ["CSo8NSObject", "Observable"]
+- ["CSo8NSObject", "UIBarButtonItem"]
+- !private ["CSo8NSObject", "UIBindingObserver"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "action"]
+- ["CSo8NSObject", "barButtonItem"]
+- ["CSo8NSObject", "callback"]
+- ["CSo8NSObject", "dispose"]
+- !private ["CSo8NSObject", "enabled"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "rx_deallocated"]
+- ["CSo8NSObject", "rx_enabled"]
+- !private ["CSo8NSObject", "rx_lazyInstanceObservable"]
+- ["CSo8NSObject", "rx_tap"]
+- !private ["CSo8NSObject", "rx_tap_key"]
+- !private ["CSo8NSObject", "target"]
+- !private ["PSo16NSObjectProtocol", "BarButtonItemTarget"]
+- !private ["PSo16NSObjectProtocol", "ControlEvent"]
+- !private ["PSo16NSObjectProtocol", "NopDisposable"]
+- !private ["PSo16NSObjectProtocol", "Observable"]
+- !private ["PSo16NSObjectProtocol", "UIBindingObserver"]
+- ["PSo16NSObjectProtocol", "action"]
+- ["PSo16NSObjectProtocol", "barButtonItem"]
+- ["PSo16NSObjectProtocol", "callback"]
+- ["PSo16NSObjectProtocol", "dispose"]
+- !private ["PSo16NSObjectProtocol", "enabled"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "rx_deallocated"]
+- ["PSo16NSObjectProtocol", "rx_enabled"]
+- !private ["PSo16NSObjectProtocol", "rx_lazyInstanceObservable"]
+- ["PSo16NSObjectProtocol", "rx_tap"]
+- !private ["PSo16NSObjectProtocol", "rx_tap_key"]
+- !private ["PSo16NSObjectProtocol", "target"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["V7RxSwift13NopDisposable", "instance"]
+- !private ["C7RxSwift10Observable", "E"]
+- !private ["C7RxSwift10Observable", "create"]
+- !private ["C7RxSwift10Observable", "share"]
+- !private ["C7RxSwift10Observable", "takeUntil"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "create"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift25ObservableConvertibleType", "share"]
+- !private ["P7RxSwift25ObservableConvertibleType", "takeUntil"]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "create"]
+- !private ["P7RxSwift14ObservableType", "init"]
+- !private ["P7RxSwift14ObservableType", "share"]
+- !private ["P7RxSwift14ObservableType", "takeUntil"]
+- !private ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "asObserver"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- !private ["P7RxSwift12ObserverType", "on"]
+- !private ["Sq", "Some"]
+- ["C7RxCocoa8RxTarget", "AnyObject"]
+- !private ["C7RxCocoa8RxTarget", "BarButtonItemTarget"]
+- ["C7RxCocoa8RxTarget", "Callback"]
+- ["C7RxCocoa8RxTarget", "UIBarButtonItem"]
+- ["C7RxCocoa8RxTarget", "Void"]
+- ["C7RxCocoa8RxTarget", "action"]
+- ["C7RxCocoa8RxTarget", "barButtonItem"]
+- ["C7RxCocoa8RxTarget", "callback"]
+- !private ["C7RxCocoa8RxTarget", "deinit"]
+- ["C7RxCocoa8RxTarget", "dispose"]
+- ["C7RxCocoa8RxTarget", "init"]
+- ["C7RxCocoa8RxTarget", ""]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "BarButtonItemTarget"]
+- !private ["PSo29UIAccessibilityIdentification", "ControlEvent"]
+- !private ["PSo29UIAccessibilityIdentification", "NopDisposable"]
+- !private ["PSo29UIAccessibilityIdentification", "Observable"]
+- !private ["PSo29UIAccessibilityIdentification", "UIBindingObserver"]
+- !private ["PSo29UIAccessibilityIdentification", "action"]
+- !private ["PSo29UIAccessibilityIdentification", "enabled"]
+- !private ["PSo29UIAccessibilityIdentification", "rx_deallocated"]
+- ["PSo29UIAccessibilityIdentification", "rx_enabled"]
+- !private ["PSo29UIAccessibilityIdentification", "rx_lazyInstanceObservable"]
+- ["PSo29UIAccessibilityIdentification", "rx_tap"]
+- !private ["PSo29UIAccessibilityIdentification", "rx_tap_key"]
+- !private ["PSo29UIAccessibilityIdentification", "target"]
+- !private ["PSo12UIAppearance", "BarButtonItemTarget"]
+- !private ["PSo12UIAppearance", "ControlEvent"]
+- !private ["PSo12UIAppearance", "NopDisposable"]
+- !private ["PSo12UIAppearance", "Observable"]
+- !private ["PSo12UIAppearance", "UIBindingObserver"]
+- !private ["PSo12UIAppearance", "action"]
+- !private ["PSo12UIAppearance", "enabled"]
+- !private ["PSo12UIAppearance", "rx_deallocated"]
+- ["PSo12UIAppearance", "rx_enabled"]
+- !private ["PSo12UIAppearance", "rx_lazyInstanceObservable"]
+- ["PSo12UIAppearance", "rx_tap"]
+- !private ["PSo12UIAppearance", "rx_tap_key"]
+- !private ["PSo12UIAppearance", "target"]
+- ["CSo15UIBarButtonItem", "AnyObserver"]
+- !private ["CSo15UIBarButtonItem", "BarButtonItemTarget"]
+- ["CSo15UIBarButtonItem", "Bool"]
+- ["CSo15UIBarButtonItem", "ControlEvent"]
+- !private ["CSo15UIBarButtonItem", "NopDisposable"]
+- !private ["CSo15UIBarButtonItem", "Observable"]
+- !private ["CSo15UIBarButtonItem", "UIBindingObserver"]
+- ["CSo15UIBarButtonItem", "Void"]
+- !private ["CSo15UIBarButtonItem", "action"]
+- !private ["CSo15UIBarButtonItem", "enabled"]
+- !private ["CSo15UIBarButtonItem", "rx_deallocated"]
+- ["CSo15UIBarButtonItem", "rx_enabled"]
+- !private ["CSo15UIBarButtonItem", "rx_lazyInstanceObservable"]
+- ["CSo15UIBarButtonItem", "rx_tap"]
+- !private ["CSo15UIBarButtonItem", "rx_tap_key"]
+- !private ["CSo15UIBarButtonItem", "target"]
+- ["CSo9UIBarItem", "AnyObserver"]
+- !private ["CSo9UIBarItem", "BarButtonItemTarget"]
+- ["CSo9UIBarItem", "Bool"]
+- ["CSo9UIBarItem", "ControlEvent"]
+- !private ["CSo9UIBarItem", "NopDisposable"]
+- !private ["CSo9UIBarItem", "Observable"]
+- !private ["CSo9UIBarItem", "UIBindingObserver"]
+- ["CSo9UIBarItem", "Void"]
+- !private ["CSo9UIBarItem", "action"]
+- !private ["CSo9UIBarItem", "enabled"]
+- !private ["CSo9UIBarItem", "rx_deallocated"]
+- ["CSo9UIBarItem", "rx_enabled"]
+- !private ["CSo9UIBarItem", "rx_lazyInstanceObservable"]
+- ["CSo9UIBarItem", "rx_tap"]
+- !private ["CSo9UIBarItem", "rx_tap_key"]
+- !private ["CSo9UIBarItem", "target"]
+- !private ["C7RxCocoa17UIBindingObserver", "E"]
+- !private ["C7RxCocoa17UIBindingObserver", "asObserver"]
+- !private ["C7RxCocoa17UIBindingObserver", "init"]
+- !private ["Ps12_Reflectable", "Some"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "V7RxSwift11AnyObserver"
+- "C7RxCocoa19BarButtonItemTarget"
+- "Ps11CVarArgType"
+- !private "V7RxCocoa12ControlEvent"
+- !private "P7RxCocoa16ControlEventType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "P7RxSwift10Disposable"
+- "Ps9Equatable"
+- !private "O7RxSwift5Event"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps21NilLiteralConvertible"
+- !private "V7RxSwift13NopDisposable"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- !private "Sq"
+- "C7RxCocoa8RxTarget"
+- !private "Vs12StaticString"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "CSo15UIBarButtonItem"
+- "CSo9UIBarItem"
+- !private "C7RxCocoa17UIBindingObserver"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "bfed46acbb2f8cec53129817fdc3206c"

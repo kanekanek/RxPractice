@@ -1,0 +1,238 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["P7RxSwift14ObservableType", ""]
+- ["P7RxSwift14ObservableType", "distinctUntilChanged"]
+- ["P7RxSwift14ObservableType", "distinctUntilChanged"]
+- ["P7RxSwift14ObservableType", "distinctUntilChanged"]
+- ["P7RxSwift14ObservableType", "distinctUntilChanged"]
+- ["P7RxSwift14ObservableType", "doOn"]
+- ["P7RxSwift14ObservableType", "doOn"]
+- ["P7RxSwift14ObservableType", "doOnNext"]
+- ["P7RxSwift14ObservableType", "doOnError"]
+- ["P7RxSwift14ObservableType", "doOnCompleted"]
+- ["P7RxSwift14ObservableType", "startWith"]
+- ["P7RxSwift14ObservableType", "retry"]
+- ["P7RxSwift14ObservableType", "retry"]
+- ["P7RxSwift14ObservableType", "retryWhen"]
+- ["P7RxSwift14ObservableType", "retryWhen"]
+- ["P7RxSwift14ObservableType", "scan"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Void"
+- !private "Scan"
+- "ErrorType"
+- "Bool"
+- !private "StartWith"
+- !private "Repeat"
+- !private "=="
+- "Event"
+- !private "RetryWhenSequence"
+- "Int"
+- !private "InfiniteSequence"
+- !private "DistinctUntilChanged"
+- !private "CatchSequence"
+- "Equatable"
+- "Observable"
+- "ObservableType"
+- !private "Do"
+depends-member:
+- !private ["Vs12AnyGenerator", "Element"]
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["C7RxSwift13CatchSequence", "init"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "Completed"]
+- !private ["Ps28CustomDebugStringConvertible", "Error"]
+- !private ["Ps28CustomDebugStringConvertible", "Next"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["C7RxSwift20DistinctUntilChanged", "init"]
+- !private ["C7RxSwift2Do", "init"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["O7RxSwift5Event", "Completed"]
+- !private ["O7RxSwift5Event", "Error"]
+- !private ["O7RxSwift5Event", "Next"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["V7RxSwift16InfiniteSequence", "Generator"]
+- !private ["V7RxSwift16InfiniteSequence", "deinit"]
+- !private ["V7RxSwift16InfiniteSequence", "init"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["C7RxSwift10Observable", "E"]
+- !private ["C7RxSwift10Observable", "deinit"]
+- ["P7RxSwift25ObservableConvertibleType", "Bool"]
+- !private ["P7RxSwift25ObservableConvertibleType", "CatchSequence"]
+- !private ["P7RxSwift25ObservableConvertibleType", "DistinctUntilChanged"]
+- !private ["P7RxSwift25ObservableConvertibleType", "Do"]
+- ["P7RxSwift25ObservableConvertibleType", "E"]
+- ["P7RxSwift25ObservableConvertibleType", "Equatable"]
+- ["P7RxSwift25ObservableConvertibleType", "ErrorType"]
+- ["P7RxSwift25ObservableConvertibleType", "Event"]
+- !private ["P7RxSwift25ObservableConvertibleType", "InfiniteSequence"]
+- ["P7RxSwift25ObservableConvertibleType", "Int"]
+- ["P7RxSwift25ObservableConvertibleType", "Observable"]
+- ["P7RxSwift25ObservableConvertibleType", "ObservableType"]
+- !private ["P7RxSwift25ObservableConvertibleType", "Repeat"]
+- !private ["P7RxSwift25ObservableConvertibleType", "RetryWhenSequence"]
+- !private ["P7RxSwift25ObservableConvertibleType", "Scan"]
+- !private ["P7RxSwift25ObservableConvertibleType", "StartWith"]
+- ["P7RxSwift25ObservableConvertibleType", "Void"]
+- !private ["P7RxSwift25ObservableConvertibleType", "asObservable"]
+- !private ["P7RxSwift25ObservableConvertibleType", "distinctUntilChanged"]
+- !private ["P7RxSwift25ObservableConvertibleType", "doOn"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- ["P7RxSwift14ObservableType", "Bool"]
+- !private ["P7RxSwift14ObservableType", "CatchSequence"]
+- !private ["P7RxSwift14ObservableType", "DistinctUntilChanged"]
+- !private ["P7RxSwift14ObservableType", "Do"]
+- ["P7RxSwift14ObservableType", "E"]
+- ["P7RxSwift14ObservableType", "Equatable"]
+- ["P7RxSwift14ObservableType", "ErrorType"]
+- ["P7RxSwift14ObservableType", "Event"]
+- !private ["P7RxSwift14ObservableType", "InfiniteSequence"]
+- ["P7RxSwift14ObservableType", "Int"]
+- ["P7RxSwift14ObservableType", "Observable"]
+- ["P7RxSwift14ObservableType", "ObservableType"]
+- !private ["P7RxSwift14ObservableType", "Repeat"]
+- !private ["P7RxSwift14ObservableType", "RetryWhenSequence"]
+- !private ["P7RxSwift14ObservableType", "Scan"]
+- !private ["P7RxSwift14ObservableType", "StartWith"]
+- ["P7RxSwift14ObservableType", "Void"]
+- !private ["P7RxSwift14ObservableType", "asObservable"]
+- !private ["P7RxSwift14ObservableType", "deinit"]
+- ["P7RxSwift14ObservableType", "distinctUntilChanged"]
+- ["P7RxSwift14ObservableType", "doOn"]
+- ["P7RxSwift14ObservableType", "doOnCompleted"]
+- ["P7RxSwift14ObservableType", "doOnError"]
+- ["P7RxSwift14ObservableType", "doOnNext"]
+- !private ["P7RxSwift14ObservableType", "init"]
+- ["P7RxSwift14ObservableType", "retry"]
+- ["P7RxSwift14ObservableType", "retryWhen"]
+- ["P7RxSwift14ObservableType", "scan"]
+- ["P7RxSwift14ObservableType", "startWith"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Vs6Repeat", "Generator"]
+- !private ["Vs6Repeat", "Index"]
+- !private ["Vs6Repeat", "_Element"]
+- !private ["Vs6Repeat", "init"]
+- !private ["C7RxSwift17RetryWhenSequence", "init"]
+- !private ["C7RxSwift4Scan", "init"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["C7RxSwift9StartWith", "init"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- !private "Vs12AnyGenerator"
+- !private "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Ps11CVarArgType"
+- !private "C7RxSwift13CatchSequence"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "C7RxSwift20DistinctUntilChanged"
+- !private "C7RxSwift2Do"
+- !private "Ps9Equatable"
+- !private "O7RxSwift5Event"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "V7RxSwift16InfiniteSequence"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs6Repeat"
+- !private "C7RxSwift17RetryWhenSequence"
+- !private "C7RxSwift4Scan"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "C7RxSwift9StartWith"
+- !private "Ps10Strideable"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "3d7d572827318488b5913bf9d96f1326"

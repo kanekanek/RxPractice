@@ -1,0 +1,110 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo18NSLayoutConstraint", ""]
+- ["CSo18NSLayoutConstraint", "rx_constant"]
+- ["CSo18NSLayoutConstraint", "rx_active"]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSLayoutConstraint"
+- !private "UIBindingObserver"
+- "AnyObserver"
+- "CGFloat"
+- "Bool"
+depends-member:
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "UIBindingObserver"]
+- !private ["Ps9AnyObject", "active"]
+- !private ["Ps9AnyObject", "asObserver"]
+- !private ["Ps9AnyObject", "constant"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "rx_active"]
+- ["Ps9AnyObject", "rx_constant"]
+- !private ["Ps11CVarArgType", "UIBindingObserver"]
+- !private ["Ps11CVarArgType", "active"]
+- !private ["Ps11CVarArgType", "constant"]
+- ["Ps11CVarArgType", "rx_active"]
+- ["Ps11CVarArgType", "rx_constant"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBindingObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "active"]
+- !private ["Ps28CustomDebugStringConvertible", "constant"]
+- ["Ps28CustomDebugStringConvertible", "rx_active"]
+- ["Ps28CustomDebugStringConvertible", "rx_constant"]
+- !private ["Ps23CustomStringConvertible", "UIBindingObserver"]
+- !private ["Ps23CustomStringConvertible", "active"]
+- !private ["Ps23CustomStringConvertible", "constant"]
+- ["Ps23CustomStringConvertible", "rx_active"]
+- ["Ps23CustomStringConvertible", "rx_constant"]
+- !private ["Ps9Equatable", "UIBindingObserver"]
+- !private ["Ps9Equatable", "active"]
+- !private ["Ps9Equatable", "constant"]
+- ["Ps9Equatable", "rx_active"]
+- ["Ps9Equatable", "rx_constant"]
+- !private ["Ps8Hashable", "UIBindingObserver"]
+- !private ["Ps8Hashable", "active"]
+- !private ["Ps8Hashable", "constant"]
+- ["Ps8Hashable", "rx_active"]
+- ["Ps8Hashable", "rx_constant"]
+- ["CSo18NSLayoutConstraint", "AnyObserver"]
+- ["CSo18NSLayoutConstraint", "Bool"]
+- ["CSo18NSLayoutConstraint", "CGFloat"]
+- !private ["CSo18NSLayoutConstraint", "UIBindingObserver"]
+- !private ["CSo18NSLayoutConstraint", "active"]
+- !private ["CSo18NSLayoutConstraint", "constant"]
+- ["CSo18NSLayoutConstraint", "rx_active"]
+- ["CSo18NSLayoutConstraint", "rx_constant"]
+- ["CSo8NSObject", "AnyObserver"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "UIBindingObserver"]
+- !private ["CSo8NSObject", "active"]
+- !private ["CSo8NSObject", "constant"]
+- ["CSo8NSObject", "rx_active"]
+- ["CSo8NSObject", "rx_constant"]
+- !private ["PSo16NSObjectProtocol", "UIBindingObserver"]
+- !private ["PSo16NSObjectProtocol", "active"]
+- !private ["PSo16NSObjectProtocol", "constant"]
+- ["PSo16NSObjectProtocol", "rx_active"]
+- ["PSo16NSObjectProtocol", "rx_constant"]
+- !private ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "asObserver"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- !private ["C7RxCocoa17UIBindingObserver", "E"]
+- !private ["C7RxCocoa17UIBindingObserver", "asObserver"]
+- !private ["C7RxCocoa17UIBindingObserver", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo18NSLayoutConstraint"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "P7RxSwift12ObserverType"
+- !private "C7RxCocoa17UIBindingObserver"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "5983497ef189cad2a41bbfd2079e7b2e"

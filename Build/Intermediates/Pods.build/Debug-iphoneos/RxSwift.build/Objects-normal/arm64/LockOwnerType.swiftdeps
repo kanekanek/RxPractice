@@ -1,0 +1,71 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LockOwnerType"
+provides-nominal:
+- "P7RxSwift13LockOwnerType"
+provides-member:
+- ["P7RxSwift13LockOwnerType", ""]
+- ["P7RxSwift13LockOwnerType", "lock"]
+- ["P7RxSwift13LockOwnerType", "unlock"]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSRecursiveLock"
+- "LockOwnerType"
+- "Lock"
+depends-member:
+- !private ["Ps9AnyObject", "lock"]
+- !private ["Ps9AnyObject", "unlock"]
+- !private ["Ps11CVarArgType", "lock"]
+- !private ["Ps11CVarArgType", "unlock"]
+- !private ["Ps28CustomDebugStringConvertible", "lock"]
+- !private ["Ps28CustomDebugStringConvertible", "unlock"]
+- !private ["Ps23CustomStringConvertible", "lock"]
+- !private ["Ps23CustomStringConvertible", "unlock"]
+- !private ["Ps9Equatable", "lock"]
+- !private ["Ps9Equatable", "unlock"]
+- !private ["Ps8Hashable", "lock"]
+- !private ["Ps8Hashable", "unlock"]
+- ["P7RxSwift4Lock", "NSRecursiveLock"]
+- !private ["P7RxSwift4Lock", "_lock"]
+- !private ["P7RxSwift4Lock", "lock"]
+- !private ["P7RxSwift4Lock", "unlock"]
+- ["P7RxSwift4Lock", ""]
+- ["P7RxSwift13LockOwnerType", "NSRecursiveLock"]
+- ["P7RxSwift13LockOwnerType", "_lock"]
+- ["P7RxSwift13LockOwnerType", "lock"]
+- ["P7RxSwift13LockOwnerType", "unlock"]
+- !private ["PSo9NSLocking", "lock"]
+- !private ["PSo9NSLocking", "unlock"]
+- !private ["CSo8NSObject", "lock"]
+- !private ["CSo8NSObject", "unlock"]
+- !private ["PSo16NSObjectProtocol", "lock"]
+- !private ["PSo16NSObjectProtocol", "unlock"]
+- !private ["CSo15NSRecursiveLock", "deinit"]
+- !private ["CSo15NSRecursiveLock", "lock"]
+- !private ["CSo15NSRecursiveLock", "unlock"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps11CVarArgType"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- "P7RxSwift4Lock"
+- "P7RxSwift13LockOwnerType"
+- !private "PSo9NSLocking"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo15NSRecursiveLock"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "7fe8b65ae25030a8631139ddd4f2b47c"

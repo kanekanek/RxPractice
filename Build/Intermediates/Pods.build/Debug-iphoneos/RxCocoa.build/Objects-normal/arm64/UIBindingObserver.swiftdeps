@@ -1,0 +1,102 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UIBindingObserver"
+provides-nominal:
+- "C7RxCocoa17UIBindingObserver"
+provides-member:
+- ["C7RxCocoa17UIBindingObserver", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "Void"
+- !private "bindingErrorToInterface"
+- "AnyObserver"
+- "Event"
+- !private "MainScheduler"
+- "UIBindingObserver"
+- "ObserverType"
+depends-member:
+- !private ["Ps9AnyObject", "AnyObserver"]
+- ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "MainScheduler"]
+- !private ["Ps9AnyObject", "UIElement"]
+- !private ["Ps9AnyObject", "binding"]
+- !private ["Ps9AnyObject", "bindingErrorToInterface"]
+- !private ["Ps9AnyObject", "ensureExecutingOnScheduler"]
+- ["Ps9AnyObject", "on"]
+- ["Ps9AnyObject", ""]
+- !private ["V7RxSwift11AnyObserver", "init"]
+- ["Ps28CustomDebugStringConvertible", "Completed"]
+- ["Ps28CustomDebugStringConvertible", "Error"]
+- ["Ps28CustomDebugStringConvertible", "Next"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["O7RxSwift5Event", "Completed"]
+- ["O7RxSwift5Event", "Error"]
+- ["O7RxSwift5Event", "Next"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "ensureExecutingOnScheduler"]
+- !private ["C7RxSwift13MainScheduler", "ensureExecutingOnScheduler"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["P7RxSwift12ObserverType", "AnyObserver"]
+- ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "MainScheduler"]
+- !private ["P7RxSwift12ObserverType", "UIElement"]
+- !private ["P7RxSwift12ObserverType", "binding"]
+- !private ["P7RxSwift12ObserverType", "bindingErrorToInterface"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- ["P7RxSwift12ObserverType", "on"]
+- ["P7RxSwift12ObserverType", ""]
+- ["Sq", "Some"]
+- !private ["P7RxSwift13SchedulerType", "ensureExecutingOnScheduler"]
+- !private ["C7RxSwift28SerialDispatchQueueScheduler", "ensureExecutingOnScheduler"]
+- ["C7RxCocoa17UIBindingObserver", "AnyObserver"]
+- ["C7RxCocoa17UIBindingObserver", "E"]
+- ["C7RxCocoa17UIBindingObserver", "Event"]
+- !private ["C7RxCocoa17UIBindingObserver", "MainScheduler"]
+- ["C7RxCocoa17UIBindingObserver", "UIElement"]
+- ["C7RxCocoa17UIBindingObserver", "UIElementType"]
+- ["C7RxCocoa17UIBindingObserver", "Value"]
+- ["C7RxCocoa17UIBindingObserver", "Void"]
+- ["C7RxCocoa17UIBindingObserver", "asObserver"]
+- ["C7RxCocoa17UIBindingObserver", "binding"]
+- !private ["C7RxCocoa17UIBindingObserver", "bindingErrorToInterface"]
+- ["C7RxCocoa17UIBindingObserver", "deinit"]
+- ["C7RxCocoa17UIBindingObserver", "init"]
+- ["C7RxCocoa17UIBindingObserver", "on"]
+- ["Ps12_Reflectable", "Some"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "V7RxSwift11AnyObserver"
+- "Ps28CustomDebugStringConvertible"
+- "O7RxSwift5Event"
+- !private "P7RxSwift22ImmediateSchedulerType"
+- !private "C7RxSwift13MainScheduler"
+- "Ps21NilLiteralConvertible"
+- "P7RxSwift12ObserverType"
+- "Sq"
+- !private "P7RxSwift13SchedulerType"
+- !private "C7RxSwift28SerialDispatchQueueScheduler"
+- "C7RxCocoa17UIBindingObserver"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "f39da1007ca0c9e1d541d7f9ae77a9f6"

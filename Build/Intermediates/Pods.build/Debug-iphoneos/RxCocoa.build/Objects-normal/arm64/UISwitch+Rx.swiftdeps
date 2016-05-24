@@ -1,0 +1,131 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo8UISwitch", ""]
+- ["CSo8UISwitch", "rx_value"]
+provides-dynamic-lookup:
+depends-top-level:
+- "ControlProperty"
+- "Bool"
+- !private "UIControl"
+- "UISwitch"
+depends-member:
+- !private ["Ps9AnyObject", "UIControl"]
+- !private ["Ps9AnyObject", "on"]
+- ["Ps9AnyObject", "rx_value"]
+- !private ["Ps11CVarArgType", "UIControl"]
+- !private ["Ps11CVarArgType", "on"]
+- ["Ps11CVarArgType", "rx_value"]
+- !private ["Ps28CustomDebugStringConvertible", "UIControl"]
+- !private ["Ps28CustomDebugStringConvertible", "on"]
+- ["Ps28CustomDebugStringConvertible", "rx_value"]
+- !private ["Ps23CustomStringConvertible", "UIControl"]
+- !private ["Ps23CustomStringConvertible", "on"]
+- ["Ps23CustomStringConvertible", "rx_value"]
+- !private ["Ps9Equatable", "UIControl"]
+- !private ["Ps9Equatable", "on"]
+- ["Ps9Equatable", "rx_value"]
+- !private ["Ps8Hashable", "UIControl"]
+- !private ["Ps8Hashable", "on"]
+- ["Ps8Hashable", "rx_value"]
+- !private ["PSo8NSCoding", "UIControl"]
+- !private ["PSo8NSCoding", "on"]
+- ["PSo8NSCoding", "rx_value"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "ControlProperty"]
+- !private ["CSo8NSObject", "UIControl"]
+- !private ["CSo8NSObject", "on"]
+- ["CSo8NSObject", "rx_value"]
+- !private ["PSo16NSObjectProtocol", "UIControl"]
+- !private ["PSo16NSObjectProtocol", "on"]
+- ["PSo16NSObjectProtocol", "rx_value"]
+- !private ["PSo29UIAccessibilityIdentification", "UIControl"]
+- !private ["PSo29UIAccessibilityIdentification", "on"]
+- ["PSo29UIAccessibilityIdentification", "rx_value"]
+- !private ["PSo12UIAppearance", "UIControl"]
+- !private ["PSo12UIAppearance", "on"]
+- ["PSo12UIAppearance", "rx_value"]
+- !private ["PSo21UIAppearanceContainer", "UIControl"]
+- !private ["PSo21UIAppearanceContainer", "on"]
+- ["PSo21UIAppearanceContainer", "rx_value"]
+- ["CSo9UIControl", "Bool"]
+- ["CSo9UIControl", "ControlProperty"]
+- !private ["CSo9UIControl", "UIControl"]
+- !private ["CSo9UIControl", "on"]
+- ["CSo9UIControl", "rx_value"]
+- !private ["PSo17UICoordinateSpace", "UIControl"]
+- !private ["PSo17UICoordinateSpace", "on"]
+- ["PSo17UICoordinateSpace", "rx_value"]
+- !private ["PSo13UIDynamicItem", "UIControl"]
+- !private ["PSo13UIDynamicItem", "on"]
+- ["PSo13UIDynamicItem", "rx_value"]
+- !private ["PSo18UIFocusEnvironment", "UIControl"]
+- !private ["PSo18UIFocusEnvironment", "on"]
+- ["PSo18UIFocusEnvironment", "rx_value"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "ControlProperty"]
+- !private ["CSo11UIResponder", "UIControl"]
+- !private ["CSo11UIResponder", "on"]
+- ["CSo11UIResponder", "rx_value"]
+- ["CSo8UISwitch", "Bool"]
+- ["CSo8UISwitch", "ControlProperty"]
+- !private ["CSo8UISwitch", "UIControl"]
+- !private ["CSo8UISwitch", "on"]
+- ["CSo8UISwitch", "rx_value"]
+- !private ["PSo18UITraitEnvironment", "UIControl"]
+- !private ["PSo18UITraitEnvironment", "on"]
+- ["PSo18UITraitEnvironment", "rx_value"]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "ControlProperty"]
+- !private ["CSo6UIView", "UIControl"]
+- !private ["CSo6UIView", "on"]
+- ["CSo6UIView", "rx_value"]
+- !private ["Ps12_Reflectable", "UIControl"]
+- !private ["Ps12_Reflectable", "on"]
+- ["Ps12_Reflectable", "rx_value"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "CSo8UISwitch"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "03f8bc2fdca31019a9d3b9ff709622bb"

@@ -1,0 +1,229 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReduceSink"
+- "Reduce"
+provides-nominal:
+- "C7RxSwift10ReduceSink"
+- "C7RxSwift6Reduce"
+provides-member:
+- ["C7RxSwift10ReduceSink", ""]
+- ["C7RxSwift6Reduce", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Sink"
+- "ReduceSink"
+- "Disposable"
+- "Reduce"
+- "Observable"
+- "Event"
+- "Producer"
+- "ObserverType"
+depends-member:
+- ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "ReduceSink"]
+- ["Ps9AnyObject", "_accumulation"]
+- ["Ps9AnyObject", "_accumulator"]
+- ["Ps9AnyObject", "_mapResult"]
+- ["Ps9AnyObject", "_parent"]
+- ["Ps9AnyObject", "_seed"]
+- ["Ps9AnyObject", "_source"]
+- !private ["Ps9AnyObject", "disposable"]
+- !private ["Ps9AnyObject", "dispose"]
+- !private ["Ps9AnyObject", "forwardOn"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "on"]
+- ["Ps9AnyObject", "run"]
+- !private ["Ps9AnyObject", "subscribe"]
+- ["Ps9AnyObject", ""]
+- ["P7RxSwift10Cancelable", "E"]
+- ["P7RxSwift10Cancelable", "_accumulation"]
+- ["P7RxSwift10Cancelable", "_parent"]
+- !private ["P7RxSwift10Cancelable", "disposable"]
+- !private ["P7RxSwift10Cancelable", "dispose"]
+- !private ["P7RxSwift10Cancelable", "forwardOn"]
+- ["P7RxSwift10Cancelable", "init"]
+- ["P7RxSwift10Cancelable", "on"]
+- ["P7RxSwift10Cancelable", ""]
+- ["Ps28CustomDebugStringConvertible", "Completed"]
+- ["Ps28CustomDebugStringConvertible", "Error"]
+- ["Ps28CustomDebugStringConvertible", "Next"]
+- ["P7RxSwift10Disposable", "E"]
+- ["P7RxSwift10Disposable", "_accumulation"]
+- ["P7RxSwift10Disposable", "_parent"]
+- !private ["P7RxSwift10Disposable", "disposable"]
+- !private ["P7RxSwift10Disposable", "dispose"]
+- !private ["P7RxSwift10Disposable", "forwardOn"]
+- ["P7RxSwift10Disposable", "init"]
+- ["P7RxSwift10Disposable", "on"]
+- ["P7RxSwift10Disposable", ""]
+- ["C7RxSwift11DisposeBase", "AccumulateType"]
+- ["C7RxSwift11DisposeBase", "E"]
+- ["C7RxSwift11DisposeBase", "Event"]
+- ["C7RxSwift11DisposeBase", "O"]
+- ["C7RxSwift11DisposeBase", "Parent"]
+- ["C7RxSwift11DisposeBase", "Reduce"]
+- ["C7RxSwift11DisposeBase", "ResultType"]
+- ["C7RxSwift11DisposeBase", "SourceType"]
+- ["C7RxSwift11DisposeBase", "_accumulation"]
+- ["C7RxSwift11DisposeBase", "_parent"]
+- !private ["C7RxSwift11DisposeBase", "disposable"]
+- !private ["C7RxSwift11DisposeBase", "dispose"]
+- !private ["C7RxSwift11DisposeBase", "forwardOn"]
+- ["C7RxSwift11DisposeBase", "on"]
+- ["O7RxSwift5Event", "Completed"]
+- ["O7RxSwift5Event", "Error"]
+- ["O7RxSwift5Event", "Next"]
+- ["C7RxSwift10Observable", "AccumulateType"]
+- ["C7RxSwift10Observable", "AccumulatorType"]
+- ["C7RxSwift10Observable", "Disposable"]
+- !private ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "Observable"]
+- ["C7RxSwift10Observable", "ObserverType"]
+- !private ["C7RxSwift10Observable", "ReduceSink"]
+- ["C7RxSwift10Observable", "ResultSelectorType"]
+- ["C7RxSwift10Observable", "ResultType"]
+- ["C7RxSwift10Observable", "SourceType"]
+- ["C7RxSwift10Observable", "_accumulator"]
+- ["C7RxSwift10Observable", "_mapResult"]
+- ["C7RxSwift10Observable", "_seed"]
+- ["C7RxSwift10Observable", "_source"]
+- !private ["C7RxSwift10Observable", "deinit"]
+- ["C7RxSwift10Observable", "init"]
+- ["C7RxSwift10Observable", "run"]
+- !private ["C7RxSwift10Observable", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "ReduceSink"]
+- ["P7RxSwift25ObservableConvertibleType", "_accumulator"]
+- ["P7RxSwift25ObservableConvertibleType", "_mapResult"]
+- ["P7RxSwift25ObservableConvertibleType", "_seed"]
+- ["P7RxSwift25ObservableConvertibleType", "_source"]
+- ["P7RxSwift25ObservableConvertibleType", "init"]
+- ["P7RxSwift25ObservableConvertibleType", "run"]
+- !private ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- ["P7RxSwift25ObservableConvertibleType", ""]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "ReduceSink"]
+- ["P7RxSwift14ObservableType", "_accumulator"]
+- ["P7RxSwift14ObservableType", "_mapResult"]
+- ["P7RxSwift14ObservableType", "_seed"]
+- ["P7RxSwift14ObservableType", "_source"]
+- ["P7RxSwift14ObservableType", "init"]
+- ["P7RxSwift14ObservableType", "run"]
+- !private ["P7RxSwift14ObservableType", "subscribe"]
+- ["P7RxSwift14ObservableType", ""]
+- ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "_accumulation"]
+- !private ["P7RxSwift12ObserverType", "_parent"]
+- !private ["P7RxSwift12ObserverType", "disposable"]
+- !private ["P7RxSwift12ObserverType", "dispose"]
+- !private ["P7RxSwift12ObserverType", "forwardOn"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- ["P7RxSwift12ObserverType", "on"]
+- ["P7RxSwift12ObserverType", ""]
+- ["C7RxSwift8Producer", "AccumulateType"]
+- ["C7RxSwift8Producer", "AccumulatorType"]
+- ["C7RxSwift8Producer", "Disposable"]
+- ["C7RxSwift8Producer", "Observable"]
+- ["C7RxSwift8Producer", "ObserverType"]
+- !private ["C7RxSwift8Producer", "ReduceSink"]
+- ["C7RxSwift8Producer", "ResultSelectorType"]
+- ["C7RxSwift8Producer", "ResultType"]
+- ["C7RxSwift8Producer", "SourceType"]
+- ["C7RxSwift8Producer", "_accumulator"]
+- ["C7RxSwift8Producer", "_mapResult"]
+- ["C7RxSwift8Producer", "_seed"]
+- ["C7RxSwift8Producer", "_source"]
+- ["C7RxSwift8Producer", "init"]
+- ["C7RxSwift8Producer", "run"]
+- ["C7RxSwift8Producer", ""]
+- ["C7RxSwift6Reduce", "AccumulateType"]
+- ["C7RxSwift6Reduce", "AccumulatorType"]
+- ["C7RxSwift6Reduce", "Disposable"]
+- ["C7RxSwift6Reduce", "Observable"]
+- ["C7RxSwift6Reduce", "ObserverType"]
+- !private ["C7RxSwift6Reduce", "ReduceSink"]
+- ["C7RxSwift6Reduce", "ResultSelectorType"]
+- ["C7RxSwift6Reduce", "ResultType"]
+- ["C7RxSwift6Reduce", "SourceType"]
+- !private ["C7RxSwift6Reduce", "_accumulator"]
+- !private ["C7RxSwift6Reduce", "_mapResult"]
+- !private ["C7RxSwift6Reduce", "_seed"]
+- !private ["C7RxSwift6Reduce", "_source"]
+- ["C7RxSwift6Reduce", "deinit"]
+- ["C7RxSwift6Reduce", "init"]
+- ["C7RxSwift6Reduce", "run"]
+- ["C7RxSwift10ReduceSink", "AccumulateType"]
+- ["C7RxSwift10ReduceSink", "E"]
+- ["C7RxSwift10ReduceSink", "Event"]
+- ["C7RxSwift10ReduceSink", "O"]
+- ["C7RxSwift10ReduceSink", "Parent"]
+- ["C7RxSwift10ReduceSink", "Reduce"]
+- ["C7RxSwift10ReduceSink", "ResultType"]
+- ["C7RxSwift10ReduceSink", "SourceType"]
+- !private ["C7RxSwift10ReduceSink", "_accumulation"]
+- !private ["C7RxSwift10ReduceSink", "_parent"]
+- ["C7RxSwift10ReduceSink", "deinit"]
+- !private ["C7RxSwift10ReduceSink", "disposable"]
+- !private ["C7RxSwift10ReduceSink", "dispose"]
+- !private ["C7RxSwift10ReduceSink", "forwardOn"]
+- ["C7RxSwift10ReduceSink", "init"]
+- ["C7RxSwift10ReduceSink", "on"]
+- ["C7RxSwift26SingleAssignmentDisposable", "AccumulateType"]
+- ["C7RxSwift26SingleAssignmentDisposable", "E"]
+- ["C7RxSwift26SingleAssignmentDisposable", "Event"]
+- ["C7RxSwift26SingleAssignmentDisposable", "O"]
+- ["C7RxSwift26SingleAssignmentDisposable", "Parent"]
+- ["C7RxSwift26SingleAssignmentDisposable", "Reduce"]
+- ["C7RxSwift26SingleAssignmentDisposable", "ResultType"]
+- ["C7RxSwift26SingleAssignmentDisposable", "SourceType"]
+- ["C7RxSwift26SingleAssignmentDisposable", "_accumulation"]
+- ["C7RxSwift26SingleAssignmentDisposable", "_parent"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "disposable"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "dispose"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "forwardOn"]
+- ["C7RxSwift26SingleAssignmentDisposable", "on"]
+- ["C7RxSwift4Sink", "AccumulateType"]
+- ["C7RxSwift4Sink", "E"]
+- ["C7RxSwift4Sink", "Event"]
+- ["C7RxSwift4Sink", "O"]
+- ["C7RxSwift4Sink", "Parent"]
+- ["C7RxSwift4Sink", "Reduce"]
+- ["C7RxSwift4Sink", "ResultType"]
+- ["C7RxSwift4Sink", "SourceType"]
+- ["C7RxSwift4Sink", "_accumulation"]
+- ["C7RxSwift4Sink", "_parent"]
+- !private ["C7RxSwift4Sink", "disposable"]
+- !private ["C7RxSwift4Sink", "dispose"]
+- !private ["C7RxSwift4Sink", "forwardOn"]
+- ["C7RxSwift4Sink", "init"]
+- ["C7RxSwift4Sink", "on"]
+- ["C7RxSwift4Sink", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "P7RxSwift10Cancelable"
+- "Ps28CustomDebugStringConvertible"
+- "P7RxSwift10Disposable"
+- "C7RxSwift11DisposeBase"
+- "O7RxSwift5Event"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- "P7RxSwift12ObserverType"
+- "C7RxSwift8Producer"
+- "C7RxSwift6Reduce"
+- "C7RxSwift10ReduceSink"
+- "C7RxSwift26SingleAssignmentDisposable"
+- "C7RxSwift4Sink"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "87ab9f5ee60badb1bda98dd4cf6e825a"

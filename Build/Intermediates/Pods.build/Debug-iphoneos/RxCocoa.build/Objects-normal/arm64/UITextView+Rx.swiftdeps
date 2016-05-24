@@ -1,0 +1,428 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "CSo10UITextView"
+provides-member:
+- ["CSo10UITextView", ""]
+provides-dynamic-lookup:
+- "rx_createDelegateProxy"
+depends-top-level:
+- "RxScrollViewDelegateProxy"
+- "RxTextInput"
+- !private "!="
+- !private "MainScheduler"
+- "ControlProperty"
+- !private "UIBindingObserver"
+- !private "Observable"
+- !private "??"
+- "String"
+- "UITextView"
+- "StringLiteralType"
+- !private "RxTextViewDelegateProxy"
+depends-member:
+- !private ["Ps9AnyObject", "ControlProperty"]
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "MainScheduler"]
+- !private ["Ps9AnyObject", "Observable"]
+- !private ["Ps9AnyObject", "RxTextViewDelegateProxy"]
+- !private ["Ps9AnyObject", "UIBindingObserver"]
+- !private ["Ps9AnyObject", "asyncInstance"]
+- !private ["Ps9AnyObject", "deferred"]
+- !private ["Ps9AnyObject", "empty"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "observeOn"]
+- ["Ps9AnyObject", "rx_createDelegateProxy"]
+- !private ["Ps9AnyObject", "rx_didProcessEditingRangeChangeInLength"]
+- ["Ps9AnyObject", "rx_text"]
+- !private ["Ps9AnyObject", "startWith"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "textStorage"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "ControlProperty"]
+- !private ["Ps11CVarArgType", "MainScheduler"]
+- !private ["Ps11CVarArgType", "Observable"]
+- !private ["Ps11CVarArgType", "RxTextViewDelegateProxy"]
+- !private ["Ps11CVarArgType", "UIBindingObserver"]
+- !private ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "rx_createDelegateProxy"]
+- !private ["Ps11CVarArgType", "rx_didProcessEditingRangeChangeInLength"]
+- ["Ps11CVarArgType", "rx_text"]
+- !private ["Ps11CVarArgType", "string"]
+- !private ["Ps11CVarArgType", "text"]
+- !private ["Ps11CVarArgType", "textStorage"]
+- !private ["V7RxCocoa15ControlProperty", "init"]
+- !private ["P7RxCocoa19ControlPropertyType", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "ControlProperty"]
+- !private ["Ps28CustomDebugStringConvertible", "MainScheduler"]
+- !private ["Ps28CustomDebugStringConvertible", "Observable"]
+- !private ["Ps28CustomDebugStringConvertible", "RxTextViewDelegateProxy"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBindingObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "rx_createDelegateProxy"]
+- !private ["Ps28CustomDebugStringConvertible", "rx_didProcessEditingRangeChangeInLength"]
+- ["Ps28CustomDebugStringConvertible", "rx_text"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "textStorage"]
+- !private ["Ps23CustomStringConvertible", "ControlProperty"]
+- !private ["Ps23CustomStringConvertible", "MainScheduler"]
+- !private ["Ps23CustomStringConvertible", "Observable"]
+- !private ["Ps23CustomStringConvertible", "RxTextViewDelegateProxy"]
+- !private ["Ps23CustomStringConvertible", "UIBindingObserver"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "rx_createDelegateProxy"]
+- !private ["Ps23CustomStringConvertible", "rx_didProcessEditingRangeChangeInLength"]
+- ["Ps23CustomStringConvertible", "rx_text"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "textStorage"]
+- !private ["C7RxCocoa13DelegateProxy", "init"]
+- !private ["P7RxCocoa17DelegateProxyType", "init"]
+- !private ["Ps9Equatable", "ControlProperty"]
+- !private ["Ps9Equatable", "MainScheduler"]
+- !private ["Ps9Equatable", "Observable"]
+- !private ["Ps9Equatable", "RxTextViewDelegateProxy"]
+- !private ["Ps9Equatable", "UIBindingObserver"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rx_createDelegateProxy"]
+- !private ["Ps9Equatable", "rx_didProcessEditingRangeChangeInLength"]
+- ["Ps9Equatable", "rx_text"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "textStorage"]
+- !private ["Ps8Hashable", "ControlProperty"]
+- !private ["Ps8Hashable", "MainScheduler"]
+- !private ["Ps8Hashable", "Observable"]
+- !private ["Ps8Hashable", "RxTextViewDelegateProxy"]
+- !private ["Ps8Hashable", "UIBindingObserver"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rx_createDelegateProxy"]
+- !private ["Ps8Hashable", "rx_didProcessEditingRangeChangeInLength"]
+- ["Ps8Hashable", "rx_text"]
+- !private ["Ps8Hashable", "string"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "textStorage"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "asyncInstance"]
+- !private ["SQ", "deinit"]
+- !private ["C7RxSwift13MainScheduler", "asyncInstance"]
+- !private ["CSo18NSAttributedString", "rx_didProcessEditingRangeChangeInLength"]
+- !private ["CSo18NSAttributedString", "string"]
+- !private ["PSo8NSCoding", "ControlProperty"]
+- !private ["PSo8NSCoding", "MainScheduler"]
+- !private ["PSo8NSCoding", "Observable"]
+- !private ["PSo8NSCoding", "RxTextViewDelegateProxy"]
+- !private ["PSo8NSCoding", "UIBindingObserver"]
+- ["PSo8NSCoding", "rx_createDelegateProxy"]
+- !private ["PSo8NSCoding", "rx_didProcessEditingRangeChangeInLength"]
+- ["PSo8NSCoding", "rx_text"]
+- !private ["PSo8NSCoding", "string"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "textStorage"]
+- !private ["PSo9NSCopying", "rx_didProcessEditingRangeChangeInLength"]
+- !private ["PSo9NSCopying", "string"]
+- !private ["CSo25NSMutableAttributedString", "rx_didProcessEditingRangeChangeInLength"]
+- !private ["CSo25NSMutableAttributedString", "string"]
+- !private ["PSo16NSMutableCopying", "rx_didProcessEditingRangeChangeInLength"]
+- !private ["PSo16NSMutableCopying", "string"]
+- ["CSo8NSObject", "ControlProperty"]
+- !private ["CSo8NSObject", "MainScheduler"]
+- !private ["CSo8NSObject", "Observable"]
+- ["CSo8NSObject", "RxScrollViewDelegateProxy"]
+- !private ["CSo8NSObject", "RxTextViewDelegateProxy"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIBindingObserver"]
+- ["CSo8NSObject", "rx_createDelegateProxy"]
+- !private ["CSo8NSObject", "rx_didProcessEditingRangeChangeInLength"]
+- ["CSo8NSObject", "rx_text"]
+- !private ["CSo8NSObject", "string"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "textStorage"]
+- !private ["PSo16NSObjectProtocol", "ControlProperty"]
+- !private ["PSo16NSObjectProtocol", "MainScheduler"]
+- !private ["PSo16NSObjectProtocol", "Observable"]
+- !private ["PSo16NSObjectProtocol", "RxTextViewDelegateProxy"]
+- !private ["PSo16NSObjectProtocol", "UIBindingObserver"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "rx_createDelegateProxy"]
+- !private ["PSo16NSObjectProtocol", "rx_didProcessEditingRangeChangeInLength"]
+- ["PSo16NSObjectProtocol", "rx_text"]
+- !private ["PSo16NSObjectProtocol", "string"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "textStorage"]
+- !private ["PSo14NSSecureCoding", "rx_didProcessEditingRangeChangeInLength"]
+- !private ["PSo14NSSecureCoding", "string"]
+- !private ["CSo13NSTextStorage", "rx_didProcessEditingRangeChangeInLength"]
+- !private ["CSo13NSTextStorage", "string"]
+- !private ["C7RxSwift10Observable", "E"]
+- !private ["C7RxSwift10Observable", "deferred"]
+- !private ["C7RxSwift10Observable", "empty"]
+- !private ["C7RxSwift10Observable", "map"]
+- !private ["C7RxSwift10Observable", "observeOn"]
+- !private ["C7RxSwift10Observable", "startWith"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "deferred"]
+- !private ["P7RxSwift25ObservableConvertibleType", "empty"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift25ObservableConvertibleType", "map"]
+- !private ["P7RxSwift25ObservableConvertibleType", "observeOn"]
+- !private ["P7RxSwift25ObservableConvertibleType", "startWith"]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "deferred"]
+- !private ["P7RxSwift14ObservableType", "empty"]
+- !private ["P7RxSwift14ObservableType", "init"]
+- !private ["P7RxSwift14ObservableType", "map"]
+- !private ["P7RxSwift14ObservableType", "observeOn"]
+- !private ["P7RxSwift14ObservableType", "startWith"]
+- !private ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- !private ["Sq", "deinit"]
+- !private ["C7RxCocoa25RxScrollViewDelegateProxy", "init"]
+- !private ["P7RxCocoa11RxTextInput", "ControlProperty"]
+- !private ["P7RxCocoa11RxTextInput", "MainScheduler"]
+- !private ["P7RxCocoa11RxTextInput", "Observable"]
+- !private ["P7RxCocoa11RxTextInput", "RxTextViewDelegateProxy"]
+- !private ["P7RxCocoa11RxTextInput", "UIBindingObserver"]
+- ["P7RxCocoa11RxTextInput", "rx_text"]
+- !private ["P7RxCocoa11RxTextInput", "text"]
+- !private ["P7RxCocoa11RxTextInput", "textStorage"]
+- ["P7RxCocoa11RxTextInput", ""]
+- !private ["C7RxCocoa23RxTextViewDelegateProxy", "init"]
+- !private ["P7RxSwift13SchedulerType", "asyncInstance"]
+- !private ["C7RxSwift28SerialDispatchQueueScheduler", "asyncInstance"]
+- !private ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "ControlProperty"]
+- !private ["PSo29UIAccessibilityIdentification", "MainScheduler"]
+- !private ["PSo29UIAccessibilityIdentification", "Observable"]
+- !private ["PSo29UIAccessibilityIdentification", "RxTextViewDelegateProxy"]
+- !private ["PSo29UIAccessibilityIdentification", "UIBindingObserver"]
+- ["PSo29UIAccessibilityIdentification", "rx_createDelegateProxy"]
+- ["PSo29UIAccessibilityIdentification", "rx_text"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "textStorage"]
+- !private ["PSo12UIAppearance", "ControlProperty"]
+- !private ["PSo12UIAppearance", "MainScheduler"]
+- !private ["PSo12UIAppearance", "Observable"]
+- !private ["PSo12UIAppearance", "RxTextViewDelegateProxy"]
+- !private ["PSo12UIAppearance", "UIBindingObserver"]
+- ["PSo12UIAppearance", "rx_createDelegateProxy"]
+- ["PSo12UIAppearance", "rx_text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "textStorage"]
+- !private ["PSo21UIAppearanceContainer", "ControlProperty"]
+- !private ["PSo21UIAppearanceContainer", "MainScheduler"]
+- !private ["PSo21UIAppearanceContainer", "Observable"]
+- !private ["PSo21UIAppearanceContainer", "RxTextViewDelegateProxy"]
+- !private ["PSo21UIAppearanceContainer", "UIBindingObserver"]
+- ["PSo21UIAppearanceContainer", "rx_createDelegateProxy"]
+- ["PSo21UIAppearanceContainer", "rx_text"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "textStorage"]
+- !private ["C7RxCocoa17UIBindingObserver", "E"]
+- !private ["C7RxCocoa17UIBindingObserver", "deinit"]
+- !private ["C7RxCocoa17UIBindingObserver", "init"]
+- !private ["PSo17UICoordinateSpace", "ControlProperty"]
+- !private ["PSo17UICoordinateSpace", "MainScheduler"]
+- !private ["PSo17UICoordinateSpace", "Observable"]
+- !private ["PSo17UICoordinateSpace", "RxTextViewDelegateProxy"]
+- !private ["PSo17UICoordinateSpace", "UIBindingObserver"]
+- ["PSo17UICoordinateSpace", "rx_createDelegateProxy"]
+- ["PSo17UICoordinateSpace", "rx_text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "textStorage"]
+- !private ["PSo13UIDynamicItem", "ControlProperty"]
+- !private ["PSo13UIDynamicItem", "MainScheduler"]
+- !private ["PSo13UIDynamicItem", "Observable"]
+- !private ["PSo13UIDynamicItem", "RxTextViewDelegateProxy"]
+- !private ["PSo13UIDynamicItem", "UIBindingObserver"]
+- ["PSo13UIDynamicItem", "rx_createDelegateProxy"]
+- ["PSo13UIDynamicItem", "rx_text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "textStorage"]
+- !private ["PSo18UIFocusEnvironment", "ControlProperty"]
+- !private ["PSo18UIFocusEnvironment", "MainScheduler"]
+- !private ["PSo18UIFocusEnvironment", "Observable"]
+- !private ["PSo18UIFocusEnvironment", "RxTextViewDelegateProxy"]
+- !private ["PSo18UIFocusEnvironment", "UIBindingObserver"]
+- ["PSo18UIFocusEnvironment", "rx_createDelegateProxy"]
+- ["PSo18UIFocusEnvironment", "rx_text"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "textStorage"]
+- !private ["PSo10UIKeyInput", "ControlProperty"]
+- !private ["PSo10UIKeyInput", "MainScheduler"]
+- !private ["PSo10UIKeyInput", "Observable"]
+- !private ["PSo10UIKeyInput", "RxTextViewDelegateProxy"]
+- !private ["PSo10UIKeyInput", "UIBindingObserver"]
+- ["PSo10UIKeyInput", "rx_text"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["PSo10UIKeyInput", "textStorage"]
+- ["CSo11UIResponder", "ControlProperty"]
+- !private ["CSo11UIResponder", "MainScheduler"]
+- !private ["CSo11UIResponder", "Observable"]
+- ["CSo11UIResponder", "RxScrollViewDelegateProxy"]
+- !private ["CSo11UIResponder", "RxTextViewDelegateProxy"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIBindingObserver"]
+- ["CSo11UIResponder", "rx_createDelegateProxy"]
+- ["CSo11UIResponder", "rx_text"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "textStorage"]
+- ["CSo12UIScrollView", "ControlProperty"]
+- !private ["CSo12UIScrollView", "MainScheduler"]
+- !private ["CSo12UIScrollView", "Observable"]
+- ["CSo12UIScrollView", "RxScrollViewDelegateProxy"]
+- !private ["CSo12UIScrollView", "RxTextViewDelegateProxy"]
+- ["CSo12UIScrollView", "String"]
+- !private ["CSo12UIScrollView", "UIBindingObserver"]
+- ["CSo12UIScrollView", "rx_createDelegateProxy"]
+- ["CSo12UIScrollView", "rx_text"]
+- !private ["CSo12UIScrollView", "text"]
+- !private ["CSo12UIScrollView", "textStorage"]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo11UITextInput", "ControlProperty"]
+- !private ["PSo11UITextInput", "MainScheduler"]
+- !private ["PSo11UITextInput", "Observable"]
+- !private ["PSo11UITextInput", "RxTextViewDelegateProxy"]
+- !private ["PSo11UITextInput", "UIBindingObserver"]
+- ["PSo11UITextInput", "rx_text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo11UITextInput", "textStorage"]
+- !private ["PSo17UITextInputTraits", "ControlProperty"]
+- !private ["PSo17UITextInputTraits", "MainScheduler"]
+- !private ["PSo17UITextInputTraits", "Observable"]
+- !private ["PSo17UITextInputTraits", "RxTextViewDelegateProxy"]
+- !private ["PSo17UITextInputTraits", "UIBindingObserver"]
+- ["PSo17UITextInputTraits", "rx_text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo17UITextInputTraits", "textStorage"]
+- ["CSo10UITextView", "ControlProperty"]
+- !private ["CSo10UITextView", "MainScheduler"]
+- !private ["CSo10UITextView", "Observable"]
+- ["CSo10UITextView", "RxScrollViewDelegateProxy"]
+- !private ["CSo10UITextView", "RxTextViewDelegateProxy"]
+- ["CSo10UITextView", "String"]
+- !private ["CSo10UITextView", "UIBindingObserver"]
+- ["CSo10UITextView", "deinit"]
+- ["CSo10UITextView", "rx_createDelegateProxy"]
+- ["CSo10UITextView", "rx_text"]
+- !private ["CSo10UITextView", "text"]
+- !private ["CSo10UITextView", "textStorage"]
+- !private ["PSo18UITextViewDelegate", "init"]
+- !private ["PSo18UITraitEnvironment", "ControlProperty"]
+- !private ["PSo18UITraitEnvironment", "MainScheduler"]
+- !private ["PSo18UITraitEnvironment", "Observable"]
+- !private ["PSo18UITraitEnvironment", "RxTextViewDelegateProxy"]
+- !private ["PSo18UITraitEnvironment", "UIBindingObserver"]
+- ["PSo18UITraitEnvironment", "rx_createDelegateProxy"]
+- ["PSo18UITraitEnvironment", "rx_text"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "textStorage"]
+- ["CSo6UIView", "ControlProperty"]
+- !private ["CSo6UIView", "MainScheduler"]
+- !private ["CSo6UIView", "Observable"]
+- ["CSo6UIView", "RxScrollViewDelegateProxy"]
+- !private ["CSo6UIView", "RxTextViewDelegateProxy"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "UIBindingObserver"]
+- ["CSo6UIView", "rx_createDelegateProxy"]
+- ["CSo6UIView", "rx_text"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo6UIView", "textStorage"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "ControlProperty"]
+- !private ["Ps12_Reflectable", "MainScheduler"]
+- !private ["Ps12_Reflectable", "Observable"]
+- !private ["Ps12_Reflectable", "RxTextViewDelegateProxy"]
+- !private ["Ps12_Reflectable", "UIBindingObserver"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "rx_createDelegateProxy"]
+- ["Ps12_Reflectable", "rx_text"]
+- !private ["Ps12_Reflectable", "text"]
+- !private ["Ps12_Reflectable", "textStorage"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "V7RxCocoa15ControlProperty"
+- !private "P7RxCocoa19ControlPropertyType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "C7RxCocoa13DelegateProxy"
+- !private "P7RxCocoa17DelegateProxyType"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "P7RxSwift22ImmediateSchedulerType"
+- !private "SQ"
+- !private "C7RxSwift13MainScheduler"
+- !private "CSo18NSAttributedString"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo25NSMutableAttributedString"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo13NSTextStorage"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- !private "Sq"
+- !private "C7RxCocoa25RxScrollViewDelegateProxy"
+- "P7RxCocoa11RxTextInput"
+- !private "C7RxCocoa23RxTextViewDelegateProxy"
+- !private "P7RxSwift13SchedulerType"
+- !private "C7RxSwift28SerialDispatchQueueScheduler"
+- !private "SS"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "C7RxCocoa17UIBindingObserver"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "CSo12UIScrollView"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo11UITextInput"
+- "PSo17UITextInputTraits"
+- "CSo10UITextView"
+- !private "PSo18UITextViewDelegate"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "b543941cebeb8fabaa1a6331d5f03d28"

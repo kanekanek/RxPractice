@@ -1,0 +1,122 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo20NSNotificationCenter", ""]
+- ["CSo20NSNotificationCenter", "rx_notification"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Observable"
+- "AnyObject"
+- "NSNotification"
+- "String"
+- !private "AnonymousDisposable"
+- "NSNotificationCenter"
+depends-member:
+- !private ["C7RxSwift19AnonymousDisposable", "init"]
+- !private ["Ps9AnyObject", "AnonymousDisposable"]
+- !private ["Ps9AnyObject", "Observable"]
+- !private ["Ps9AnyObject", "addObserverForName"]
+- !private ["Ps9AnyObject", "create"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "removeObserver"]
+- ["Ps9AnyObject", "rx_notification"]
+- !private ["V7RxSwift11AnyObserver", "on"]
+- !private ["Ps11CVarArgType", "AnonymousDisposable"]
+- !private ["Ps11CVarArgType", "Observable"]
+- !private ["Ps11CVarArgType", "addObserverForName"]
+- !private ["Ps11CVarArgType", "removeObserver"]
+- ["Ps11CVarArgType", "rx_notification"]
+- !private ["P7RxSwift10Cancelable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "AnonymousDisposable"]
+- !private ["Ps28CustomDebugStringConvertible", "Next"]
+- !private ["Ps28CustomDebugStringConvertible", "Observable"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserverForName"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObserver"]
+- ["Ps28CustomDebugStringConvertible", "rx_notification"]
+- !private ["Ps23CustomStringConvertible", "AnonymousDisposable"]
+- !private ["Ps23CustomStringConvertible", "Observable"]
+- !private ["Ps23CustomStringConvertible", "addObserverForName"]
+- !private ["Ps23CustomStringConvertible", "removeObserver"]
+- ["Ps23CustomStringConvertible", "rx_notification"]
+- !private ["P7RxSwift10Disposable", "init"]
+- !private ["Ps9Equatable", "AnonymousDisposable"]
+- !private ["Ps9Equatable", "Observable"]
+- !private ["Ps9Equatable", "addObserverForName"]
+- !private ["Ps9Equatable", "removeObserver"]
+- ["Ps9Equatable", "rx_notification"]
+- !private ["O7RxSwift5Event", "Next"]
+- !private ["Ps8Hashable", "AnonymousDisposable"]
+- !private ["Ps8Hashable", "Observable"]
+- !private ["Ps8Hashable", "addObserverForName"]
+- !private ["Ps8Hashable", "removeObserver"]
+- ["Ps8Hashable", "rx_notification"]
+- !private ["CSo20NSNotificationCenter", "AnonymousDisposable"]
+- ["CSo20NSNotificationCenter", "AnyObject"]
+- ["CSo20NSNotificationCenter", "NSNotification"]
+- ["CSo20NSNotificationCenter", "Observable"]
+- ["CSo20NSNotificationCenter", "String"]
+- !private ["CSo20NSNotificationCenter", "addObserverForName"]
+- !private ["CSo20NSNotificationCenter", "removeObserver"]
+- ["CSo20NSNotificationCenter", "rx_notification"]
+- !private ["CSo8NSObject", "AnonymousDisposable"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "NSNotification"]
+- ["CSo8NSObject", "Observable"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "addObserverForName"]
+- !private ["CSo8NSObject", "removeObserver"]
+- ["CSo8NSObject", "rx_notification"]
+- !private ["PSo16NSObjectProtocol", "AnonymousDisposable"]
+- !private ["PSo16NSObjectProtocol", "Observable"]
+- !private ["PSo16NSObjectProtocol", "addObserverForName"]
+- !private ["PSo16NSObjectProtocol", "removeObserver"]
+- ["PSo16NSObjectProtocol", "rx_notification"]
+- !private ["C7RxSwift10Observable", "create"]
+- !private ["P7RxSwift25ObservableConvertibleType", "create"]
+- !private ["P7RxSwift14ObservableType", "create"]
+- !private ["P7RxSwift12ObserverType", "on"]
+- !private ["Sq", "deinit"]
+depends-nominal:
+- !private "C7RxSwift19AnonymousDisposable"
+- "Ps9AnyObject"
+- !private "V7RxSwift11AnyObserver"
+- "Ps11CVarArgType"
+- !private "P7RxSwift10Cancelable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "P7RxSwift10Disposable"
+- "Ps9Equatable"
+- !private "O7RxSwift5Event"
+- "Ps8Hashable"
+- "CSo20NSNotificationCenter"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- !private "Sq"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "41d356565c1fba7358d7bcfdf4fa9cbf"

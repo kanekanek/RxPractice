@@ -1,0 +1,116 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HistoricalSchedulerTimeConverter"
+provides-nominal:
+- "V7RxSwift32HistoricalSchedulerTimeConverter"
+provides-member:
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "RxTimeInterval"
+- "VirtualTimeComparison"
+- "VirtualTimeConverterType"
+- "HistoricalSchedulerTimeConverter"
+- "RxTime"
+depends-member:
+- !private ["Ps9AnyObject", "compare"]
+- !private ["Ps9AnyObject", "dateByAddingTimeInterval"]
+- !private ["Ps11CVarArgType", "compare"]
+- !private ["Ps11CVarArgType", "dateByAddingTimeInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "compare"]
+- !private ["Ps28CustomDebugStringConvertible", "dateByAddingTimeInterval"]
+- !private ["Ps23CustomStringConvertible", "compare"]
+- !private ["Ps23CustomStringConvertible", "dateByAddingTimeInterval"]
+- !private ["Ps9Equatable", "Equal"]
+- !private ["Ps9Equatable", "GreaterThan"]
+- !private ["Ps9Equatable", "LessThan"]
+- ["Ps9Equatable", "OrderedAscending"]
+- ["Ps9Equatable", "OrderedDescending"]
+- ["Ps9Equatable", "OrderedSame"]
+- !private ["Ps9Equatable", "compare"]
+- !private ["Ps9Equatable", "dateByAddingTimeInterval"]
+- !private ["Ps8Hashable", "Equal"]
+- !private ["Ps8Hashable", "GreaterThan"]
+- !private ["Ps8Hashable", "LessThan"]
+- ["Ps8Hashable", "OrderedAscending"]
+- ["Ps8Hashable", "OrderedDescending"]
+- ["Ps8Hashable", "OrderedSame"]
+- !private ["Ps8Hashable", "compare"]
+- !private ["Ps8Hashable", "dateByAddingTimeInterval"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "RxTime"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "RxTimeInterval"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "VirtualTimeComparison"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "VirtualTimeIntervalUnit"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "VirtualTimeUnit"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "compareVirtualTime"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "convertFromVirtualTime"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "convertFromVirtualTimeInterval"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "convertToVirtualTime"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "convertToVirtualTimeInterval"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "deinit"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "init"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "offsetVirtualTime"]
+- !private ["PSo8NSCoding", "compare"]
+- !private ["PSo8NSCoding", "dateByAddingTimeInterval"]
+- ["OSC18NSComparisonResult", "OrderedAscending"]
+- ["OSC18NSComparisonResult", "OrderedDescending"]
+- ["OSC18NSComparisonResult", "OrderedSame"]
+- !private ["PSo9NSCopying", "compare"]
+- !private ["PSo9NSCopying", "dateByAddingTimeInterval"]
+- !private ["CSo6NSDate", "compare"]
+- !private ["CSo6NSDate", "dateByAddingTimeInterval"]
+- !private ["CSo8NSObject", "compare"]
+- !private ["CSo8NSObject", "dateByAddingTimeInterval"]
+- !private ["PSo16NSObjectProtocol", "compare"]
+- !private ["PSo16NSObjectProtocol", "dateByAddingTimeInterval"]
+- !private ["PSo14NSSecureCoding", "compare"]
+- !private ["PSo14NSSecureCoding", "dateByAddingTimeInterval"]
+- ["Ps16RawRepresentable", "OrderedAscending"]
+- ["Ps16RawRepresentable", "OrderedDescending"]
+- ["Ps16RawRepresentable", "OrderedSame"]
+- !private ["O7RxSwift21VirtualTimeComparison", "Equal"]
+- !private ["O7RxSwift21VirtualTimeComparison", "GreaterThan"]
+- !private ["O7RxSwift21VirtualTimeComparison", "LessThan"]
+- ["P7RxSwift24VirtualTimeConverterType", "VirtualTimeIntervalUnit"]
+- ["P7RxSwift24VirtualTimeConverterType", "VirtualTimeUnit"]
+- ["P7RxSwift24VirtualTimeConverterType", "compareVirtualTime"]
+- ["P7RxSwift24VirtualTimeConverterType", "convertFromVirtualTime"]
+- ["P7RxSwift24VirtualTimeConverterType", "convertFromVirtualTimeInterval"]
+- ["P7RxSwift24VirtualTimeConverterType", "convertToVirtualTime"]
+- ["P7RxSwift24VirtualTimeConverterType", "convertToVirtualTimeInterval"]
+- ["P7RxSwift24VirtualTimeConverterType", "offsetVirtualTime"]
+- ["P7RxSwift24VirtualTimeConverterType", ""]
+- !private ["Ps12_Reflectable", "compare"]
+- !private ["Ps12_Reflectable", "dateByAddingTimeInterval"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps11CVarArgType"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "V7RxSwift32HistoricalSchedulerTimeConverter"
+- !private "PSo8NSCoding"
+- "OSC18NSComparisonResult"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "Ps16RawRepresentable"
+- !private "O7RxSwift21VirtualTimeComparison"
+- "P7RxSwift24VirtualTimeConverterType"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "38f75c3f8213fe9558c653ed7a479308"

@@ -1,0 +1,104 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Producer"
+provides-nominal:
+- "C7RxSwift8Producer"
+provides-member:
+- ["C7RxSwift8Producer", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Disposable"
+- !private "abstractMethod"
+- "Producer"
+- !private "CurrentThreadScheduler"
+- "ObserverType"
+- "Observable"
+- !private "!"
+depends-member:
+- !private ["Ps9AnyObject", "CurrentThreadScheduler"]
+- !private ["Ps9AnyObject", "abstractMethod"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instance"]
+- !private ["Ps9AnyObject", "isScheduleRequired"]
+- ["Ps9AnyObject", "run"]
+- !private ["Ps9AnyObject", "schedule"]
+- ["Ps9AnyObject", "subscribe"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["C7RxSwift22CurrentThreadScheduler", "deinit"]
+- !private ["C7RxSwift22CurrentThreadScheduler", "instance"]
+- !private ["C7RxSwift22CurrentThreadScheduler", "isScheduleRequired"]
+- !private ["C7RxSwift22CurrentThreadScheduler", "schedule"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "instance"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "isScheduleRequired"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "schedule"]
+- !private ["C7RxSwift10Observable", "CurrentThreadScheduler"]
+- ["C7RxSwift10Observable", "Disposable"]
+- ["C7RxSwift10Observable", "Element"]
+- ["C7RxSwift10Observable", "ObserverType"]
+- !private ["C7RxSwift10Observable", "abstractMethod"]
+- ["C7RxSwift10Observable", "init"]
+- ["C7RxSwift10Observable", "run"]
+- ["C7RxSwift10Observable", "subscribe"]
+- ["C7RxSwift10Observable", ""]
+- !private ["P7RxSwift25ObservableConvertibleType", "CurrentThreadScheduler"]
+- !private ["P7RxSwift25ObservableConvertibleType", "abstractMethod"]
+- ["P7RxSwift25ObservableConvertibleType", "init"]
+- ["P7RxSwift25ObservableConvertibleType", "run"]
+- ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- ["P7RxSwift25ObservableConvertibleType", ""]
+- !private ["P7RxSwift14ObservableType", "CurrentThreadScheduler"]
+- !private ["P7RxSwift14ObservableType", "abstractMethod"]
+- ["P7RxSwift14ObservableType", "init"]
+- ["P7RxSwift14ObservableType", "run"]
+- ["P7RxSwift14ObservableType", "subscribe"]
+- ["P7RxSwift14ObservableType", ""]
+- !private ["P7RxSwift12ObserverType", "E"]
+- !private ["C7RxSwift8Producer", "CurrentThreadScheduler"]
+- ["C7RxSwift8Producer", "Disposable"]
+- ["C7RxSwift8Producer", "Element"]
+- ["C7RxSwift8Producer", "ObserverType"]
+- !private ["C7RxSwift8Producer", "abstractMethod"]
+- ["C7RxSwift8Producer", "deinit"]
+- ["C7RxSwift8Producer", "init"]
+- ["C7RxSwift8Producer", "run"]
+- ["C7RxSwift8Producer", "subscribe"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "C7RxSwift22CurrentThreadScheduler"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "P7RxSwift22ImmediateSchedulerType"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- "C7RxSwift8Producer"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "984f30a26cfbd6d6244a21666499900a"

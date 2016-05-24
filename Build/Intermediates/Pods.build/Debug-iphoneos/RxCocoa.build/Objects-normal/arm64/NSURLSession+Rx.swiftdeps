@@ -1,0 +1,732 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxCocoaURLError"
+- "escapeTerminalString"
+- "convertURLRequestToCurlCommand"
+- "convertResponseToString"
+provides-nominal:
+- "O7RxCocoa15RxCocoaURLError"
+provides-member:
+- ["O7RxCocoa15RxCocoaURLError", ""]
+- ["CSo12NSURLSession", ""]
+- ["O7RxCocoa15RxCocoaURLError", "debugDescription"]
+- ["CSo12NSURLSession", "rx_response"]
+- ["CSo12NSURLSession", "rx_data"]
+- ["CSo12NSURLSession", "rx_JSON"]
+- ["CSo12NSURLSession", "rx_JSON"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AnonymousDisposable"
+- "NSTimeInterval"
+- "AnyObject"
+- "escapeTerminalString"
+- !private "NSDate"
+- !private "&&"
+- !private "Logging"
+- "NSURLResponse"
+- "NSData"
+- !private "print"
+- "NSURLSession"
+- "convertResponseToString"
+- !private "NSString"
+- !private "*"
+- !private "NSURLErrorDomain"
+- "Observable"
+- "NSError"
+- "convertURLRequestToCurlCommand"
+- "NSURL"
+- !private "Dictionary"
+- "CustomDebugStringConvertible"
+- "String"
+- !private "NSUTF8StringEncoding"
+- !private "=="
+- !private "Array"
+- !private "NSURLErrorCancelled"
+- "NSHTTPURLResponse"
+- "ErrorType"
+- !private "StringLiteralType"
+- "NSURLRequest"
+- !private "NSJSONSerialization"
+- !private "~="
+- !private "UnicodeScalarType"
+- !private "??"
+- !private "!="
+- !private "..<"
+- "RxCocoaURLError"
+- !private "Int"
+- !private "+="
+depends-member:
+- !private ["C7RxSwift19AnonymousDisposable", "init"]
+- !private ["Ps9AnyObject", "AnonymousDisposable"]
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "HTTPBody"]
+- !private ["Ps9AnyObject", "HTTPMethod"]
+- !private ["Ps9AnyObject", "JSONObjectWithData"]
+- !private ["Ps9AnyObject", "Logging"]
+- !private ["Ps9AnyObject", "NSDate"]
+- !private ["Ps9AnyObject", "NSJSONSerialization"]
+- !private ["Ps9AnyObject", "NSURLRequest"]
+- !private ["Ps9AnyObject", "Observable"]
+- !private ["Ps9AnyObject", "RxCocoaURLError"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "absoluteString"]
+- !private ["Ps9AnyObject", "allHTTPHeaderFields"]
+- !private ["Ps9AnyObject", "cancel"]
+- !private ["Ps9AnyObject", "code"]
+- !private ["Ps9AnyObject", "convertResponseToString"]
+- !private ["Ps9AnyObject", "convertURLRequestToCurlCommand"]
+- !private ["Ps9AnyObject", "create"]
+- !private ["Ps9AnyObject", "dataTaskWithRequest"]
+- !private ["Ps9AnyObject", "domain"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "resume"]
+- ["Ps9AnyObject", "rx_JSON"]
+- ["Ps9AnyObject", "rx_data"]
+- ["Ps9AnyObject", "rx_response"]
+- !private ["Ps9AnyObject", "statusCode"]
+- !private ["Ps9AnyObject", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps9AnyObject", "timeIntervalSinceDate"]
+- !private ["V7RxSwift11AnyObserver", "on"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps22BidirectionalIndexType", "init"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "AnonymousDisposable"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "HTTPBody"]
+- !private ["Ps11CVarArgType", "HTTPMethod"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "JSONObjectWithData"]
+- !private ["Ps11CVarArgType", "Logging"]
+- !private ["Ps11CVarArgType", "NSDate"]
+- !private ["Ps11CVarArgType", "NSJSONSerialization"]
+- !private ["Ps11CVarArgType", "NSURLRequest"]
+- !private ["Ps11CVarArgType", "Observable"]
+- !private ["Ps11CVarArgType", "RxCocoaURLError"]
+- !private ["Ps11CVarArgType", "URL"]
+- !private ["Ps11CVarArgType", "absoluteString"]
+- !private ["Ps11CVarArgType", "allHTTPHeaderFields"]
+- !private ["Ps11CVarArgType", "cancel"]
+- !private ["Ps11CVarArgType", "code"]
+- !private ["Ps11CVarArgType", "convertResponseToString"]
+- !private ["Ps11CVarArgType", "convertURLRequestToCurlCommand"]
+- !private ["Ps11CVarArgType", "dataTaskWithRequest"]
+- !private ["Ps11CVarArgType", "domain"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "resume"]
+- ["Ps11CVarArgType", "rx_JSON"]
+- ["Ps11CVarArgType", "rx_data"]
+- ["Ps11CVarArgType", "rx_response"]
+- !private ["Ps11CVarArgType", "statusCode"]
+- !private ["Ps11CVarArgType", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps11CVarArgType", "timeIntervalSinceDate"]
+- !private ["P7RxSwift10Cancelable", "init"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps28CustomDebugStringConvertible", "AnonymousDisposable"]
+- !private ["Ps28CustomDebugStringConvertible", "Bound"]
+- !private ["Ps28CustomDebugStringConvertible", "Completed"]
+- ["Ps28CustomDebugStringConvertible", "DeserializationError"]
+- !private ["Ps28CustomDebugStringConvertible", "Error"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPBody"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPMethod"]
+- ["Ps28CustomDebugStringConvertible", "HTTPRequestFailed"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONObjectWithData"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Logging"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDate"]
+- !private ["Ps28CustomDebugStringConvertible", "NSJSONSerialization"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURLRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "Next"]
+- ["Ps28CustomDebugStringConvertible", "NonHTTPResponse"]
+- !private ["Ps28CustomDebugStringConvertible", "Observable"]
+- !private ["Ps28CustomDebugStringConvertible", "RxCocoaURLError"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- ["Ps28CustomDebugStringConvertible", "Unknown"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "_code"]
+- ["Ps28CustomDebugStringConvertible", "_domain"]
+- !private ["Ps28CustomDebugStringConvertible", "absoluteString"]
+- !private ["Ps28CustomDebugStringConvertible", "allHTTPHeaderFields"]
+- !private ["Ps28CustomDebugStringConvertible", "cancel"]
+- !private ["Ps28CustomDebugStringConvertible", "code"]
+- !private ["Ps28CustomDebugStringConvertible", "convertResponseToString"]
+- !private ["Ps28CustomDebugStringConvertible", "convertURLRequestToCurlCommand"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTaskWithRequest"]
+- ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "domain"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- ["Ps28CustomDebugStringConvertible", "rx_JSON"]
+- ["Ps28CustomDebugStringConvertible", "rx_data"]
+- ["Ps28CustomDebugStringConvertible", "rx_response"]
+- !private ["Ps28CustomDebugStringConvertible", "statusCode"]
+- !private ["Ps28CustomDebugStringConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSinceDate"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "AnonymousDisposable"]
+- !private ["Ps23CustomStringConvertible", "Bound"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "HTTPBody"]
+- !private ["Ps23CustomStringConvertible", "HTTPMethod"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "JSONObjectWithData"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Logging"]
+- !private ["Ps23CustomStringConvertible", "NSDate"]
+- !private ["Ps23CustomStringConvertible", "NSJSONSerialization"]
+- !private ["Ps23CustomStringConvertible", "NSURLRequest"]
+- !private ["Ps23CustomStringConvertible", "Observable"]
+- !private ["Ps23CustomStringConvertible", "RxCocoaURLError"]
+- ["Ps23CustomStringConvertible", "Some"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "absoluteString"]
+- !private ["Ps23CustomStringConvertible", "allHTTPHeaderFields"]
+- !private ["Ps23CustomStringConvertible", "cancel"]
+- !private ["Ps23CustomStringConvertible", "code"]
+- !private ["Ps23CustomStringConvertible", "convertResponseToString"]
+- !private ["Ps23CustomStringConvertible", "convertURLRequestToCurlCommand"]
+- !private ["Ps23CustomStringConvertible", "dataTaskWithRequest"]
+- !private ["Ps23CustomStringConvertible", "domain"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- ["Ps23CustomStringConvertible", "rx_JSON"]
+- ["Ps23CustomStringConvertible", "rx_data"]
+- ["Ps23CustomStringConvertible", "rx_response"]
+- !private ["Ps23CustomStringConvertible", "statusCode"]
+- !private ["Ps23CustomStringConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSinceDate"]
+- !private ["Vs10Dictionary", "Generator"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs19DictionaryGenerator", "Element"]
+- !private ["Ps28DictionaryLiteralConvertible", "Generator"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["P7RxSwift10Disposable", "init"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "AnonymousDisposable"]
+- !private ["Ps9Equatable", "Bound"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "HTTPBody"]
+- !private ["Ps9Equatable", "HTTPMethod"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "JSONObjectWithData"]
+- !private ["Ps9Equatable", "Logging"]
+- !private ["Ps9Equatable", "NSDate"]
+- !private ["Ps9Equatable", "NSJSONSerialization"]
+- !private ["Ps9Equatable", "NSURLRequest"]
+- !private ["Ps9Equatable", "Observable"]
+- !private ["Ps9Equatable", "RxCocoaURLError"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "absoluteString"]
+- !private ["Ps9Equatable", "allHTTPHeaderFields"]
+- !private ["Ps9Equatable", "cancel"]
+- !private ["Ps9Equatable", "code"]
+- !private ["Ps9Equatable", "convertResponseToString"]
+- !private ["Ps9Equatable", "convertURLRequestToCurlCommand"]
+- !private ["Ps9Equatable", "dataTaskWithRequest"]
+- !private ["Ps9Equatable", "domain"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "resume"]
+- ["Ps9Equatable", "rx_JSON"]
+- ["Ps9Equatable", "rx_data"]
+- ["Ps9Equatable", "rx_response"]
+- !private ["Ps9Equatable", "statusCode"]
+- !private ["Ps9Equatable", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps9Equatable", "timeIntervalSinceDate"]
+- ["Ps9ErrorType", "DeserializationError"]
+- ["Ps9ErrorType", "HTTPRequestFailed"]
+- ["Ps9ErrorType", "NonHTTPResponse"]
+- ["Ps9ErrorType", "Unknown"]
+- ["Ps9ErrorType", "_code"]
+- ["Ps9ErrorType", "_domain"]
+- !private ["Ps9ErrorType", "code"]
+- ["Ps9ErrorType", "debugDescription"]
+- !private ["Ps9ErrorType", "domain"]
+- ["Ps9ErrorType", ""]
+- !private ["O7RxSwift5Event", "Completed"]
+- !private ["O7RxSwift5Event", "Error"]
+- !private ["O7RxSwift5Event", "Next"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Sf", "deinit"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "init"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Vs16HalfOpenInterval", "Bound"]
+- !private ["Ps8Hashable", "AnonymousDisposable"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "HTTPBody"]
+- !private ["Ps8Hashable", "HTTPMethod"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "JSONObjectWithData"]
+- !private ["Ps8Hashable", "Logging"]
+- !private ["Ps8Hashable", "NSDate"]
+- !private ["Ps8Hashable", "NSJSONSerialization"]
+- !private ["Ps8Hashable", "NSURLRequest"]
+- !private ["Ps8Hashable", "Observable"]
+- !private ["Ps8Hashable", "RxCocoaURLError"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "absoluteString"]
+- !private ["Ps8Hashable", "allHTTPHeaderFields"]
+- !private ["Ps8Hashable", "cancel"]
+- !private ["Ps8Hashable", "code"]
+- !private ["Ps8Hashable", "convertResponseToString"]
+- !private ["Ps8Hashable", "convertURLRequestToCurlCommand"]
+- !private ["Ps8Hashable", "dataTaskWithRequest"]
+- !private ["Ps8Hashable", "domain"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "resume"]
+- ["Ps8Hashable", "rx_JSON"]
+- ["Ps8Hashable", "rx_data"]
+- ["Ps8Hashable", "rx_response"]
+- !private ["Ps8Hashable", "statusCode"]
+- !private ["Ps8Hashable", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps8Hashable", "timeIntervalSinceDate"]
+- ["SQ", "Some"]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "init"]
+- !private ["Ps12IntervalType", "Bound"]
+- !private ["P7RxCocoa16KVORepresentable", "Distance"]
+- !private ["P7RxCocoa16KVORepresentable", "IntegerLiteralType"]
+- !private ["P7RxCocoa16KVORepresentable", "init"]
+- !private ["V7RxCocoa7Logging", "URLRequests"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps14MirrorPathType", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo8NSCoding", "HTTPBody"]
+- !private ["PSo8NSCoding", "HTTPMethod"]
+- !private ["PSo8NSCoding", "URL"]
+- !private ["PSo8NSCoding", "absoluteString"]
+- !private ["PSo8NSCoding", "allHTTPHeaderFields"]
+- !private ["PSo8NSCoding", "code"]
+- !private ["PSo8NSCoding", "domain"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "statusCode"]
+- !private ["PSo8NSCoding", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo8NSCoding", "timeIntervalSinceDate"]
+- !private ["PSo9NSCopying", "HTTPBody"]
+- !private ["PSo9NSCopying", "HTTPMethod"]
+- !private ["PSo9NSCopying", "URL"]
+- !private ["PSo9NSCopying", "absoluteString"]
+- !private ["PSo9NSCopying", "allHTTPHeaderFields"]
+- !private ["PSo9NSCopying", "cancel"]
+- !private ["PSo9NSCopying", "code"]
+- !private ["PSo9NSCopying", "domain"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "statusCode"]
+- !private ["PSo9NSCopying", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo9NSCopying", "timeIntervalSinceDate"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo6NSDate", "timeIntervalSinceDate"]
+- !private ["CSo7NSError", "code"]
+- !private ["CSo7NSError", "domain"]
+- !private ["CSo17NSHTTPURLResponse", "statusCode"]
+- !private ["VSC20NSJSONReadingOptions", "Element"]
+- !private ["CSo19NSJSONSerialization", "JSONObjectWithData"]
+- !private ["PSo16NSMutableCopying", "HTTPBody"]
+- !private ["PSo16NSMutableCopying", "HTTPMethod"]
+- !private ["PSo16NSMutableCopying", "URL"]
+- !private ["PSo16NSMutableCopying", "allHTTPHeaderFields"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "stringByReplacingOccurrencesOfString"]
+- !private ["CSo8NSObject", "AnonymousDisposable"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "HTTPBody"]
+- !private ["CSo8NSObject", "HTTPMethod"]
+- !private ["CSo8NSObject", "JSONObjectWithData"]
+- !private ["CSo8NSObject", "Logging"]
+- ["CSo8NSObject", "NSData"]
+- !private ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "NSHTTPURLResponse"]
+- !private ["CSo8NSObject", "NSJSONSerialization"]
+- ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "NSURLRequest"]
+- ["CSo8NSObject", "Observable"]
+- !private ["CSo8NSObject", "RxCocoaURLError"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "absoluteString"]
+- !private ["CSo8NSObject", "allHTTPHeaderFields"]
+- !private ["CSo8NSObject", "cancel"]
+- !private ["CSo8NSObject", "code"]
+- !private ["CSo8NSObject", "convertResponseToString"]
+- !private ["CSo8NSObject", "convertURLRequestToCurlCommand"]
+- !private ["CSo8NSObject", "dataTaskWithRequest"]
+- !private ["CSo8NSObject", "domain"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "resume"]
+- ["CSo8NSObject", "rx_JSON"]
+- ["CSo8NSObject", "rx_data"]
+- ["CSo8NSObject", "rx_response"]
+- !private ["CSo8NSObject", "statusCode"]
+- !private ["CSo8NSObject", "stringByReplacingOccurrencesOfString"]
+- !private ["CSo8NSObject", "timeIntervalSinceDate"]
+- !private ["PSo16NSObjectProtocol", "AnonymousDisposable"]
+- !private ["PSo16NSObjectProtocol", "HTTPBody"]
+- !private ["PSo16NSObjectProtocol", "HTTPMethod"]
+- !private ["PSo16NSObjectProtocol", "JSONObjectWithData"]
+- !private ["PSo16NSObjectProtocol", "Logging"]
+- !private ["PSo16NSObjectProtocol", "NSDate"]
+- !private ["PSo16NSObjectProtocol", "NSJSONSerialization"]
+- !private ["PSo16NSObjectProtocol", "NSURLRequest"]
+- !private ["PSo16NSObjectProtocol", "Observable"]
+- !private ["PSo16NSObjectProtocol", "RxCocoaURLError"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "absoluteString"]
+- !private ["PSo16NSObjectProtocol", "allHTTPHeaderFields"]
+- !private ["PSo16NSObjectProtocol", "cancel"]
+- !private ["PSo16NSObjectProtocol", "code"]
+- !private ["PSo16NSObjectProtocol", "convertResponseToString"]
+- !private ["PSo16NSObjectProtocol", "convertURLRequestToCurlCommand"]
+- !private ["PSo16NSObjectProtocol", "dataTaskWithRequest"]
+- !private ["PSo16NSObjectProtocol", "domain"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- ["PSo16NSObjectProtocol", "rx_JSON"]
+- ["PSo16NSObjectProtocol", "rx_data"]
+- ["PSo16NSObjectProtocol", "rx_response"]
+- !private ["PSo16NSObjectProtocol", "statusCode"]
+- !private ["PSo16NSObjectProtocol", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo16NSObjectProtocol", "timeIntervalSinceDate"]
+- !private ["PSo14NSSecureCoding", "HTTPBody"]
+- !private ["PSo14NSSecureCoding", "HTTPMethod"]
+- !private ["PSo14NSSecureCoding", "URL"]
+- !private ["PSo14NSSecureCoding", "absoluteString"]
+- !private ["PSo14NSSecureCoding", "allHTTPHeaderFields"]
+- !private ["PSo14NSSecureCoding", "code"]
+- !private ["PSo14NSSecureCoding", "domain"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "statusCode"]
+- !private ["PSo14NSSecureCoding", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo14NSSecureCoding", "timeIntervalSinceDate"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "stringByReplacingOccurrencesOfString"]
+- !private ["VSC22NSStringCompareOptions", "Element"]
+- !private ["CSo5NSURL", "absoluteString"]
+- !private ["CSo12NSURLRequest", "HTTPBody"]
+- !private ["CSo12NSURLRequest", "HTTPMethod"]
+- !private ["CSo12NSURLRequest", "URL"]
+- !private ["CSo12NSURLRequest", "allHTTPHeaderFields"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["CSo13NSURLResponse", "deinit"]
+- !private ["CSo13NSURLResponse", "statusCode"]
+- !private ["CSo12NSURLSession", "AnonymousDisposable"]
+- ["CSo12NSURLSession", "AnyObject"]
+- !private ["CSo12NSURLSession", "Logging"]
+- ["CSo12NSURLSession", "NSData"]
+- !private ["CSo12NSURLSession", "NSDate"]
+- ["CSo12NSURLSession", "NSHTTPURLResponse"]
+- !private ["CSo12NSURLSession", "NSJSONSerialization"]
+- ["CSo12NSURLSession", "NSURL"]
+- ["CSo12NSURLSession", "NSURLRequest"]
+- ["CSo12NSURLSession", "Observable"]
+- !private ["CSo12NSURLSession", "RxCocoaURLError"]
+- !private ["CSo12NSURLSession", "convertResponseToString"]
+- !private ["CSo12NSURLSession", "convertURLRequestToCurlCommand"]
+- !private ["CSo12NSURLSession", "dataTaskWithRequest"]
+- !private ["CSo12NSURLSession", "print"]
+- ["CSo12NSURLSession", "rx_JSON"]
+- ["CSo12NSURLSession", "rx_data"]
+- ["CSo12NSURLSession", "rx_response"]
+- !private ["CSo20NSURLSessionDataTask", "cancel"]
+- !private ["CSo20NSURLSessionDataTask", "resume"]
+- !private ["CSo16NSURLSessionTask", "cancel"]
+- !private ["CSo16NSURLSessionTask", "resume"]
+- !private ["Ps21NilLiteralConvertible", "Generator"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["C7RxSwift10Observable", "E"]
+- !private ["C7RxSwift10Observable", "create"]
+- !private ["C7RxSwift10Observable", "map"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "create"]
+- !private ["P7RxSwift25ObservableConvertibleType", "map"]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "create"]
+- !private ["P7RxSwift14ObservableType", "map"]
+- !private ["P7RxSwift12ObserverType", "on"]
+- !private ["Ps13OptionSetType", "Element"]
+- !private ["Sq", "Generator"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps16OutputStreamType", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps21RandomAccessIndexType", "init"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps16RawRepresentable", "Element"]
+- ["O7RxCocoa15RxCocoaURLError", "DeserializationError"]
+- ["O7RxCocoa15RxCocoaURLError", "ErrorType"]
+- ["O7RxCocoa15RxCocoaURLError", "HTTPRequestFailed"]
+- ["O7RxCocoa15RxCocoaURLError", "NSData"]
+- ["O7RxCocoa15RxCocoaURLError", "NSHTTPURLResponse"]
+- ["O7RxCocoa15RxCocoaURLError", "NSURLResponse"]
+- ["O7RxCocoa15RxCocoaURLError", "NonHTTPResponse"]
+- ["O7RxCocoa15RxCocoaURLError", "String"]
+- ["O7RxCocoa15RxCocoaURLError", "Unknown"]
+- ["O7RxCocoa15RxCocoaURLError", "_code"]
+- ["O7RxCocoa15RxCocoaURLError", "_domain"]
+- ["O7RxCocoa15RxCocoaURLError", "debugDescription"]
+- ["O7RxCocoa15RxCocoaURLError", "deinit"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["Ps14SetAlgebraType", "Element"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps17SignedIntegerType", "init"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Streamable", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps30StringInterpolationConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "absoluteString"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "init"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- ["Ps21_ObjectiveCBridgeable", "Some"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "stringByReplacingOccurrencesOfString"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "init"]
+- !private ["Ps12_Reflectable", "Bound"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Key"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "absoluteString"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "stringByReplacingOccurrencesOfString"]
+- !private ["Ps12_Reflectable", "timeIntervalSinceDate"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps18_SignedIntegerType", "init"]
+depends-nominal:
+- !private "C7RxSwift19AnonymousDisposable"
+- "Ps9AnyObject"
+- !private "V7RxSwift11AnyObserver"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "P7RxSwift10Cancelable"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Vs19DictionaryGenerator"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "P7RxSwift10Disposable"
+- !private "Sd"
+- "Ps9Equatable"
+- "Ps9ErrorType"
+- !private "O7RxSwift5Event"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- !private "Vs16HalfOpenInterval"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps12IntervalType"
+- !private "P7RxCocoa16KVORepresentable"
+- !private "V7RxCocoa7Logging"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "CSo7NSError"
+- !private "CSo17NSHTTPURLResponse"
+- !private "VSC20NSJSONReadingOptions"
+- !private "CSo19NSJSONSerialization"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "VSC22NSStringCompareOptions"
+- !private "CSo5NSURL"
+- !private "CSo12NSURLRequest"
+- !private "CSo13NSURLResponse"
+- "CSo12NSURLSession"
+- !private "CSo20NSURLSessionDataTask"
+- !private "CSo16NSURLSessionTask"
+- "Ps21NilLiteralConvertible"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- !private "Ps13OptionSetType"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- !private "Ps16RawRepresentable"
+- "O7RxCocoa15RxCocoaURLError"
+- !private "Ps12SequenceType"
+- !private "Ps14SetAlgebraType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "aa8066138fec67dc1f2f47ec5b4256f5"

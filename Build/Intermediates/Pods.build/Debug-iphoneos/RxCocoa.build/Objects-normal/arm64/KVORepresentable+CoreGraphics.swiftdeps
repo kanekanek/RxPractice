@@ -1,0 +1,155 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CGRectType"
+- "CGSizeType"
+- "CGPointType"
+provides-nominal:
+- "VSC6CGRect"
+- "VSC7CGPoint"
+- "VSC6CGSize"
+provides-member:
+- ["VSC6CGRect", ""]
+- ["VSC7CGPoint", ""]
+- ["VSC6CGSize", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "CGPointType"
+- !private "strcmp"
+- "CGPoint"
+- "CGSize"
+- "CGRectType"
+- "StringLiteralType"
+- "NSValue"
+- "CGSizeType"
+- "KVORepresentable"
+- "CGRect"
+depends-member:
+- !private ["Ps9AnyObject", "getValue"]
+- !private ["Ps9AnyObject", "objCType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["VSC7CGPoint", "CGPoint"]
+- !private ["VSC7CGPoint", "CGPointType"]
+- ["VSC7CGPoint", "KVOType"]
+- ["VSC7CGPoint", "NSValue"]
+- ["VSC7CGPoint", "deinit"]
+- ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "strcmp"]
+- !private ["VSC6CGRect", "CGRect"]
+- !private ["VSC6CGRect", "CGRectType"]
+- ["VSC6CGRect", "KVOType"]
+- ["VSC6CGRect", "NSValue"]
+- ["VSC6CGRect", "deinit"]
+- ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "strcmp"]
+- !private ["VSC6CGSize", "CGSize"]
+- !private ["VSC6CGSize", "CGSizeType"]
+- ["VSC6CGSize", "KVOType"]
+- ["VSC6CGSize", "NSValue"]
+- ["VSC6CGSize", "deinit"]
+- ["VSC6CGSize", "init"]
+- !private ["VSC6CGSize", "strcmp"]
+- !private ["Ps11CVarArgType", "getValue"]
+- !private ["Ps11CVarArgType", "objCType"]
+- !private ["Ps28CustomDebugStringConvertible", "getValue"]
+- !private ["Ps28CustomDebugStringConvertible", "objCType"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "getValue"]
+- !private ["Ps23CustomStringConvertible", "objCType"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "CGPointType"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "CGRectType"]
+- !private ["Ps9Equatable", "CGSize"]
+- !private ["Ps9Equatable", "CGSizeType"]
+- ["Ps9Equatable", "KVOType"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "getValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "objCType"]
+- !private ["Ps9Equatable", "strcmp"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "getValue"]
+- !private ["Ps8Hashable", "objCType"]
+- !private ["P7RxCocoa16KVORepresentable", "CGPoint"]
+- !private ["P7RxCocoa16KVORepresentable", "CGPointType"]
+- !private ["P7RxCocoa16KVORepresentable", "CGRect"]
+- !private ["P7RxCocoa16KVORepresentable", "CGRectType"]
+- !private ["P7RxCocoa16KVORepresentable", "CGSize"]
+- !private ["P7RxCocoa16KVORepresentable", "CGSizeType"]
+- ["P7RxCocoa16KVORepresentable", "KVOType"]
+- ["P7RxCocoa16KVORepresentable", "init"]
+- !private ["P7RxCocoa16KVORepresentable", "strcmp"]
+- ["P7RxCocoa16KVORepresentable", ""]
+- !private ["PSo8NSCoding", "getValue"]
+- !private ["PSo8NSCoding", "objCType"]
+- !private ["PSo9NSCopying", "getValue"]
+- !private ["PSo9NSCopying", "objCType"]
+- !private ["CSo8NSObject", "getValue"]
+- !private ["CSo8NSObject", "objCType"]
+- !private ["PSo16NSObjectProtocol", "getValue"]
+- !private ["PSo16NSObjectProtocol", "objCType"]
+- !private ["PSo14NSSecureCoding", "getValue"]
+- !private ["PSo14NSSecureCoding", "objCType"]
+- !private ["CSo7NSValue", "getValue"]
+- !private ["CSo7NSValue", "objCType"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "CGPoint"]
+- !private ["Ps12_Reflectable", "CGPointType"]
+- !private ["Ps12_Reflectable", "CGRect"]
+- !private ["Ps12_Reflectable", "CGRectType"]
+- !private ["Ps12_Reflectable", "CGSize"]
+- !private ["Ps12_Reflectable", "CGSizeType"]
+- ["Ps12_Reflectable", "KVOType"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "strcmp"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "VSC7CGPoint"
+- "VSC6CGRect"
+- "VSC6CGSize"
+- !private "Ps11CVarArgType"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps8Hashable"
+- "P7RxCocoa16KVORepresentable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXObjCRuntime.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXKVOObserver.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RXDelegateProxy.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/Common/_RX.h"
+- "/Users/shotakaneko/RxPractice/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "cf95b0d4a2a910a75f9149a49996118e"

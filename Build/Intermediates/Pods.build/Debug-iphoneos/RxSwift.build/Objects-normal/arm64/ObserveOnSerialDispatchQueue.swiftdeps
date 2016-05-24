@@ -1,0 +1,217 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ObserveOnSerialDispatchQueueSink"
+- "ObserveOnSerialDispatchQueue"
+provides-nominal:
+- "C7RxSwift32ObserveOnSerialDispatchQueueSink"
+- "C7RxSwift28ObserveOnSerialDispatchQueue"
+provides-member:
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", ""]
+- ["C7RxSwift28ObserveOnSerialDispatchQueue", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "NopDisposable"
+- "ObserveOnSerialDispatchQueue"
+- "ObserverType"
+- "SingleAssignmentDisposable"
+- "Event"
+- "Disposable"
+- "Observable"
+- "ObserverBase"
+- "SerialDispatchQueueScheduler"
+- "ObserveOnSerialDispatchQueueSink"
+- "Producer"
+depends-member:
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "NopDisposable"]
+- !private ["Ps9AnyObject", "ObserveOnSerialDispatchQueueSink"]
+- ["Ps9AnyObject", "SingleAssignmentDisposable"]
+- ["Ps9AnyObject", "cachedScheduleLambda"]
+- !private ["Ps9AnyObject", "disposable"]
+- ["Ps9AnyObject", "dispose"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "observer"]
+- ["Ps9AnyObject", "onCore"]
+- ["Ps9AnyObject", "run"]
+- !private ["Ps9AnyObject", "schedule"]
+- ["Ps9AnyObject", "scheduler"]
+- ["Ps9AnyObject", "source"]
+- !private ["Ps9AnyObject", "subscribe"]
+- ["Ps9AnyObject", "subscription"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["P7RxSwift10Cancelable", "disposable"]
+- !private ["P7RxSwift10Cancelable", "dispose"]
+- ["P7RxSwift10Cancelable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isStopEvent"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["P7RxSwift10Disposable", "E"]
+- !private ["P7RxSwift10Disposable", "NopDisposable"]
+- ["P7RxSwift10Disposable", "SingleAssignmentDisposable"]
+- ["P7RxSwift10Disposable", "cachedScheduleLambda"]
+- !private ["P7RxSwift10Disposable", "disposable"]
+- ["P7RxSwift10Disposable", "dispose"]
+- ["P7RxSwift10Disposable", "init"]
+- !private ["P7RxSwift10Disposable", "instance"]
+- ["P7RxSwift10Disposable", "observer"]
+- ["P7RxSwift10Disposable", "onCore"]
+- ["P7RxSwift10Disposable", "scheduler"]
+- ["P7RxSwift10Disposable", "subscription"]
+- ["P7RxSwift10Disposable", ""]
+- !private ["C7RxSwift11DisposeBase", "disposable"]
+- !private ["C7RxSwift11DisposeBase", "dispose"]
+- ["C7RxSwift11DisposeBase", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["O7RxSwift5Event", "isStopEvent"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "schedule"]
+- !private ["V7RxSwift13NopDisposable", "instance"]
+- ["C7RxSwift10Observable", "Disposable"]
+- ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "Observable"]
+- !private ["C7RxSwift10Observable", "ObserveOnSerialDispatchQueueSink"]
+- ["C7RxSwift10Observable", "ObserverType"]
+- ["C7RxSwift10Observable", "SerialDispatchQueueScheduler"]
+- !private ["C7RxSwift10Observable", "deinit"]
+- ["C7RxSwift10Observable", "init"]
+- ["C7RxSwift10Observable", "run"]
+- ["C7RxSwift10Observable", "scheduler"]
+- ["C7RxSwift10Observable", "source"]
+- !private ["C7RxSwift10Observable", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "ObserveOnSerialDispatchQueueSink"]
+- ["P7RxSwift25ObservableConvertibleType", "init"]
+- ["P7RxSwift25ObservableConvertibleType", "run"]
+- ["P7RxSwift25ObservableConvertibleType", "scheduler"]
+- ["P7RxSwift25ObservableConvertibleType", "source"]
+- !private ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- ["P7RxSwift25ObservableConvertibleType", ""]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "ObserveOnSerialDispatchQueueSink"]
+- ["P7RxSwift14ObservableType", "init"]
+- ["P7RxSwift14ObservableType", "run"]
+- ["P7RxSwift14ObservableType", "scheduler"]
+- ["P7RxSwift14ObservableType", "source"]
+- !private ["P7RxSwift14ObservableType", "subscribe"]
+- ["P7RxSwift14ObservableType", ""]
+- ["C7RxSwift28ObserveOnSerialDispatchQueue", "Disposable"]
+- ["C7RxSwift28ObserveOnSerialDispatchQueue", "E"]
+- ["C7RxSwift28ObserveOnSerialDispatchQueue", "Observable"]
+- !private ["C7RxSwift28ObserveOnSerialDispatchQueue", "ObserveOnSerialDispatchQueueSink"]
+- ["C7RxSwift28ObserveOnSerialDispatchQueue", "ObserverType"]
+- ["C7RxSwift28ObserveOnSerialDispatchQueue", "SerialDispatchQueueScheduler"]
+- ["C7RxSwift28ObserveOnSerialDispatchQueue", "deinit"]
+- ["C7RxSwift28ObserveOnSerialDispatchQueue", "init"]
+- ["C7RxSwift28ObserveOnSerialDispatchQueue", "run"]
+- ["C7RxSwift28ObserveOnSerialDispatchQueue", "scheduler"]
+- ["C7RxSwift28ObserveOnSerialDispatchQueue", "source"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "Disposable"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "E"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "Event"]
+- !private ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "NopDisposable"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "O"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "ObserveOnSerialDispatchQueueSink"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "SerialDispatchQueueScheduler"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "SingleAssignmentDisposable"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "cachedScheduleLambda"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "deinit"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "dispose"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "init"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "observer"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "onCore"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "scheduler"]
+- ["C7RxSwift32ObserveOnSerialDispatchQueueSink", "subscription"]
+- ["C7RxSwift12ObserverBase", "Disposable"]
+- ["C7RxSwift12ObserverBase", "E"]
+- ["C7RxSwift12ObserverBase", "Event"]
+- !private ["C7RxSwift12ObserverBase", "NopDisposable"]
+- ["C7RxSwift12ObserverBase", "O"]
+- ["C7RxSwift12ObserverBase", "ObserveOnSerialDispatchQueueSink"]
+- ["C7RxSwift12ObserverBase", "SerialDispatchQueueScheduler"]
+- ["C7RxSwift12ObserverBase", "SingleAssignmentDisposable"]
+- ["C7RxSwift12ObserverBase", "cachedScheduleLambda"]
+- !private ["C7RxSwift12ObserverBase", "deinit"]
+- ["C7RxSwift12ObserverBase", "dispose"]
+- ["C7RxSwift12ObserverBase", "init"]
+- ["C7RxSwift12ObserverBase", "observer"]
+- ["C7RxSwift12ObserverBase", "onCore"]
+- ["C7RxSwift12ObserverBase", "scheduler"]
+- ["C7RxSwift12ObserverBase", "subscription"]
+- ["C7RxSwift12ObserverBase", ""]
+- ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "NopDisposable"]
+- ["P7RxSwift12ObserverType", "SingleAssignmentDisposable"]
+- ["P7RxSwift12ObserverType", "cachedScheduleLambda"]
+- ["P7RxSwift12ObserverType", "dispose"]
+- ["P7RxSwift12ObserverType", "init"]
+- ["P7RxSwift12ObserverType", "observer"]
+- !private ["P7RxSwift12ObserverType", "on"]
+- ["P7RxSwift12ObserverType", "onCore"]
+- ["P7RxSwift12ObserverType", "scheduler"]
+- ["P7RxSwift12ObserverType", "subscription"]
+- ["P7RxSwift12ObserverType", ""]
+- ["C7RxSwift8Producer", "Disposable"]
+- ["C7RxSwift8Producer", "E"]
+- ["C7RxSwift8Producer", "Observable"]
+- !private ["C7RxSwift8Producer", "ObserveOnSerialDispatchQueueSink"]
+- ["C7RxSwift8Producer", "ObserverType"]
+- ["C7RxSwift8Producer", "SerialDispatchQueueScheduler"]
+- ["C7RxSwift8Producer", "init"]
+- ["C7RxSwift8Producer", "run"]
+- ["C7RxSwift8Producer", "scheduler"]
+- ["C7RxSwift8Producer", "source"]
+- ["C7RxSwift8Producer", ""]
+- !private ["P7RxSwift13SchedulerType", "schedule"]
+- !private ["C7RxSwift28SerialDispatchQueueScheduler", "deinit"]
+- !private ["C7RxSwift28SerialDispatchQueueScheduler", "schedule"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "deinit"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "disposable"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "dispose"]
+- ["C7RxSwift26SingleAssignmentDisposable", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "P7RxSwift10Cancelable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- "P7RxSwift10Disposable"
+- "C7RxSwift11DisposeBase"
+- !private "Ps9Equatable"
+- !private "O7RxSwift5Event"
+- !private "Ps8Hashable"
+- !private "P7RxSwift22ImmediateSchedulerType"
+- !private "V7RxSwift13NopDisposable"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- "C7RxSwift28ObserveOnSerialDispatchQueue"
+- "C7RxSwift32ObserveOnSerialDispatchQueueSink"
+- "C7RxSwift12ObserverBase"
+- "P7RxSwift12ObserverType"
+- "C7RxSwift8Producer"
+- !private "P7RxSwift13SchedulerType"
+- !private "C7RxSwift28SerialDispatchQueueScheduler"
+- "C7RxSwift26SingleAssignmentDisposable"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "402c8d23238ac8f65257c211b18fc447"

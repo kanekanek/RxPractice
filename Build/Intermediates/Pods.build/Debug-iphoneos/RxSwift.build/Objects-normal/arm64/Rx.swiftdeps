@@ -1,0 +1,137 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "abstractMethod"
+- "rxFatalError"
+- "incrementChecked"
+- "decrementChecked"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "decrementChecked"
+- !private "fatalError"
+- "rxFatalError"
+- !private "RxError"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "=="
+- "Void"
+- "Int"
+- "abstractMethod"
+- !private "+="
+- "String"
+- "incrementChecked"
+- !private "-="
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps22BidirectionalIndexType", "max"]
+- !private ["Ps22BidirectionalIndexType", "min"]
+- !private ["Ps21BitwiseOperationsType", "max"]
+- !private ["Ps21BitwiseOperationsType", "min"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "max"]
+- !private ["Ps11CVarArgType", "min"]
+- !private ["Ps10Comparable", "max"]
+- !private ["Ps10Comparable", "min"]
+- !private ["Ps28CustomDebugStringConvertible", "Overflow"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- !private ["Ps23CustomStringConvertible", "min"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "max"]
+- !private ["Ps9Equatable", "min"]
+- !private ["Ps9ErrorType", "Overflow"]
+- !private ["Ps16ForwardIndexType", "max"]
+- !private ["Ps16ForwardIndexType", "min"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "max"]
+- !private ["Ps8Hashable", "min"]
+- !private ["Si", "max"]
+- !private ["Si", "min"]
+- !private ["Ps21IntegerArithmeticType", "max"]
+- !private ["Ps21IntegerArithmeticType", "min"]
+- !private ["Ps25IntegerLiteralConvertible", "max"]
+- !private ["Ps25IntegerLiteralConvertible", "min"]
+- !private ["Ps11IntegerType", "max"]
+- !private ["Ps11IntegerType", "min"]
+- !private ["Ps14MirrorPathType", "max"]
+- !private ["Ps14MirrorPathType", "min"]
+- !private ["Ps21RandomAccessIndexType", "max"]
+- !private ["Ps21RandomAccessIndexType", "min"]
+- !private ["O7RxSwift7RxError", "Overflow"]
+- !private ["O7RxSwift7RxError", "deinit"]
+- !private ["Ps17SignedIntegerType", "max"]
+- !private ["Ps17SignedIntegerType", "min"]
+- !private ["Ps16SignedNumberType", "max"]
+- !private ["Ps16SignedNumberType", "min"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Strideable", "max"]
+- !private ["Ps10Strideable", "min"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "max"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "min"]
+- !private ["Ps14_Incrementable", "max"]
+- !private ["Ps14_Incrementable", "min"]
+- !private ["Ps22_IntegerArithmeticType", "max"]
+- !private ["Ps22_IntegerArithmeticType", "min"]
+- !private ["Ps12_IntegerType", "max"]
+- !private ["Ps12_IntegerType", "min"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "max"]
+- !private ["Ps21_ObjectiveCBridgeable", "min"]
+- !private ["Ps22_RandomAccessAmbiguity", "max"]
+- !private ["Ps22_RandomAccessAmbiguity", "min"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "max"]
+- !private ["Ps12_Reflectable", "min"]
+- !private ["Ps18_SignedIntegerType", "max"]
+- !private ["Ps18_SignedIntegerType", "min"]
+depends-nominal:
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "Ps16ForwardIndexType"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21RandomAccessIndexType"
+- !private "O7RxSwift7RxError"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "78788428211ca3919abb8b6a1cba0da9"

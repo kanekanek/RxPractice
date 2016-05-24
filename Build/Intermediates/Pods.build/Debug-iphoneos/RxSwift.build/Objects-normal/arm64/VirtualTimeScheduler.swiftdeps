@@ -1,0 +1,397 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VirtualTimeScheduler"
+- "VirtualSchedulerItem"
+provides-nominal:
+- "C7RxSwift20VirtualTimeScheduler"
+- "C7RxSwift20VirtualSchedulerItem"
+provides-member:
+- ["C7RxSwift20VirtualTimeScheduler", ""]
+- ["C7RxSwift20VirtualSchedulerItem", ""]
+- ["C7RxSwift20VirtualTimeScheduler", "debugDescription"]
+provides-dynamic-lookup:
+depends-top-level:
+- "VirtualSchedulerItem"
+- "VirtualTimeScheduler"
+- "Disposable"
+- "CustomDebugStringConvertible"
+- !private "fatalError"
+- !private "<"
+- !private "BooleanLiteralType"
+- !private "+="
+- "FloatLiteralType"
+- "RxTimeInterval"
+- "RxTime"
+- "IntegerLiteralType"
+- "String"
+- "SchedulerType"
+- "SingleAssignmentDisposable"
+- "VirtualTimeConverterType"
+- "Int"
+- !private "MainScheduler"
+- !private "StringLiteralType"
+- "PriorityQueue"
+- !private "CompositeDisposable"
+- "Bool"
+depends-member:
+- !private ["Ps9AnyObject", "CompositeDisposable"]
+- !private ["Ps9AnyObject", "MainScheduler"]
+- !private ["Ps9AnyObject", "PriorityQueue"]
+- ["Ps9AnyObject", "SingleAssignmentDisposable"]
+- !private ["Ps9AnyObject", "VirtualSchedulerItem"]
+- !private ["Ps9AnyObject", "_clock"]
+- !private ["Ps9AnyObject", "_converter"]
+- !private ["Ps9AnyObject", "_nextId"]
+- !private ["Ps9AnyObject", "_running"]
+- !private ["Ps9AnyObject", "_schedulerQueue"]
+- !private ["Ps9AnyObject", "action"]
+- !private ["Ps9AnyObject", "addDisposable"]
+- !private ["Ps9AnyObject", "adjustScheduledTime"]
+- !private ["Ps9AnyObject", "clock"]
+- !private ["Ps9AnyObject", "dateByAddingTimeInterval"]
+- ["Ps9AnyObject", "debugDescription"]
+- !private ["Ps9AnyObject", "disposable"]
+- ["Ps9AnyObject", "dispose"]
+- !private ["Ps9AnyObject", "disposed"]
+- !private ["Ps9AnyObject", "ensureExecutingOnScheduler"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "findNext"]
+- !private ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "invoke"]
+- ["Ps9AnyObject", "now"]
+- ["Ps9AnyObject", "schedule"]
+- !private ["Ps9AnyObject", "scheduleAbsoluteVirtual"]
+- ["Ps9AnyObject", "schedulePeriodic"]
+- ["Ps9AnyObject", "scheduleRelative"]
+- !private ["Ps9AnyObject", "time"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "dateByAddingTimeInterval"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["P7RxSwift10Cancelable", "addDisposable"]
+- !private ["P7RxSwift10Cancelable", "disposable"]
+- !private ["P7RxSwift10Cancelable", "dispose"]
+- !private ["P7RxSwift10Cancelable", "disposed"]
+- ["P7RxSwift10Cancelable", "init"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["C7RxSwift19CompositeDisposable", "addDisposable"]
+- !private ["C7RxSwift19CompositeDisposable", "deinit"]
+- !private ["C7RxSwift19CompositeDisposable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CompositeDisposable"]
+- !private ["Ps28CustomDebugStringConvertible", "MainScheduler"]
+- !private ["Ps28CustomDebugStringConvertible", "PriorityQueue"]
+- ["Ps28CustomDebugStringConvertible", "SingleAssignmentDisposable"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "VirtualSchedulerItem"]
+- !private ["Ps28CustomDebugStringConvertible", "_clock"]
+- !private ["Ps28CustomDebugStringConvertible", "_converter"]
+- !private ["Ps28CustomDebugStringConvertible", "_nextId"]
+- !private ["Ps28CustomDebugStringConvertible", "_running"]
+- !private ["Ps28CustomDebugStringConvertible", "_schedulerQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "action"]
+- !private ["Ps28CustomDebugStringConvertible", "adjustScheduledTime"]
+- !private ["Ps28CustomDebugStringConvertible", "clock"]
+- !private ["Ps28CustomDebugStringConvertible", "dateByAddingTimeInterval"]
+- ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "disposable"]
+- ["Ps28CustomDebugStringConvertible", "dispose"]
+- !private ["Ps28CustomDebugStringConvertible", "disposed"]
+- !private ["Ps28CustomDebugStringConvertible", "enqueue"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "findNext"]
+- !private ["Ps28CustomDebugStringConvertible", "id"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "invoke"]
+- ["Ps28CustomDebugStringConvertible", "now"]
+- !private ["Ps28CustomDebugStringConvertible", "peek"]
+- !private ["Ps28CustomDebugStringConvertible", "remove"]
+- ["Ps28CustomDebugStringConvertible", "schedule"]
+- !private ["Ps28CustomDebugStringConvertible", "scheduleAbsoluteVirtual"]
+- ["Ps28CustomDebugStringConvertible", "schedulePeriodic"]
+- ["Ps28CustomDebugStringConvertible", "scheduleRelative"]
+- !private ["Ps28CustomDebugStringConvertible", "time"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "dateByAddingTimeInterval"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["P7RxSwift10Disposable", "SingleAssignmentDisposable"]
+- !private ["P7RxSwift10Disposable", "action"]
+- !private ["P7RxSwift10Disposable", "addDisposable"]
+- ["P7RxSwift10Disposable", "debugDescription"]
+- !private ["P7RxSwift10Disposable", "disposable"]
+- ["P7RxSwift10Disposable", "dispose"]
+- !private ["P7RxSwift10Disposable", "disposed"]
+- !private ["P7RxSwift10Disposable", "id"]
+- ["P7RxSwift10Disposable", "init"]
+- !private ["P7RxSwift10Disposable", "invoke"]
+- !private ["P7RxSwift10Disposable", "time"]
+- ["P7RxSwift10Disposable", ""]
+- !private ["C7RxSwift11DisposeBase", "addDisposable"]
+- !private ["C7RxSwift11DisposeBase", "disposable"]
+- !private ["C7RxSwift11DisposeBase", "dispose"]
+- !private ["C7RxSwift11DisposeBase", "disposed"]
+- ["C7RxSwift11DisposeBase", "init"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Equal"]
+- !private ["Ps9Equatable", "GreaterThan"]
+- !private ["Ps9Equatable", "LessThan"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "dateByAddingTimeInterval"]
+- !private ["Ps9Equatable", "greaterThan"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lessThen"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "Equal"]
+- !private ["Ps8Hashable", "GreaterThan"]
+- !private ["Ps8Hashable", "LessThan"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "dateByAddingTimeInterval"]
+- !private ["Ps8Hashable", "greaterThan"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lessThen"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "CompositeDisposable"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "MainScheduler"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "PriorityQueue"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "VirtualSchedulerItem"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "_clock"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "_converter"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "_nextId"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "_running"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "_schedulerQueue"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "adjustScheduledTime"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "clock"]
+- ["P7RxSwift22ImmediateSchedulerType", "debugDescription"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "ensureExecutingOnScheduler"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "fatalError"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "findNext"]
+- ["P7RxSwift22ImmediateSchedulerType", "now"]
+- ["P7RxSwift22ImmediateSchedulerType", "schedule"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "scheduleAbsoluteVirtual"]
+- ["P7RxSwift22ImmediateSchedulerType", "schedulePeriodic"]
+- ["P7RxSwift22ImmediateSchedulerType", "scheduleRelative"]
+- ["P7RxSwift22ImmediateSchedulerType", ""]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["C7RxSwift13MainScheduler", "ensureExecutingOnScheduler"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "dateByAddingTimeInterval"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "dateByAddingTimeInterval"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo6NSDate", "dateByAddingTimeInterval"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "dateByAddingTimeInterval"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "dateByAddingTimeInterval"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "dateByAddingTimeInterval"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["V7RxSwift13PriorityQueue", "debugDescription"]
+- !private ["V7RxSwift13PriorityQueue", "deinit"]
+- !private ["V7RxSwift13PriorityQueue", "enqueue"]
+- !private ["V7RxSwift13PriorityQueue", "init"]
+- !private ["V7RxSwift13PriorityQueue", "peek"]
+- !private ["V7RxSwift13PriorityQueue", "remove"]
+- !private ["P7RxSwift13SchedulerType", "CompositeDisposable"]
+- !private ["P7RxSwift13SchedulerType", "MainScheduler"]
+- !private ["P7RxSwift13SchedulerType", "PriorityQueue"]
+- !private ["P7RxSwift13SchedulerType", "VirtualSchedulerItem"]
+- !private ["P7RxSwift13SchedulerType", "_clock"]
+- !private ["P7RxSwift13SchedulerType", "_converter"]
+- !private ["P7RxSwift13SchedulerType", "_nextId"]
+- !private ["P7RxSwift13SchedulerType", "_running"]
+- !private ["P7RxSwift13SchedulerType", "_schedulerQueue"]
+- !private ["P7RxSwift13SchedulerType", "adjustScheduledTime"]
+- !private ["P7RxSwift13SchedulerType", "clock"]
+- ["P7RxSwift13SchedulerType", "debugDescription"]
+- !private ["P7RxSwift13SchedulerType", "ensureExecutingOnScheduler"]
+- !private ["P7RxSwift13SchedulerType", "fatalError"]
+- !private ["P7RxSwift13SchedulerType", "findNext"]
+- ["P7RxSwift13SchedulerType", "now"]
+- ["P7RxSwift13SchedulerType", "schedule"]
+- !private ["P7RxSwift13SchedulerType", "scheduleAbsoluteVirtual"]
+- ["P7RxSwift13SchedulerType", "schedulePeriodic"]
+- ["P7RxSwift13SchedulerType", "scheduleRelative"]
+- ["P7RxSwift13SchedulerType", ""]
+- !private ["C7RxSwift28SerialDispatchQueueScheduler", "ensureExecutingOnScheduler"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "deinit"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "disposable"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "dispose"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "disposed"]
+- ["C7RxSwift26SingleAssignmentDisposable", "init"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- ["C7RxSwift20VirtualSchedulerItem", "Action"]
+- ["C7RxSwift20VirtualSchedulerItem", "Bool"]
+- ["C7RxSwift20VirtualSchedulerItem", "Disposable"]
+- ["C7RxSwift20VirtualSchedulerItem", "Int"]
+- ["C7RxSwift20VirtualSchedulerItem", "SingleAssignmentDisposable"]
+- ["C7RxSwift20VirtualSchedulerItem", "String"]
+- ["C7RxSwift20VirtualSchedulerItem", "Time"]
+- ["C7RxSwift20VirtualSchedulerItem", "action"]
+- ["C7RxSwift20VirtualSchedulerItem", "debugDescription"]
+- ["C7RxSwift20VirtualSchedulerItem", "deinit"]
+- ["C7RxSwift20VirtualSchedulerItem", "disposable"]
+- ["C7RxSwift20VirtualSchedulerItem", "dispose"]
+- ["C7RxSwift20VirtualSchedulerItem", "disposed"]
+- ["C7RxSwift20VirtualSchedulerItem", "id"]
+- ["C7RxSwift20VirtualSchedulerItem", "init"]
+- ["C7RxSwift20VirtualSchedulerItem", "invoke"]
+- ["C7RxSwift20VirtualSchedulerItem", "time"]
+- !private ["O7RxSwift21VirtualTimeComparison", "Equal"]
+- !private ["O7RxSwift21VirtualTimeComparison", "GreaterThan"]
+- !private ["O7RxSwift21VirtualTimeComparison", "LessThan"]
+- !private ["O7RxSwift21VirtualTimeComparison", "greaterThan"]
+- !private ["O7RxSwift21VirtualTimeComparison", "lessThen"]
+- ["P7RxSwift24VirtualTimeConverterType", "VirtualTimeIntervalUnit"]
+- ["P7RxSwift24VirtualTimeConverterType", "VirtualTimeUnit"]
+- !private ["P7RxSwift24VirtualTimeConverterType", "compareVirtualTime"]
+- !private ["P7RxSwift24VirtualTimeConverterType", "convertFromVirtualTime"]
+- !private ["P7RxSwift24VirtualTimeConverterType", "convertToVirtualTime"]
+- !private ["P7RxSwift24VirtualTimeConverterType", "offsetVirtualTime"]
+- ["C7RxSwift20VirtualTimeScheduler", "Bool"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "CompositeDisposable"]
+- ["C7RxSwift20VirtualTimeScheduler", "Converter"]
+- ["C7RxSwift20VirtualTimeScheduler", "Disposable"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "MainScheduler"]
+- ["C7RxSwift20VirtualTimeScheduler", "PriorityQueue"]
+- ["C7RxSwift20VirtualTimeScheduler", "RxTime"]
+- ["C7RxSwift20VirtualTimeScheduler", "RxTimeInterval"]
+- ["C7RxSwift20VirtualTimeScheduler", "String"]
+- ["C7RxSwift20VirtualTimeScheduler", "VirtualSchedulerItem"]
+- ["C7RxSwift20VirtualTimeScheduler", "VirtualTime"]
+- ["C7RxSwift20VirtualTimeScheduler", "VirtualTimeInterval"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "_clock"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "_converter"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "_nextId"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "_running"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "_schedulerQueue"]
+- ["C7RxSwift20VirtualTimeScheduler", "adjustScheduledTime"]
+- ["C7RxSwift20VirtualTimeScheduler", "advanceTo"]
+- ["C7RxSwift20VirtualTimeScheduler", "clock"]
+- ["C7RxSwift20VirtualTimeScheduler", "debugDescription"]
+- ["C7RxSwift20VirtualTimeScheduler", "deinit"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "fatalError"]
+- ["C7RxSwift20VirtualTimeScheduler", "findNext"]
+- ["C7RxSwift20VirtualTimeScheduler", "init"]
+- ["C7RxSwift20VirtualTimeScheduler", "now"]
+- ["C7RxSwift20VirtualTimeScheduler", "schedule"]
+- ["C7RxSwift20VirtualTimeScheduler", "scheduleAbsoluteVirtual"]
+- ["C7RxSwift20VirtualTimeScheduler", "schedulePeriodic"]
+- ["C7RxSwift20VirtualTimeScheduler", "scheduleRelative"]
+- ["C7RxSwift20VirtualTimeScheduler", "scheduleRelativeVirtual"]
+- ["C7RxSwift20VirtualTimeScheduler", "sleep"]
+- ["C7RxSwift20VirtualTimeScheduler", "start"]
+- ["C7RxSwift20VirtualTimeScheduler", "stop"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "dateByAddingTimeInterval"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- "P7RxSwift10Cancelable"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- !private "C7RxSwift19CompositeDisposable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- "P7RxSwift10Disposable"
+- "C7RxSwift11DisposeBase"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps8Hashable"
+- "P7RxSwift22ImmediateSchedulerType"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "C7RxSwift13MainScheduler"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "V7RxSwift13PriorityQueue"
+- "P7RxSwift13SchedulerType"
+- !private "C7RxSwift28SerialDispatchQueueScheduler"
+- "C7RxSwift26SingleAssignmentDisposable"
+- !private "Vs12StaticString"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- "C7RxSwift20VirtualSchedulerItem"
+- !private "O7RxSwift21VirtualTimeComparison"
+- "P7RxSwift24VirtualTimeConverterType"
+- "C7RxSwift20VirtualTimeScheduler"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "b67bb7455fb2631220cb907eec2ff33c"

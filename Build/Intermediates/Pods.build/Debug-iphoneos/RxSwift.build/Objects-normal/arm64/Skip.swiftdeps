@@ -1,0 +1,348 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SkipCountSink"
+- "SkipCount"
+- "SkipTimeSink"
+- "SkipTime"
+provides-nominal:
+- "C7RxSwift13SkipCountSink"
+- "C7RxSwift9SkipCount"
+- "C7RxSwift12SkipTimeSink"
+- "C7RxSwift8SkipTime"
+provides-member:
+- ["C7RxSwift13SkipCountSink", ""]
+- ["C7RxSwift9SkipCount", ""]
+- ["C7RxSwift12SkipTimeSink", ""]
+- ["C7RxSwift8SkipTime", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "NopDisposable"
+- "SkipTime"
+- !private "FloatLiteralType"
+- "Event"
+- "Observable"
+- "Disposable"
+- "BooleanLiteralType"
+- "SkipCount"
+- "SkipCountSink"
+- "SchedulerType"
+- !private "<="
+- "Producer"
+- !private "-="
+- "ObserverType"
+- "Int"
+- "SkipTimeSink"
+- "Sink"
+- "RxTimeInterval"
+- !private "BinaryDisposable"
+- !private "IntegerLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "BinaryDisposable"]
+- ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "NopDisposable"]
+- !private ["Ps9AnyObject", "SkipCountSink"]
+- !private ["Ps9AnyObject", "SkipTimeSink"]
+- ["Ps9AnyObject", "count"]
+- !private ["Ps9AnyObject", "disposable"]
+- !private ["Ps9AnyObject", "dispose"]
+- ["Ps9AnyObject", "duration"]
+- !private ["Ps9AnyObject", "forwardOn"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "on"]
+- ["Ps9AnyObject", "open"]
+- ["Ps9AnyObject", "parent"]
+- ["Ps9AnyObject", "remaining"]
+- ["Ps9AnyObject", "run"]
+- ["Ps9AnyObject", "scheduler"]
+- ["Ps9AnyObject", "source"]
+- !private ["Ps9AnyObject", "subscribe"]
+- ["Ps9AnyObject", "tick"]
+- ["Ps9AnyObject", ""]
+- !private ["C7RxSwift16BinaryDisposable", "deinit"]
+- !private ["C7RxSwift16BinaryDisposable", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["P7RxSwift10Cancelable", "BinaryDisposable"]
+- ["P7RxSwift10Cancelable", "E"]
+- !private ["P7RxSwift10Cancelable", "NopDisposable"]
+- !private ["P7RxSwift10Cancelable", "disposable"]
+- !private ["P7RxSwift10Cancelable", "dispose"]
+- !private ["P7RxSwift10Cancelable", "forwardOn"]
+- ["P7RxSwift10Cancelable", "init"]
+- ["P7RxSwift10Cancelable", "on"]
+- ["P7RxSwift10Cancelable", "open"]
+- ["P7RxSwift10Cancelable", "parent"]
+- ["P7RxSwift10Cancelable", "remaining"]
+- ["P7RxSwift10Cancelable", "run"]
+- ["P7RxSwift10Cancelable", "tick"]
+- ["P7RxSwift10Cancelable", ""]
+- ["Ps28CustomDebugStringConvertible", "Completed"]
+- ["Ps28CustomDebugStringConvertible", "Error"]
+- ["Ps28CustomDebugStringConvertible", "Next"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["P7RxSwift10Disposable", "BinaryDisposable"]
+- ["P7RxSwift10Disposable", "E"]
+- !private ["P7RxSwift10Disposable", "NopDisposable"]
+- !private ["P7RxSwift10Disposable", "disposable"]
+- !private ["P7RxSwift10Disposable", "dispose"]
+- !private ["P7RxSwift10Disposable", "forwardOn"]
+- ["P7RxSwift10Disposable", "init"]
+- !private ["P7RxSwift10Disposable", "instance"]
+- ["P7RxSwift10Disposable", "on"]
+- ["P7RxSwift10Disposable", "open"]
+- ["P7RxSwift10Disposable", "parent"]
+- ["P7RxSwift10Disposable", "remaining"]
+- ["P7RxSwift10Disposable", "run"]
+- ["P7RxSwift10Disposable", "tick"]
+- ["P7RxSwift10Disposable", ""]
+- !private ["C7RxSwift11DisposeBase", "BinaryDisposable"]
+- ["C7RxSwift11DisposeBase", "Disposable"]
+- ["C7RxSwift11DisposeBase", "E"]
+- ["C7RxSwift11DisposeBase", "Element"]
+- ["C7RxSwift11DisposeBase", "ElementType"]
+- ["C7RxSwift11DisposeBase", "Event"]
+- ["C7RxSwift11DisposeBase", "Int"]
+- !private ["C7RxSwift11DisposeBase", "NopDisposable"]
+- ["C7RxSwift11DisposeBase", "O"]
+- ["C7RxSwift11DisposeBase", "Parent"]
+- ["C7RxSwift11DisposeBase", "SkipCount"]
+- ["C7RxSwift11DisposeBase", "SkipTime"]
+- !private ["C7RxSwift11DisposeBase", "disposable"]
+- !private ["C7RxSwift11DisposeBase", "dispose"]
+- !private ["C7RxSwift11DisposeBase", "forwardOn"]
+- ["C7RxSwift11DisposeBase", "on"]
+- ["C7RxSwift11DisposeBase", "open"]
+- ["C7RxSwift11DisposeBase", "parent"]
+- ["C7RxSwift11DisposeBase", "remaining"]
+- ["C7RxSwift11DisposeBase", "run"]
+- ["C7RxSwift11DisposeBase", "tick"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["O7RxSwift5Event", "Completed"]
+- ["O7RxSwift5Event", "Error"]
+- ["O7RxSwift5Event", "Next"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "scheduleRelative"]
+- !private ["V7RxSwift13NopDisposable", "instance"]
+- ["C7RxSwift10Observable", "Disposable"]
+- !private ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "Element"]
+- ["C7RxSwift10Observable", "Int"]
+- ["C7RxSwift10Observable", "Observable"]
+- ["C7RxSwift10Observable", "ObserverType"]
+- ["C7RxSwift10Observable", "RxTimeInterval"]
+- ["C7RxSwift10Observable", "SchedulerType"]
+- !private ["C7RxSwift10Observable", "SkipCountSink"]
+- !private ["C7RxSwift10Observable", "SkipTimeSink"]
+- ["C7RxSwift10Observable", "count"]
+- !private ["C7RxSwift10Observable", "deinit"]
+- ["C7RxSwift10Observable", "duration"]
+- ["C7RxSwift10Observable", "init"]
+- ["C7RxSwift10Observable", "run"]
+- ["C7RxSwift10Observable", "scheduler"]
+- ["C7RxSwift10Observable", "source"]
+- !private ["C7RxSwift10Observable", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "SkipCountSink"]
+- !private ["P7RxSwift25ObservableConvertibleType", "SkipTimeSink"]
+- ["P7RxSwift25ObservableConvertibleType", "count"]
+- ["P7RxSwift25ObservableConvertibleType", "duration"]
+- ["P7RxSwift25ObservableConvertibleType", "init"]
+- ["P7RxSwift25ObservableConvertibleType", "run"]
+- ["P7RxSwift25ObservableConvertibleType", "scheduler"]
+- ["P7RxSwift25ObservableConvertibleType", "source"]
+- !private ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- ["P7RxSwift25ObservableConvertibleType", ""]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "SkipCountSink"]
+- !private ["P7RxSwift14ObservableType", "SkipTimeSink"]
+- ["P7RxSwift14ObservableType", "count"]
+- ["P7RxSwift14ObservableType", "duration"]
+- ["P7RxSwift14ObservableType", "init"]
+- ["P7RxSwift14ObservableType", "run"]
+- ["P7RxSwift14ObservableType", "scheduler"]
+- ["P7RxSwift14ObservableType", "source"]
+- !private ["P7RxSwift14ObservableType", "subscribe"]
+- ["P7RxSwift14ObservableType", ""]
+- !private ["P7RxSwift12ObserverType", "BinaryDisposable"]
+- ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "NopDisposable"]
+- !private ["P7RxSwift12ObserverType", "disposable"]
+- !private ["P7RxSwift12ObserverType", "dispose"]
+- !private ["P7RxSwift12ObserverType", "forwardOn"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- ["P7RxSwift12ObserverType", "on"]
+- !private ["P7RxSwift12ObserverType", "open"]
+- !private ["P7RxSwift12ObserverType", "parent"]
+- !private ["P7RxSwift12ObserverType", "remaining"]
+- !private ["P7RxSwift12ObserverType", "run"]
+- !private ["P7RxSwift12ObserverType", "tick"]
+- ["P7RxSwift12ObserverType", ""]
+- ["C7RxSwift8Producer", "Disposable"]
+- ["C7RxSwift8Producer", "Element"]
+- ["C7RxSwift8Producer", "Int"]
+- ["C7RxSwift8Producer", "Observable"]
+- ["C7RxSwift8Producer", "ObserverType"]
+- ["C7RxSwift8Producer", "RxTimeInterval"]
+- ["C7RxSwift8Producer", "SchedulerType"]
+- !private ["C7RxSwift8Producer", "SkipCountSink"]
+- !private ["C7RxSwift8Producer", "SkipTimeSink"]
+- ["C7RxSwift8Producer", "count"]
+- ["C7RxSwift8Producer", "duration"]
+- ["C7RxSwift8Producer", "init"]
+- ["C7RxSwift8Producer", "run"]
+- ["C7RxSwift8Producer", "scheduler"]
+- ["C7RxSwift8Producer", "source"]
+- ["C7RxSwift8Producer", ""]
+- !private ["P7RxSwift13SchedulerType", "scheduleRelative"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "BinaryDisposable"]
+- ["C7RxSwift26SingleAssignmentDisposable", "Disposable"]
+- ["C7RxSwift26SingleAssignmentDisposable", "E"]
+- ["C7RxSwift26SingleAssignmentDisposable", "Element"]
+- ["C7RxSwift26SingleAssignmentDisposable", "ElementType"]
+- ["C7RxSwift26SingleAssignmentDisposable", "Event"]
+- ["C7RxSwift26SingleAssignmentDisposable", "Int"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "NopDisposable"]
+- ["C7RxSwift26SingleAssignmentDisposable", "O"]
+- ["C7RxSwift26SingleAssignmentDisposable", "Parent"]
+- ["C7RxSwift26SingleAssignmentDisposable", "SkipCount"]
+- ["C7RxSwift26SingleAssignmentDisposable", "SkipTime"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "disposable"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "dispose"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "forwardOn"]
+- ["C7RxSwift26SingleAssignmentDisposable", "on"]
+- ["C7RxSwift26SingleAssignmentDisposable", "open"]
+- ["C7RxSwift26SingleAssignmentDisposable", "parent"]
+- ["C7RxSwift26SingleAssignmentDisposable", "remaining"]
+- ["C7RxSwift26SingleAssignmentDisposable", "run"]
+- ["C7RxSwift26SingleAssignmentDisposable", "tick"]
+- !private ["C7RxSwift4Sink", "BinaryDisposable"]
+- ["C7RxSwift4Sink", "Disposable"]
+- ["C7RxSwift4Sink", "E"]
+- ["C7RxSwift4Sink", "Element"]
+- ["C7RxSwift4Sink", "ElementType"]
+- ["C7RxSwift4Sink", "Event"]
+- ["C7RxSwift4Sink", "Int"]
+- !private ["C7RxSwift4Sink", "NopDisposable"]
+- ["C7RxSwift4Sink", "O"]
+- ["C7RxSwift4Sink", "Parent"]
+- ["C7RxSwift4Sink", "SkipCount"]
+- ["C7RxSwift4Sink", "SkipTime"]
+- !private ["C7RxSwift4Sink", "disposable"]
+- !private ["C7RxSwift4Sink", "dispose"]
+- !private ["C7RxSwift4Sink", "forwardOn"]
+- ["C7RxSwift4Sink", "init"]
+- ["C7RxSwift4Sink", "on"]
+- ["C7RxSwift4Sink", "open"]
+- ["C7RxSwift4Sink", "parent"]
+- ["C7RxSwift4Sink", "remaining"]
+- ["C7RxSwift4Sink", "run"]
+- ["C7RxSwift4Sink", "tick"]
+- ["C7RxSwift4Sink", ""]
+- ["C7RxSwift9SkipCount", "Disposable"]
+- ["C7RxSwift9SkipCount", "Element"]
+- ["C7RxSwift9SkipCount", "Int"]
+- ["C7RxSwift9SkipCount", "Observable"]
+- ["C7RxSwift9SkipCount", "ObserverType"]
+- !private ["C7RxSwift9SkipCount", "SkipCountSink"]
+- ["C7RxSwift9SkipCount", "count"]
+- ["C7RxSwift9SkipCount", "deinit"]
+- ["C7RxSwift9SkipCount", "init"]
+- ["C7RxSwift9SkipCount", "run"]
+- ["C7RxSwift9SkipCount", "source"]
+- ["C7RxSwift13SkipCountSink", "E"]
+- ["C7RxSwift13SkipCountSink", "Element"]
+- ["C7RxSwift13SkipCountSink", "ElementType"]
+- ["C7RxSwift13SkipCountSink", "Event"]
+- ["C7RxSwift13SkipCountSink", "Int"]
+- ["C7RxSwift13SkipCountSink", "O"]
+- ["C7RxSwift13SkipCountSink", "Parent"]
+- ["C7RxSwift13SkipCountSink", "SkipCount"]
+- ["C7RxSwift13SkipCountSink", "deinit"]
+- !private ["C7RxSwift13SkipCountSink", "disposable"]
+- !private ["C7RxSwift13SkipCountSink", "dispose"]
+- !private ["C7RxSwift13SkipCountSink", "forwardOn"]
+- ["C7RxSwift13SkipCountSink", "init"]
+- ["C7RxSwift13SkipCountSink", "on"]
+- ["C7RxSwift13SkipCountSink", "parent"]
+- ["C7RxSwift13SkipCountSink", "remaining"]
+- ["C7RxSwift8SkipTime", "Disposable"]
+- ["C7RxSwift8SkipTime", "Element"]
+- ["C7RxSwift8SkipTime", "Observable"]
+- ["C7RxSwift8SkipTime", "ObserverType"]
+- ["C7RxSwift8SkipTime", "RxTimeInterval"]
+- ["C7RxSwift8SkipTime", "SchedulerType"]
+- !private ["C7RxSwift8SkipTime", "SkipTimeSink"]
+- ["C7RxSwift8SkipTime", "deinit"]
+- ["C7RxSwift8SkipTime", "duration"]
+- ["C7RxSwift8SkipTime", "init"]
+- ["C7RxSwift8SkipTime", "run"]
+- ["C7RxSwift8SkipTime", "scheduler"]
+- ["C7RxSwift8SkipTime", "source"]
+- !private ["C7RxSwift12SkipTimeSink", "BinaryDisposable"]
+- ["C7RxSwift12SkipTimeSink", "Disposable"]
+- ["C7RxSwift12SkipTimeSink", "E"]
+- ["C7RxSwift12SkipTimeSink", "Element"]
+- ["C7RxSwift12SkipTimeSink", "ElementType"]
+- ["C7RxSwift12SkipTimeSink", "Event"]
+- !private ["C7RxSwift12SkipTimeSink", "NopDisposable"]
+- ["C7RxSwift12SkipTimeSink", "O"]
+- ["C7RxSwift12SkipTimeSink", "Parent"]
+- ["C7RxSwift12SkipTimeSink", "SkipTime"]
+- ["C7RxSwift12SkipTimeSink", "deinit"]
+- !private ["C7RxSwift12SkipTimeSink", "disposable"]
+- !private ["C7RxSwift12SkipTimeSink", "dispose"]
+- !private ["C7RxSwift12SkipTimeSink", "forwardOn"]
+- ["C7RxSwift12SkipTimeSink", "init"]
+- ["C7RxSwift12SkipTimeSink", "on"]
+- ["C7RxSwift12SkipTimeSink", "open"]
+- ["C7RxSwift12SkipTimeSink", "parent"]
+- ["C7RxSwift12SkipTimeSink", "run"]
+- ["C7RxSwift12SkipTimeSink", "tick"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C7RxSwift16BinaryDisposable"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "P7RxSwift10Cancelable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- "P7RxSwift10Disposable"
+- "C7RxSwift11DisposeBase"
+- !private "Ps9Equatable"
+- "O7RxSwift5Event"
+- !private "Ps8Hashable"
+- !private "P7RxSwift22ImmediateSchedulerType"
+- !private "V7RxSwift13NopDisposable"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- "P7RxSwift12ObserverType"
+- "C7RxSwift8Producer"
+- !private "P7RxSwift13SchedulerType"
+- "C7RxSwift26SingleAssignmentDisposable"
+- "C7RxSwift4Sink"
+- "C7RxSwift9SkipCount"
+- "C7RxSwift13SkipCountSink"
+- "C7RxSwift8SkipTime"
+- "C7RxSwift12SkipTimeSink"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/shotakaneko/RxPractice/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/shotakaneko/RxPractice/Build/Intermediates/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "86b405a2623cc20373f5f3f903eb7e8f"
